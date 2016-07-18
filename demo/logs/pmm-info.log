@@ -1,0 +1,12 @@
+2016-07-04 10:35:10:879 [main] INFO  log init finished.
+2016-07-04 10:35:11:002 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@13bd574: startup date [Mon Jul 04 10:35:11 CST 2016]; root of context hierarchy
+2016-07-04 10:35:11:036 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-04 10:36:47:718 [main] INFO  log init finished.
+2016-07-04 10:36:47:798 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@cd5f8b: startup date [Mon Jul 04 10:36:47 CST 2016]; root of context hierarchy
+2016-07-04 10:36:47:826 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-04 10:36:48:021 [main] INFO  Loading properties file from file [E:\newworkspace\demo\conf\jdbc.properties]
+2016-07-04 10:36:48:022 [main] WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: conf\jdbc.properties (系统找不到指定的路径。)
+2016-07-04 10:37:11:674 [main] INFO  log init finished.
+2016-07-04 10:37:11:754 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@cd5f8b: startup date [Mon Jul 04 10:37:11 CST 2016]; root of context hierarchy
+2016-07-04 10:37:11:782 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-04 10:37:11:844 [main] INFO  module init finished.
