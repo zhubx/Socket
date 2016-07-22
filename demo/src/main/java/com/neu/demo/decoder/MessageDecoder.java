@@ -1,6 +1,6 @@
 package com.neu.demo.decoder;
 
-import java.nio.charset.Charset;
+import java.util.Map;
 
 import org.jboss.netty.buffer.ChannelBuffer;
 import org.jboss.netty.channel.Channel;
@@ -10,7 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.neu.demo.bean.LoginMessage;
-import com.neu.demo.bean.Message;
+import com.neu.demo.cache.UserSession;
 import com.neu.demo.util.GlobalConstant;
 import com.neu.demo.util.StringUtil;
 
@@ -18,42 +18,36 @@ public class MessageDecoder extends LengthFieldBasedFrameDecoder{
 
 	private static final Logger LOG = LoggerFactory.getLogger(MessageDecoder.class);
 	
+	private Map<Byte,IDecoder> decoders;
+	
+	private UserSession session = UserSession.getInstance();
+	
 	public MessageDecoder(int maxFrameLength, int lengthFieldOffset,
-			int lengthFieldLength) {
+			int lengthFieldLength,Map<Byte,IDecoder> decoders) {
 		super(maxFrameLength, lengthFieldOffset, lengthFieldLength);
-		
-		// TODO Auto-generated constructor stub
+		this.decoders = decoders;
 	}
 
 	@Override
 	protected Object decode(ChannelHandlerContext ctx, Channel channel,
 			ChannelBuffer buffer) throws Exception {
-		// TODO Auto-generated method stub
 		if(decodeAble(ctx,channel,buffer.copy())){
 			LOG.info("receive:" + StringUtil.Bytes2HexString(buffer.copy().array()));
-			
-			if(buffer.readByte() == 0x0001){
-				ChannelBuffer c = buffer.readBytes(buffer.readShort());
-				String[] body = c.toString(Charset.forName(GlobalConstant.CHARSET_UTF8)).split(" ");
-				LoginMessage message = new LoginMessage(body[0],body[1]);
-				return message;
-			}
-			if(buffer.readByte() == 0x0002){
-				ChannelBuffer c = buffer.readBytes(buffer.readShort());
-				Message message = new Message();
-				if(c.readByte() == 1){
-					message.setMessageType((byte)1);
-					message.setMessage(c.toString());
+			byte index = buffer.readByte();
+			LoginMessage user = session.getLoginMessage(channel);
+			if(user !=null || index == GlobalConstant.LOGIN){
+				IDecoder decoder = decoders.get(index);
+				if(decoder != null){
+					return decoder.doDecode(ctx, channel, buffer);
 				}else{
-					message.setMessageType((byte)2);
-					String[] str = c.toString().split(" ", 2);
-					message.setIncept(str[0]);
-					message.setMessage(str[1]);
+					LOG.info("[MessageDecoder]没有对应的decoder" + index);
+					return null;
 				}
-				return message;
 			}
+			LOG.info("[请登录]");
+			return null;
 		}
-		return buffer;
+		return null;
 	}
 	
 	public boolean decodeAble(ChannelHandlerContext ctx, Channel channel,

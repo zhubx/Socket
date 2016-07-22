@@ -57,7 +57,7 @@
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 
-	<bean id="pmmDao" class="com.neusoft.pmm.dao.PmmDao" scope="singleton">
+	<bean id="sysDao" class="com.neu.demo.dao.SysDao" scope="singleton">
 		<property name="sqlMapClient" ref="sqlMapClient" />
 	</bean>
 

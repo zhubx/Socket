@@ -1,0 +1,380 @@
+2016-07-21 11:15:23:347 [main] INFO  log init finished.
+2016-07-21 11:15:23:458 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Thu Jul 21 11:15:23 CST 2016]; root of context hierarchy
+2016-07-21 11:15:23:573 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 11:15:23:764 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 11:15:23:918 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 11:15:23:919 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 11:15:23:927 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,messageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 11:15:23:943 [main] WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'server' defined in class path resource [spring/components.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type 'java.util.LinkedHashMap' to required type 'java.util.Map' for property 'handlers'; nested exception is java.lang.IllegalStateException: Cannot convert value of type [com.neu.demo.encoder.LoginResponseEncoder] to required type [com.neu.demo.handler.IHandler] for property 'handlers[com.neu.demo.response.LoginResponse]': no matching editors or conversion strategy found
+2016-07-21 11:15:23:943 [main] INFO  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,messageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 11:17:49:110 [main] INFO  log init finished.
+2016-07-21 11:17:49:178 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@9ced8e: startup date [Thu Jul 21 11:17:49 CST 2016]; root of context hierarchy
+2016-07-21 11:17:49:215 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 11:17:49:283 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 11:17:49:350 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 11:17:49:350 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 11:17:49:359 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,messageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 11:17:49:375 [main] WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'server' defined in class path resource [spring/components.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type 'java.util.LinkedHashMap' to required type 'java.util.Map' for property 'handlers'; nested exception is java.lang.IllegalStateException: Cannot convert value of type [com.neu.demo.decoder.O2OMessageDecoder] to required type [com.neu.demo.handler.IHandler] for property 'handlers[com.neu.demo.bean.Message]': no matching editors or conversion strategy found
+2016-07-21 11:17:49:375 [main] INFO  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,messageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 11:19:41:110 [main] INFO  log init finished.
+2016-07-21 11:19:41:178 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Thu Jul 21 11:19:41 CST 2016]; root of context hierarchy
+2016-07-21 11:19:41:215 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 11:19:41:284 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 11:19:41:352 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 11:19:41:352 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 11:19:41:360 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,messageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 11:19:41:555 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-21 11:19:41:581 [main] INFO  module init finished.
+2016-07-21 11:20:05:398 [New I/O worker #1] INFO  receive:0100097A6875627820686168
+2016-07-21 11:20:05:416 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 11:20:05:418 [New I/O worker #1] INFO  [id: 0x99e3098a, /192.168.1.142:65157 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 11:20:05:420 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-21 14:15:28:148 [New I/O worker #2] INFO  receive:0100097A6875627820686168
+2016-07-21 14:15:28:148 [New I/O worker #2] INFO  do LoginHandler
+2016-07-21 14:15:28:148 [New I/O worker #2] INFO  用户名为：zhubx重复登录,断开原有连接
+2016-07-21 14:15:28:149 [New I/O worker #2] INFO  [id: 0x1cdb27c5, /192.168.1.142:50110 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 14:15:28:149 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-21 14:25:01:752 [New I/O worker #3] INFO  receive:0100097A6875627820686168
+2016-07-21 14:25:01:752 [New I/O worker #3] INFO  do LoginHandler
+2016-07-21 14:25:01:753 [New I/O worker #3] INFO  用户名为：zhubx重复登录,断开原有连接
+2016-07-21 14:25:01:753 [New I/O worker #3] INFO  [id: 0xc55ac927, /192.168.1.142:50197 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 14:25:01:753 [New I/O worker #3] INFO  用户名为：[zhubx]登录成功
+2016-07-21 14:31:08:036 [New I/O worker #4] INFO  receive:0100097A6875627820686168
+2016-07-21 14:31:08:036 [New I/O worker #4] INFO  do LoginHandler
+2016-07-21 14:31:08:036 [New I/O worker #4] INFO  用户名为：zhubx重复登录,断开原有连接
+2016-07-21 14:31:08:036 [New I/O worker #4] INFO  [id: 0x47247949, /192.168.1.142:50223 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 14:31:08:037 [New I/O worker #4] INFO  用户名为：[zhubx]登录成功
+2016-07-21 14:32:26:252 [New I/O worker #5] INFO  receive:0100097A6875627820686168
+2016-07-21 14:32:26:252 [New I/O worker #5] INFO  do LoginHandler
+2016-07-21 14:32:26:252 [New I/O worker #5] INFO  用户名为：zhubx重复登录,断开原有连接
+2016-07-21 14:32:26:253 [New I/O worker #5] INFO  [id: 0xc1a69acb, /192.168.1.142:50260 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 14:32:26:253 [New I/O worker #5] INFO  用户名为：[zhubx]登录成功
+2016-07-21 14:34:08:436 [main] INFO  log init finished.
+2016-07-21 14:34:08:503 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Thu Jul 21 14:34:08 CST 2016]; root of context hierarchy
+2016-07-21 14:34:08:540 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 14:34:08:610 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 14:34:08:677 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 14:34:08:678 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 14:34:08:684 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,messageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 14:34:08:763 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-21 14:34:08:767 [main] INFO  module init finished.
+2016-07-21 14:34:15:970 [New I/O worker #1] INFO  receive:0100097A6875627820686168
+2016-07-21 14:34:15:972 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 14:34:15:974 [New I/O worker #1] INFO  [id: 0x4d8b2165, /192.168.1.142:50298 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 14:34:15:976 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-21 14:34:49:885 [main] INFO  log init finished.
+2016-07-21 14:34:49:954 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Thu Jul 21 14:34:49 CST 2016]; root of context hierarchy
+2016-07-21 14:34:49:994 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 14:34:50:066 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 14:34:50:134 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 14:34:50:134 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 14:34:50:143 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,messageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 14:34:50:221 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-21 14:34:50:225 [main] INFO  module init finished.
+2016-07-21 14:34:56:113 [New I/O worker #1] INFO  receive:0100097A6875627820686168
+2016-07-21 14:34:56:115 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 14:34:56:117 [New I/O worker #1] INFO  [id: 0xbf4bb0b0, /192.168.1.142:50335 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 14:34:56:119 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-21 14:36:49:229 [New I/O worker #2] INFO  receive:0100097A6875627820686168
+2016-07-21 14:36:49:229 [New I/O worker #2] INFO  do LoginHandler
+2016-07-21 14:36:49:229 [New I/O worker #2] INFO  用户名为：zhubx重复登录,断开原有连接
+2016-07-21 14:36:49:229 [New I/O worker #2] INFO  [id: 0xfa533a95, /192.168.1.142:50356 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 14:36:49:229 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-21 14:38:24:154 [New I/O worker #3] INFO  receive:0100097A6875627820686168
+2016-07-21 14:38:24:154 [New I/O worker #3] INFO  do LoginHandler
+2016-07-21 14:38:24:154 [New I/O worker #3] INFO  用户名为：zhubx重复登录,断开原有连接
+2016-07-21 14:38:24:154 [New I/O worker #3] INFO  [id: 0x45110b85, /192.168.1.142:50375 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 14:38:24:154 [New I/O worker #3] INFO  用户名为：[zhubx]登录成功
+2016-07-21 15:16:21:089 [main] INFO  log init finished.
+2016-07-21 15:16:21:158 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@dc57db: startup date [Thu Jul 21 15:16:21 CST 2016]; root of context hierarchy
+2016-07-21 15:16:21:195 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 15:16:21:270 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 15:16:21:340 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 15:16:21:340 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 15:16:21:348 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,messageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 15:16:21:428 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-21 15:16:21:432 [main] INFO  module init finished.
+2016-07-21 15:16:32:163 [New I/O worker #1] INFO  receive:0100097A6875627820686168
+2016-07-21 15:16:32:166 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 15:16:32:168 [New I/O worker #1] INFO  [id: 0x89a923bf, /192.168.1.142:50502 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 15:16:32:170 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-21 18:55:27:515 [main] INFO  log init finished.
+2016-07-21 18:55:27:585 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@9ced8e: startup date [Thu Jul 21 18:55:27 CST 2016]; root of context hierarchy
+2016-07-21 18:55:27:623 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 18:55:27:695 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 18:55:27:764 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 18:55:27:765 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 18:55:27:773 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a12495: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 18:55:27:853 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-21 18:55:27:857 [main] INFO  module init finished.
+2016-07-21 18:55:51:127 [New I/O worker #1] INFO  receive:0100097A6875627820686168
+2016-07-21 18:55:51:130 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 18:55:51:132 [New I/O worker #1] INFO  [id: 0xab979b15, /192.168.1.142:51425 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 18:55:51:134 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-21 18:55:52:120 [New I/O worker #1] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 18:58:32:663 [main] INFO  log init finished.
+2016-07-21 18:58:32:733 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Thu Jul 21 18:58:32 CST 2016]; root of context hierarchy
+2016-07-21 18:58:32:771 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 18:58:32:844 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 18:58:32:911 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 18:58:32:912 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 18:58:32:918 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 18:58:32:998 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-21 18:58:33:002 [main] INFO  module init finished.
+2016-07-21 18:58:40:117 [New I/O worker #1] INFO  receive:0100097A6875627820686168
+2016-07-21 18:58:40:119 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 18:58:40:121 [New I/O worker #1] INFO  [id: 0x47e24afe, /192.168.1.142:51463 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 18:58:40:123 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-21 18:58:41:110 [New I/O worker #1] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 18:58:41:111 [New I/O worker #1] INFO  [O2OMessageDecoder][id: 0x47e24afe, /192.168.1.142:51463 => /192.168.1.142:6666]
+2016-07-21 22:23:19:724 [main] INFO  log init finished.
+2016-07-21 22:23:19:826 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1947496: startup date [Thu Jul 21 22:23:19 CST 2016]; root of context hierarchy
+2016-07-21 22:23:19:881 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 22:23:20:020 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 22:23:20:139 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 22:23:20:140 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 22:23:20:147 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@180cb01: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 22:23:20:345 [main] WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'server' defined in class path resource [spring/components.xml]: Invocation of init method failed; nested exception is org.jboss.netty.channel.ChannelException: Failed to bind to: /192.168.1.142:6666
+2016-07-21 22:23:20:346 [main] INFO  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@180cb01: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 22:23:45:522 [main] INFO  log init finished.
+2016-07-21 22:23:45:592 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@dc57db: startup date [Thu Jul 21 22:23:45 CST 2016]; root of context hierarchy
+2016-07-21 22:23:45:630 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 22:23:45:701 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 22:23:45:769 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 22:23:45:770 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 22:23:45:776 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 22:23:45:856 [main] WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'server' defined in class path resource [spring/components.xml]: Invocation of init method failed; nested exception is org.jboss.netty.channel.ChannelException: Failed to bind to: /192.168.1.142:6666
+2016-07-21 22:23:45:856 [main] INFO  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 22:24:33:040 [main] INFO  log init finished.
+2016-07-21 22:24:33:112 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1947496: startup date [Thu Jul 21 22:24:33 CST 2016]; root of context hierarchy
+2016-07-21 22:24:33:152 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 22:24:33:225 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 22:24:33:297 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 22:24:33:297 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 22:24:33:306 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@180cb01: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 22:24:33:390 [main] INFO  server初始化完成host:192.168.3.18-port:6666
+2016-07-21 22:24:33:407 [main] INFO  module init finished.
+2016-07-21 22:29:50:471 [New I/O worker #1] INFO  receive:0100097A6875627820686168
+2016-07-21 22:29:50:493 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 22:29:50:495 [New I/O worker #1] INFO  [id: 0xe16e37cf, /192.168.3.18:51890 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 22:29:50:497 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-21 22:29:51:420 [New I/O worker #1] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 22:29:51:422 [New I/O worker #1] INFO  [O2OMessageDecoder][id: 0xe16e37cf, /192.168.3.18:51890 => /192.168.3.18:6666]
+2016-07-21 22:31:36:807 [New I/O worker #2] INFO  receive:0100097A6875627820686168
+2016-07-21 22:31:36:807 [New I/O worker #2] INFO  do LoginHandler
+2016-07-21 22:31:36:826 [New I/O worker #2] INFO  用户名为：zhubx重复登录,断开原有连接
+2016-07-21 22:31:36:826 [New I/O worker #2] INFO  [id: 0x981cc70e, /192.168.3.18:51908 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 22:31:36:827 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-21 22:31:37:808 [New I/O worker #2] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 22:31:37:809 [New I/O worker #2] INFO  [O2OMessageDecoder][id: 0x981cc70e, /192.168.3.18:51908 => /192.168.3.18:6666]
+2016-07-21 22:32:17:518 [main] INFO  log init finished.
+2016-07-21 22:32:17:590 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1724a9d: startup date [Thu Jul 21 22:32:17 CST 2016]; root of context hierarchy
+2016-07-21 22:32:17:629 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 22:32:17:703 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 22:32:17:776 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 22:32:17:776 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 22:32:17:784 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8fbecf: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 22:32:17:884 [main] INFO  server初始化完成host:192.168.3.18-port:6666
+2016-07-21 22:32:17:887 [main] INFO  module init finished.
+2016-07-21 22:32:23:256 [New I/O worker #1] INFO  receive:0100097A6875627820686168
+2016-07-21 22:32:23:258 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 22:32:23:260 [New I/O worker #1] INFO  [id: 0x562e6a02, /192.168.3.18:51946 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 22:32:23:262 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-21 22:32:24:244 [New I/O worker #1] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 22:32:30:169 [New I/O worker #1] INFO  [O2OMessageDecoder][id: 0x562e6a02, /192.168.3.18:51946 => /192.168.3.18:6666]
+2016-07-21 22:39:09:655 [main] INFO  log init finished.
+2016-07-21 22:39:09:725 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Thu Jul 21 22:39:09 CST 2016]; root of context hierarchy
+2016-07-21 22:39:09:761 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 22:39:09:831 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 22:39:09:897 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 22:39:09:898 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 22:39:09:904 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 22:39:09:987 [main] INFO  server初始化完成host:192.168.3.18-port:6666
+2016-07-21 22:39:09:991 [main] INFO  module init finished.
+2016-07-21 22:39:14:591 [New I/O worker #1] INFO  receive:0100097A6875627820686168
+2016-07-21 22:39:14:593 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 22:39:14:595 [New I/O worker #1] INFO  [id: 0x902e9b80, /192.168.3.18:52004 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 22:39:14:597 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-21 22:39:15:583 [New I/O worker #1] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 22:39:15:585 [New I/O worker #1] INFO  [O2OMessageDecoder][id: 0x902e9b80, /192.168.3.18:52004 => /192.168.3.18:6666]
+2016-07-21 22:40:44:374 [main] INFO  log init finished.
+2016-07-21 22:40:44:442 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Thu Jul 21 22:40:44 CST 2016]; root of context hierarchy
+2016-07-21 22:40:44:480 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 22:40:44:553 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 22:40:44:620 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 22:40:44:620 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 22:40:44:628 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 22:40:44:707 [main] INFO  server初始化完成host:192.168.3.18-port:6666
+2016-07-21 22:40:44:710 [main] INFO  module init finished.
+2016-07-21 22:40:50:726 [New I/O worker #1] INFO  receive:0100097A6875627820686168
+2016-07-21 22:40:50:728 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 22:40:50:730 [New I/O worker #1] INFO  [id: 0x647bf3d7, /192.168.3.18:52040 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 22:40:50:732 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-21 22:40:51:719 [New I/O worker #1] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 22:40:51:720 [New I/O worker #1] INFO  [O2OMessageDecoder][id: 0x647bf3d7, /192.168.3.18:52040 => /192.168.3.18:6666]
+2016-07-21 22:41:10:016 [main] INFO  log init finished.
+2016-07-21 22:41:10:089 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1947496: startup date [Thu Jul 21 22:41:10 CST 2016]; root of context hierarchy
+2016-07-21 22:41:10:128 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 22:41:10:204 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 22:41:10:277 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 22:41:10:277 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 22:41:10:285 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@180cb01: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 22:41:10:372 [main] INFO  server初始化完成host:192.168.3.18-port:6666
+2016-07-21 22:41:10:377 [main] INFO  module init finished.
+2016-07-21 22:41:19:229 [New I/O worker #1] INFO  receive:0100097A6875627820686168
+2016-07-21 22:41:19:231 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 22:41:19:234 [New I/O worker #1] INFO  [id: 0xa1c0c580, /192.168.3.18:52078 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 22:41:19:236 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-21 22:41:20:220 [New I/O worker #1] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 22:41:24:432 [New I/O worker #1] INFO  [O2OMessageDecoder][id: 0xa1c0c580, /192.168.3.18:52078 => /192.168.3.18:6666]
+2016-07-21 22:42:36:137 [main] INFO  log init finished.
+2016-07-21 22:42:36:208 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@9ced8e: startup date [Thu Jul 21 22:42:36 CST 2016]; root of context hierarchy
+2016-07-21 22:42:36:245 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 22:42:36:316 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 22:42:36:383 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 22:42:36:383 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 22:42:36:391 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder]; root of factory hierarchy
+2016-07-21 22:42:36:469 [main] INFO  server初始化完成host:192.168.3.18-port:6666
+2016-07-21 22:42:36:473 [main] INFO  module init finished.
+2016-07-21 22:42:42:392 [New I/O worker #1] INFO  receive:0100097A6875627820686168
+2016-07-21 22:42:42:394 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 22:42:42:395 [New I/O worker #1] INFO  [id: 0xecca33fe, /192.168.3.18:52115 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 22:42:42:397 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-21 22:42:43:386 [New I/O worker #1] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 22:42:43:388 [New I/O worker #1] INFO  [O2OMessageDecoder][id: 0xecca33fe, /192.168.3.18:52115 => /192.168.3.18:6666]
+2016-07-21 22:42:43:389 [New I/O worker #1] INFO  [O2OMessageHandler]O2OMessage [messageType=0, incept=xu, message=hello, sender=zhubx]
+2016-07-21 22:42:43:391 [New I/O worker #1] INFO  [用户不在线]xu
+2016-07-21 22:42:43:391 [New I/O worker #1] INFO  没有对应的encodercom.neu.demo.response.O2OMessageResponse
+2016-07-21 22:47:59:550 [main] INFO  log init finished.
+2016-07-21 22:47:59:619 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Thu Jul 21 22:47:59 CST 2016]; root of context hierarchy
+2016-07-21 22:47:59:656 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 22:47:59:729 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 22:47:59:800 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 22:47:59:801 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 22:47:59:808 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder]; root of factory hierarchy
+2016-07-21 22:47:59:891 [main] INFO  server初始化完成host:192.168.3.18-port:6666
+2016-07-21 22:47:59:896 [main] INFO  module init finished.
+2016-07-21 22:48:16:023 [New I/O worker #1] INFO  receive:0100097A6875627820686168
+2016-07-21 22:48:16:025 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 22:48:16:027 [New I/O worker #1] INFO  [id: 0x6e295ce0, /192.168.3.18:52161 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 22:48:16:029 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-21 22:48:17:015 [New I/O worker #1] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 22:48:17:017 [New I/O worker #1] INFO  [O2OMessageDecoder][id: 0x6e295ce0, /192.168.3.18:52161 => /192.168.3.18:6666]
+2016-07-21 22:48:17:019 [New I/O worker #1] INFO  [O2OMessageHandler]O2OMessage [messageType=0, incept=xu, message=hello, sender=zhubx]
+2016-07-21 22:48:17:020 [New I/O worker #1] INFO  [用户不在线]xu
+2016-07-21 22:48:17:021 [New I/O worker #1] INFO  O2OMessageResponseEncodercom.neu.demo.response.O2OMessageResponse@64023c
+2016-07-21 23:06:04:216 [New I/O worker #2] INFO  receive:0100097A6875627820686168
+2016-07-21 23:06:04:217 [New I/O worker #2] INFO  do LoginHandler
+2016-07-21 23:06:04:217 [New I/O worker #2] INFO  用户名为：zhubx重复登录,断开原有连接
+2016-07-21 23:06:04:217 [New I/O worker #2] INFO  [id: 0xab53b09d, /192.168.3.18:52221 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 23:06:04:217 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-21 23:06:05:218 [New I/O worker #2] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 23:06:05:219 [New I/O worker #2] INFO  [O2OMessageDecoder][id: 0xab53b09d, /192.168.3.18:52221 => /192.168.3.18:6666]
+2016-07-21 23:06:05:220 [New I/O worker #2] INFO  [O2OMessageHandler]O2OMessage [messageType=0, incept=xu, message=hello, sender=zhubx]
+2016-07-21 23:06:05:220 [New I/O worker #2] INFO  [用户不在线]xu
+2016-07-21 23:06:05:221 [New I/O worker #2] INFO  O2OMessageResponseEncodercom.neu.demo.response.O2OMessageResponse@1958bf9
+2016-07-21 23:07:33:941 [New I/O worker #3] INFO  receive:0100097A6875627820686168
+2016-07-21 23:07:33:942 [New I/O worker #3] INFO  do LoginHandler
+2016-07-21 23:07:33:942 [New I/O worker #3] INFO  用户名为：zhubx重复登录,断开原有连接
+2016-07-21 23:07:33:942 [New I/O worker #3] INFO  [id: 0x15faf3c0, /192.168.3.18:52240 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 23:07:33:942 [New I/O worker #3] INFO  用户名为：[zhubx]登录成功
+2016-07-21 23:07:34:942 [New I/O worker #3] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 23:07:34:943 [New I/O worker #3] INFO  [O2OMessageDecoder][id: 0x15faf3c0, /192.168.3.18:52240 => /192.168.3.18:6666]
+2016-07-21 23:07:34:944 [New I/O worker #3] INFO  [O2OMessageHandler]O2OMessage [messageType=0, incept=xu, message=hello, sender=zhubx]
+2016-07-21 23:07:34:944 [New I/O worker #3] INFO  [用户不在线]xu
+2016-07-21 23:07:34:945 [New I/O worker #3] INFO  O2OMessageResponseEncodercom.neu.demo.response.O2OMessageResponse@19f03d7
+2016-07-21 23:09:35:016 [New I/O worker #3] INFO  [id: 0x15faf3c0, /192.168.3.18:52240 :> /192.168.3.18:6666]超时断开.
+2016-07-21 23:17:02:036 [main] INFO  log init finished.
+2016-07-21 23:17:02:105 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@9ced8e: startup date [Thu Jul 21 23:17:02 CST 2016]; root of context hierarchy
+2016-07-21 23:17:02:143 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 23:17:02:213 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 23:17:02:284 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 23:17:02:284 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 23:17:02:292 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder]; root of factory hierarchy
+2016-07-21 23:17:02:373 [main] INFO  server初始化完成host:192.168.3.18-port:6666
+2016-07-21 23:17:02:378 [main] INFO  module init finished.
+2016-07-21 23:17:26:295 [New I/O worker #1] INFO  receive:010006787520686168
+2016-07-21 23:17:26:297 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 23:17:26:299 [New I/O worker #1] INFO  [id: 0x852e34b0, /192.168.3.18:52306 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 23:17:26:301 [New I/O worker #1] INFO  用户名为：[xu]登录成功
+2016-07-21 23:17:27:288 [New I/O worker #1] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 23:17:27:290 [New I/O worker #1] INFO  [O2OMessageDecoder][id: 0x852e34b0, /192.168.3.18:52306 => /192.168.3.18:6666]
+2016-07-21 23:17:27:292 [New I/O worker #1] INFO  [O2OMessageHandler]O2OMessage [messageType=0, incept=xu, message=hello, sender=zhubx]
+2016-07-21 23:17:27:294 [New I/O worker #1] INFO  [用户不在线]xu
+2016-07-21 23:17:27:295 [New I/O worker #1] INFO  [O2OMessageResponseEncoder]O2OMessageResponse [messagetype=2, messagelength=1, result=2]
+2016-07-21 23:22:14:683 [New I/O worker #2] INFO  receive:010006787520686168
+2016-07-21 23:22:14:684 [New I/O worker #2] INFO  do LoginHandler
+2016-07-21 23:22:14:684 [New I/O worker #2] INFO  用户名为：xu重复登录,断开原有连接
+2016-07-21 23:22:14:685 [New I/O worker #2] INFO  [id: 0xc330d406, /192.168.3.18:52315 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 23:22:14:685 [New I/O worker #2] INFO  用户名为：[xu]登录成功
+2016-07-21 23:22:40:960 [New I/O worker #3] INFO  receive:0100097A6875627820686168
+2016-07-21 23:22:40:960 [New I/O worker #3] INFO  do LoginHandler
+2016-07-21 23:22:40:960 [New I/O worker #3] INFO  [id: 0x02fb7eed, /192.168.3.18:52333 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 23:22:40:961 [New I/O worker #3] INFO  用户名为：[zhubx]登录成功
+2016-07-21 23:22:41:962 [New I/O worker #3] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 23:22:41:963 [New I/O worker #3] INFO  [O2OMessageDecoder][id: 0x02fb7eed, /192.168.3.18:52333 => /192.168.3.18:6666]
+2016-07-21 23:22:41:964 [New I/O worker #3] INFO  [O2OMessageHandler]O2OMessage [messageType=0, incept=xu, message=hello, sender=zhubx]
+2016-07-21 23:22:41:964 [New I/O worker #3] INFO  [用户不在线]xu
+2016-07-21 23:22:41:964 [New I/O worker #3] INFO  [O2OMessageResponseEncoder]O2OMessageResponse [messagetype=2, messagelength=1, result=2]
+2016-07-21 23:26:39:011 [main] INFO  log init finished.
+2016-07-21 23:26:39:080 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@9ced8e: startup date [Thu Jul 21 23:26:39 CST 2016]; root of context hierarchy
+2016-07-21 23:26:39:117 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 23:26:39:188 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 23:26:39:255 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 23:26:39:256 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 23:26:39:263 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder]; root of factory hierarchy
+2016-07-21 23:26:39:344 [main] INFO  server初始化完成host:192.168.3.18-port:6666
+2016-07-21 23:26:39:347 [main] INFO  module init finished.
+2016-07-21 23:26:45:729 [New I/O worker #1] INFO  receive:010006787520686168
+2016-07-21 23:26:45:731 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 23:26:45:733 [New I/O worker #1] INFO  [id: 0x7d1533cd, /192.168.3.18:52356 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 23:26:45:735 [New I/O worker #1] INFO  用户名为：[xu]登录成功
+2016-07-21 23:26:54:646 [New I/O worker #2] INFO  receive:0100097A6875627820686168
+2016-07-21 23:26:54:646 [New I/O worker #2] INFO  do LoginHandler
+2016-07-21 23:26:54:646 [New I/O worker #2] INFO  [id: 0x7d137244, /192.168.3.18:52374 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 23:26:54:647 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-21 23:26:55:646 [New I/O worker #2] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 23:26:55:647 [New I/O worker #2] INFO  [O2OMessageDecoder][id: 0x7d137244, /192.168.3.18:52374 => /192.168.3.18:6666]
+2016-07-21 23:26:55:650 [New I/O worker #2] INFO  [O2OMessageHandler]O2OMessage [messageType=0, incept=xu, message=hello, sender=zhubx]
+2016-07-21 23:26:55:652 [New I/O worker #2] INFO  [没有对应的encoder]com.neu.demo.bean.ServerMessage
+2016-07-21 23:26:55:653 [New I/O worker #2] INFO  [O2OMessageResponseEncoder]O2OMessageResponse [messagetype=2, messagelength=1, result=0]
+2016-07-21 23:28:45:820 [New I/O worker #1] INFO  [id: 0x7d1533cd, /192.168.3.18:52356 :> /192.168.3.18:6666]超时断开.
+2016-07-21 23:55:44:651 [main] INFO  log init finished.
+2016-07-21 23:55:44:718 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Thu Jul 21 23:55:44 CST 2016]; root of context hierarchy
+2016-07-21 23:55:44:756 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 23:55:44:827 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 23:55:44:911 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 23:55:44:912 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 23:55:44:919 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-21 23:55:44:999 [main] INFO  server初始化完成host:192.168.3.18-port:6666
+2016-07-21 23:55:45:003 [main] INFO  module init finished.
+2016-07-21 23:55:52:169 [New I/O worker #1] INFO  receive:0100097A6875627820686168
+2016-07-21 23:55:52:171 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 23:55:52:173 [New I/O worker #1] INFO  [id: 0x6b0c26b0, /192.168.3.18:52560 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 23:55:52:175 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-21 23:55:53:163 [New I/O worker #1] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 23:55:53:164 [New I/O worker #1] INFO  [O2OMessageDecoder][id: 0x6b0c26b0, /192.168.3.18:52560 => /192.168.3.18:6666]
+2016-07-21 23:55:53:166 [New I/O worker #1] INFO  [O2OMessageHandler]O2OMessage [messageType=0, incept=xu, message=hello, sender=zhubx]
+2016-07-21 23:55:53:168 [New I/O worker #1] INFO  [用户不在线]xu
+2016-07-21 23:55:53:168 [New I/O worker #1] INFO  [O2OMessageResponseEncoder]O2OMessageResponse [messagetype=2, messagelength=1, result=2]
+2016-07-21 23:56:11:640 [main] INFO  log init finished.
+2016-07-21 23:56:11:708 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@dc57db: startup date [Thu Jul 21 23:56:11 CST 2016]; root of context hierarchy
+2016-07-21 23:56:11:745 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-21 23:56:11:813 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-21 23:56:11:881 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-21 23:56:11:881 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-21 23:56:11:888 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,loginDecoder,o2OMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-21 23:56:11:965 [main] INFO  server初始化完成host:192.168.3.18-port:6666
+2016-07-21 23:56:11:969 [main] INFO  module init finished.
+2016-07-21 23:56:16:296 [New I/O worker #1] INFO  receive:010006787520686168
+2016-07-21 23:56:16:298 [New I/O worker #1] INFO  do LoginHandler
+2016-07-21 23:56:16:301 [New I/O worker #1] INFO  [id: 0xd79bc682, /192.168.3.18:52579 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 23:56:16:303 [New I/O worker #1] INFO  用户名为：[xu]登录成功
+2016-07-21 23:56:23:432 [New I/O worker #2] INFO  receive:0100097A6875627820686168
+2016-07-21 23:56:23:432 [New I/O worker #2] INFO  do LoginHandler
+2016-07-21 23:56:23:432 [New I/O worker #2] INFO  [id: 0x2d50f3f5, /192.168.3.18:52596 => /192.168.3.18:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-21 23:56:23:432 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-21 23:56:24:433 [New I/O worker #2] INFO  receive:0200417A687562782020202020202020202020202020202020202020202020202078752020202020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-21 23:56:24:434 [New I/O worker #2] INFO  [O2OMessageDecoder][id: 0x2d50f3f5, /192.168.3.18:52596 => /192.168.3.18:6666]
+2016-07-21 23:56:24:436 [New I/O worker #2] INFO  [O2OMessageHandler]O2OMessage [messageType=0, incept=xu, message=hello, sender=zhubx]
+2016-07-21 23:56:24:440 [New I/O worker #2] INFO  [O2OMessageResponseEncoder]O2OMessageResponse [messagetype=2, messagelength=1, result=0]

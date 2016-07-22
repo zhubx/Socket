@@ -7,6 +7,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
+/**
+ * 系统启动
+ * @author zhubx
+ *
+ */
 public class ServerMain {
 
 	private static final Logger LOG = LoggerFactory.getLogger(ServerMain.class);

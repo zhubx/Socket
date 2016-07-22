@@ -4,6 +4,11 @@ import java.nio.charset.Charset;
 
 import com.neu.demo.util.GlobalConstant;
 
+/**
+ * 消息协议接口
+ * @author zhubx
+ *
+ */
 public interface IProtocolMsg {
 
 	/**
@@ -25,7 +30,6 @@ public interface IProtocolMsg {
      * Command Id 长度1字节
      */
     public static final byte COMMAND_ID_LEN = 1;
-    
     
     
 }

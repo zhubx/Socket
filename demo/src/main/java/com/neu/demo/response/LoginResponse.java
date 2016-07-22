@@ -2,13 +2,11 @@ package com.neu.demo.response;
 
 import java.util.List;
 
-public class LoginResponse {
+import com.neu.demo.bean.ProtocolMsg;
+
+public class LoginResponse extends ProtocolMsg{
 
 	private String userid;
-	
-	private byte messagetype;
-	
-	private short messagelength;
 	
 	private byte result;
 	
@@ -23,22 +21,6 @@ public class LoginResponse {
 
 	public final void setUserid(String userid) {
 		this.userid = userid;
-	}
-
-	public final byte getMessagetype() {
-		return messagetype;
-	}
-
-	public final void setMessagetype(byte messagetype) {
-		this.messagetype = messagetype;
-	}
-
-	public final short getMessagelength() {
-		return messagelength;
-	}
-
-	public final void setMessagelength(short messagelength) {
-		this.messagelength = messagelength;
 	}
 
 	public final byte getResult() {

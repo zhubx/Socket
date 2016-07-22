@@ -15,8 +15,8 @@ public class Heartbeat extends IdleStateAwareChannelHandler{
 	public void channelIdle(ChannelHandlerContext ctx, IdleStateEvent e)
 			throws Exception {
 		if(e.getState() == IdleState.READER_IDLE) {
-			e.getChannel().close();
 			LOG.info(e.getChannel() + "超时断开.");
+			e.getChannel().close();
 		}
 		
 	}

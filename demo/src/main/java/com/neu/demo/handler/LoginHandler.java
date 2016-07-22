@@ -1,6 +1,5 @@
 package com.neu.demo.handler;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,13 +10,23 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.neu.demo.bean.LoginMessage;
+import com.neu.demo.cache.UserKeySession;
 import com.neu.demo.cache.UserSession;
 import com.neu.demo.dao.SysDao;
 import com.neu.demo.response.LoginResponse;
 
+/**
+ * 用户登录处理
+ * @author zhubx
+ *
+ */
 public class LoginHandler implements IHandler{
 
 	private static final Logger LOG = LoggerFactory.getLogger(LoginHandler.class);
+	
+	private UserSession session = UserSession.getInstance();
+	
+	private UserKeySession keysession = UserKeySession.getInstance();
 	
 	static Map<String,LoginMessage> map;
 	static{
@@ -27,6 +36,12 @@ public class LoginHandler implements IHandler{
 		m1.setUsername("zhubx");
 		m1.setPassword("123");
 		map.put(m1.getUsername(), m1);
+		
+		LoginMessage m2 = new LoginMessage();
+		m2.setUserid("2");
+		m2.setUsername("xu");
+		m2.setPassword("123");
+		map.put(m2.getUsername(), m2);
 	}
 	
 	
@@ -40,25 +55,29 @@ public class LoginHandler implements IHandler{
 		LoginMessage message = (LoginMessage) e.getMessage();
 		user = map.get(message.getUsername());
 		if(user != null){
-			Channel channel = UserSession.getInstance().getSession(user.getUserid());
+			Channel channel = session.getSession(user.getUserid());
 			if(channel !=null){
 				channel.close();
 				LOG.info("用户名为：" + user.getUsername() + "重复登录,断开原有连接");
 			}
-			UserSession.getInstance().saveSession(user.getUserid(),e.getChannel());
+			//登录成功 更新数据库状态 
+			// ...
+			
+			session.saveSession(user,e.getChannel());
+			keysession.put(user.getUsername(), e.getChannel());
 			LoginResponse response = new LoginResponse();
-			response.setMessagetype((byte)0x8001);
+			response.setCommandId((byte)0x8001);
 			response.setResult((byte)0);
-			response.setMessagelength((short)3);
-			response.setOnlinnum((short)1);
-			response.setOnlinuser(new ArrayList<String>());
+			//response.setMessagelength((short)3);
+			response.setOnlinnum(session.getOnlinnum());
+			response.setOnlinuser(session.getOnlinuser());
 			e.getChannel().write(response);
 			LOG.info("用户名为：[" + user.getUsername() + "]登录成功");
 		}else{
 			LoginResponse response = new LoginResponse();
-			response.setMessagetype((byte)0x8001);
+			response.setCommandId((byte)0x8001);
 			response.setResult((byte)1);
-			response.setMessagelength((short)1);
+			response.setMsglength((short)1);
 			e.getChannel().write(response);
 			LOG.info("用户名为：[" + message.getUsername() + "]鉴权失败");
 		}

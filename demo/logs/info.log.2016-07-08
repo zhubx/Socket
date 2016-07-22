@@ -1,0 +1,9 @@
+2016-07-08 16:39:22:764 [main] INFO  log init finished.
+2016-07-08 16:39:22:835 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Fri Jul 08 16:39:22 CST 2016]; root of context hierarchy
+2016-07-08 16:39:22:872 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-08 16:39:22:945 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-08 16:39:23:013 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-08 16:39:23:013 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-08 16:39:23:021 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,messageHandler]; root of factory hierarchy
+2016-07-08 16:39:23:098 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-08 16:39:23:101 [main] INFO  module init finished.
