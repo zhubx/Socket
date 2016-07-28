@@ -7,6 +7,8 @@ public class ServerMessage extends ProtocolMsg{
 	private byte type;
 	
 	private String content;
+	
+	private String incept;
 
 	public final String getSender() {
 		return sender;
@@ -31,11 +33,24 @@ public class ServerMessage extends ProtocolMsg{
 	public final void setContent(String content) {
 		this.content = content;
 	}
+	
+	public final String getIncept() {
+		return incept;
+	}
+
+	public final void setIncept(String incept) {
+		this.incept = incept;
+	}
 
 	@Override
 	public String toString() {
 		return "ServerMessage [sender=" + sender + ", type=" + type
 				+ ", content=" + content + "]";
+	}
+
+	public String msgDetail() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }

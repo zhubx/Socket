@@ -11,6 +11,8 @@ import java.util.concurrent.ConcurrentHashMap;
 import org.jboss.netty.channel.Channel;
 
 import com.neu.demo.bean.LoginMessage;
+import com.neu.demo.bean.UpdateMessage;
+import com.neu.demo.util.StringUtil;
 
 public class UserSession {
 
@@ -27,6 +29,16 @@ public class UserSession {
 	private static Map<LoginMessage,Channel> sessions = new ConcurrentHashMap<LoginMessage, Channel>();
 	
 	public void saveSession(LoginMessage key,Channel channel){
+		//首先将新增的用户信息推送给在线用户
+		List<Channel> list = getAllChannel();
+		UpdateMessage message = new UpdateMessage();
+		message.setCommandId((byte)0x0010);
+		message.setMsglength((short)31);
+		message.setType((byte)1);
+		message.setName(StringUtil.get30String(key.getUsername()));
+		for(Channel c : list){
+			c.write(message);
+		}
 		sessions.put(key, channel);
 	}
 	
@@ -83,6 +95,32 @@ public class UserSession {
 	
 	public void remove(LoginMessage message){
 		sessions.remove(message);
+		//将下线的用户信息推送给在线用户
+		List<Channel> list = getAllChannel();
+		UpdateMessage m = new UpdateMessage();
+		m.setCommandId((byte)0x0010);
+		m.setMsglength((short)31);
+		m.setType((byte)-1);
+		m.setName(StringUtil.get30String(message.getUsername()));
+		for(Channel c : list){
+			c.write(m);
+		}
 	}
 	
+	/**
+	 * 返回有效channel
+	 * @return
+	 */
+	public List<Channel> getAllChannel(){
+		List<Channel> list = new ArrayList<Channel>();
+		Set<Entry<LoginMessage, Channel>> set = sessions.entrySet();
+		Iterator<Entry<LoginMessage, Channel>> iterator = set.iterator();
+		while(iterator.hasNext()){
+			Channel c = iterator.next().getValue();
+			if(c !=null && c.isConnected()){
+				list.add(c);
+			}
+		}
+		return list;
+	}
 }

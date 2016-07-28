@@ -26,21 +26,21 @@ public class O2MMessageHandler implements IHandler{
 	
 	public void doHandler(ChannelHandlerContext ctx, MessageEvent e) {
 		O2MMessage message = (O2MMessage)e.getMessage();
-		LOG.info("[O2MMessageHandler]" + message);
+		LOG.info("[O2MMessageHandler]" + message.msgDetail());
 		O2MMessageResponse response = new O2MMessageResponse();
 		List<Channel> list = session.getAllChannel();
 		//遍历所有在线用户下发消息
+		ServerMessage sm = new ServerMessage();
+		sm.setCommandId((byte)0x0007);
+		sm.setContent(message.getMessage());
+		sm.setType((byte)1);
+		sm.setSender(message.getSender());
 		for(Channel c : list){
-			ServerMessage sm = new ServerMessage();
-			sm.setCommandId((byte)0x0004);
-			sm.setContent(message.getMessage());
-			sm.setType((byte)1);
-			sm.setSender(message.getSender());
 			c.write(sm);
 		}
 		
 		//返回结果
-		response.setCommandId((byte)0x8003);
+		response.setCommandId((byte)0x0006);
 		response.setMsglength((short)1);
 		response.setResult((byte)1);
 		e.getChannel().write(response);

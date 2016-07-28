@@ -1,0 +1,665 @@
+2016-07-25 09:55:52:658 [main] INFO  log init finished.
+2016-07-25 09:55:52:733 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 09:55:52 CST 2016]; root of context hierarchy
+2016-07-25 09:55:52:770 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 09:55:52:840 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 09:55:52:958 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 09:55:52:958 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 09:55:52:965 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@22ab57: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 09:55:53:114 [main] INFO  module init finished.
+2016-07-25 09:56:01:091 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:30)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 10:26:19:313 [main] INFO  log init finished.
+2016-07-25 10:26:19:381 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 10:26:19 CST 2016]; root of context hierarchy
+2016-07-25 10:26:19:419 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 10:26:19:488 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 10:26:19:554 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 10:26:19:555 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 10:26:19:561 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1eec35: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 10:26:19:715 [main] INFO  module init finished.
+2016-07-25 12:32:52:570 [main] INFO  log init finished.
+2016-07-25 12:32:52:639 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 12:32:52 CST 2016]; root of context hierarchy
+2016-07-25 12:32:52:676 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 12:32:52:749 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 12:32:52:815 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 12:32:52:815 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 12:32:52:823 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 12:32:52:979 [main] INFO  module init finished.
+2016-07-25 12:33:00:871 [nioEventLoopGroup-2-1] INFO  消息长度：9
+2016-07-25 12:33:00:871 [nioEventLoopGroup-2-1] INFO  结果：0
+2016-07-25 12:33:00:871 [nioEventLoopGroup-2-1] INFO  在线人数：1
+2016-07-25 12:33:00:873 [nioEventLoopGroup-2-1] INFO  人名：zhubx 
+2016-07-25 12:34:00:952 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-25 12:34:00:953 [AWT-EventQueue-0] INFO  睡
+2016-07-25 12:34:05:953 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-25 14:00:51:748 [main] INFO  log init finished.
+2016-07-25 14:00:51:821 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Mon Jul 25 14:00:51 CST 2016]; root of context hierarchy
+2016-07-25 14:00:51:864 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 14:00:51:936 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 14:00:52:002 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 14:00:52:002 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 14:00:52:011 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4ee70b: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 14:00:52:170 [main] INFO  module init finished.
+2016-07-25 14:00:59:305 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:30)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 14:25:56:316 [main] INFO  log init finished.
+2016-07-25 14:25:56:384 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 14:25:56 CST 2016]; root of context hierarchy
+2016-07-25 14:25:56:421 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 14:25:56:491 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 14:25:56:558 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 14:25:56:558 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 14:25:56:565 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 14:25:56:722 [main] INFO  module init finished.
+2016-07-25 14:26:04:864 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:30)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 14:26:45:419 [main] INFO  log init finished.
+2016-07-25 14:26:45:490 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 14:26:45 CST 2016]; root of context hierarchy
+2016-07-25 14:26:45:528 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 14:26:45:600 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 14:26:45:665 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 14:26:45:665 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 14:26:45:672 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1eec35: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 14:26:45:824 [main] INFO  module init finished.
+2016-07-25 14:36:57:555 [main] INFO  log init finished.
+2016-07-25 14:36:57:632 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 14:36:57 CST 2016]; root of context hierarchy
+2016-07-25 14:36:57:671 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 14:36:57:742 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 14:36:57:809 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 14:36:57:809 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 14:36:57:816 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 14:36:57:967 [main] INFO  module init finished.
+2016-07-25 14:38:07:405 [main] INFO  log init finished.
+2016-07-25 14:38:07:473 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Mon Jul 25 14:38:07 CST 2016]; root of context hierarchy
+2016-07-25 14:38:07:511 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 14:38:07:583 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 14:38:07:648 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 14:38:07:649 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 14:38:07:655 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 14:38:07:808 [main] INFO  module init finished.
+2016-07-25 14:39:13:324 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-25 14:39:13:325 [AWT-EventQueue-0] INFO  睡
+2016-07-25 14:39:18:326 [AWT-EventQueue-0] ERROR 未知错误
+2016-07-25 14:45:01:394 [main] INFO  log init finished.
+2016-07-25 14:45:01:463 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 14:45:01 CST 2016]; root of context hierarchy
+2016-07-25 14:45:01:501 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 14:45:01:575 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 14:45:01:642 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 14:45:01:642 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 14:45:01:650 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 14:45:01:808 [main] INFO  module init finished.
+2016-07-25 14:46:07:439 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-25 14:46:07:440 [AWT-EventQueue-0] INFO  睡
+2016-07-25 14:46:12:441 [AWT-EventQueue-0] ERROR 未知错误
+2016-07-25 14:46:50:417 [main] INFO  log init finished.
+2016-07-25 14:46:50:488 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 14:46:50 CST 2016]; root of context hierarchy
+2016-07-25 14:46:50:527 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 14:46:50:597 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 14:46:50:662 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 14:46:50:662 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 14:46:50:669 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 14:46:50:821 [main] INFO  module init finished.
+2016-07-25 14:46:56:989 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:37)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 15:13:58:194 [main] INFO  log init finished.
+2016-07-25 15:13:58:270 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Mon Jul 25 15:13:58 CST 2016]; root of context hierarchy
+2016-07-25 15:13:58:307 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 15:13:58:381 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 15:13:58:447 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 15:13:58:448 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 15:13:58:455 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@22ab57: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 15:13:58:614 [main] INFO  module init finished.
+2016-07-25 15:14:04:174 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at io.netty.buffer.WrappedByteBuf.array(WrappedByteBuf.java:752)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:37)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 15:35:23:460 [main] INFO  log init finished.
+2016-07-25 15:35:23:538 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Mon Jul 25 15:35:23 CST 2016]; root of context hierarchy
+2016-07-25 15:35:23:575 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 15:35:23:649 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 15:35:23:715 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 15:35:23:716 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 15:35:23:724 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 15:35:23:880 [main] INFO  module init finished.
+2016-07-25 15:35:31:431 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at io.netty.buffer.WrappedByteBuf.array(WrappedByteBuf.java:752)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:37)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 15:53:36:846 [main] INFO  log init finished.
+2016-07-25 15:53:36:915 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 15:53:36 CST 2016]; root of context hierarchy
+2016-07-25 15:53:36:952 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 15:53:37:024 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 15:53:37:091 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 15:53:37:091 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 15:53:37:099 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1eec35: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 15:53:37:258 [main] INFO  module init finished.
+2016-07-25 15:53:43:068 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at io.netty.buffer.WrappedByteBuf.array(WrappedByteBuf.java:752)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:37)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 15:54:45:917 [main] INFO  log init finished.
+2016-07-25 15:54:45:993 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@ae3364: startup date [Mon Jul 25 15:54:45 CST 2016]; root of context hierarchy
+2016-07-25 15:54:46:032 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 15:54:46:108 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 15:54:46:181 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 15:54:46:181 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 15:54:46:188 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@29ea31: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 15:54:46:349 [main] INFO  module init finished.
+2016-07-25 15:55:30:980 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at io.netty.buffer.WrappedByteBuf.array(WrappedByteBuf.java:752)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:37)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 15:55:54:209 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-25 15:55:54:210 [AWT-EventQueue-0] INFO  睡
+2016-07-25 15:55:59:212 [AWT-EventQueue-0] ERROR 未知错误
+2016-07-25 15:59:16:410 [main] INFO  log init finished.
+2016-07-25 15:59:16:484 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 15:59:16 CST 2016]; root of context hierarchy
+2016-07-25 15:59:16:528 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 15:59:16:600 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 15:59:16:667 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 15:59:16:667 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 15:59:16:674 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1eec35: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 15:59:16:831 [main] INFO  module init finished.
+2016-07-25 15:59:24:023 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: readerIndex(12) + length(1) exceeds writerIndex(12): UnpooledUnsafeDirectByteBuf(ridx: 12, widx: 12, cap: 1024)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.IndexOutOfBoundsException: readerIndex(12) + length(1) exceeds writerIndex(12): UnpooledUnsafeDirectByteBuf(ridx: 12, widx: 12, cap: 1024)
+	at io.netty.buffer.AbstractByteBuf.checkReadableBytes(AbstractByteBuf.java:1161)
+	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:563)
+	at io.netty.buffer.WrappedByteBuf.readByte(WrappedByteBuf.java:423)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:42)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 16:01:59:030 [main] INFO  log init finished.
+2016-07-25 16:01:59:102 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Mon Jul 25 16:01:59 CST 2016]; root of context hierarchy
+2016-07-25 16:01:59:142 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 16:01:59:214 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 16:01:59:280 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 16:01:59:280 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 16:01:59:287 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@22ab57: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 16:01:59:449 [main] INFO  module init finished.
+2016-07-25 16:02:04:444 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: readerIndex(12) + length(1) exceeds writerIndex(12): UnpooledUnsafeDirectByteBuf(ridx: 12, widx: 12, cap: 1024)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.IndexOutOfBoundsException: readerIndex(12) + length(1) exceeds writerIndex(12): UnpooledUnsafeDirectByteBuf(ridx: 12, widx: 12, cap: 1024)
+	at io.netty.buffer.AbstractByteBuf.checkReadableBytes(AbstractByteBuf.java:1161)
+	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:563)
+	at io.netty.buffer.WrappedByteBuf.readByte(WrappedByteBuf.java:423)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:43)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 16:02:40:696 [main] INFO  log init finished.
+2016-07-25 16:02:40:767 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 16:02:40 CST 2016]; root of context hierarchy
+2016-07-25 16:02:40:804 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 16:02:40:875 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 16:02:40:943 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 16:02:40:944 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 16:02:40:950 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 16:02:41:103 [main] INFO  module init finished.
+2016-07-25 16:02:47:115 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: readerIndex(12) + length(1) exceeds writerIndex(12): UnpooledUnsafeDirectByteBuf(ridx: 12, widx: 12, cap: 1024)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.IndexOutOfBoundsException: readerIndex(12) + length(1) exceeds writerIndex(12): UnpooledUnsafeDirectByteBuf(ridx: 12, widx: 12, cap: 1024)
+	at io.netty.buffer.AbstractByteBuf.checkReadableBytes(AbstractByteBuf.java:1161)
+	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:563)
+	at io.netty.buffer.WrappedByteBuf.readByte(WrappedByteBuf.java:423)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:43)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 16:03:24:016 [main] INFO  log init finished.
+2016-07-25 16:03:24:092 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 16:03:24 CST 2016]; root of context hierarchy
+2016-07-25 16:03:24:131 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 16:03:24:208 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 16:03:24:280 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 16:03:24:280 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 16:03:24:287 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1eec35: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 16:03:24:452 [main] INFO  module init finished.
+2016-07-25 16:03:29:237 [nioEventLoopGroup-2-1] INFO  消息长度：9
+2016-07-25 16:03:29:237 [nioEventLoopGroup-2-1] INFO  结果：0
+2016-07-25 16:03:29:237 [nioEventLoopGroup-2-1] INFO  在线人数：1
+2016-07-25 16:03:29:239 [nioEventLoopGroup-2-1] INFO  人名：zhubx 
+2016-07-25 16:06:36:544 [main] INFO  log init finished.
+2016-07-25 16:06:36:616 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 16:06:36 CST 2016]; root of context hierarchy
+2016-07-25 16:06:36:654 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 16:06:36:725 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 16:06:36:795 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 16:06:36:795 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 16:06:36:801 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 16:06:36:958 [main] INFO  module init finished.
+2016-07-25 16:06:42:816 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:39)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 16:07:20:151 [main] INFO  log init finished.
+2016-07-25 16:07:20:224 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 16:07:20 CST 2016]; root of context hierarchy
+2016-07-25 16:07:20:263 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 16:07:20:337 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 16:07:20:404 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 16:07:20:404 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 16:07:20:410 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 16:07:20:565 [main] INFO  module init finished.
+2016-07-25 16:07:27:738 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:39)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 16:08:35:055 [main] INFO  log init finished.
+2016-07-25 16:08:35:128 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 16:08:35 CST 2016]; root of context hierarchy
+2016-07-25 16:08:35:166 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 16:08:35:235 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 16:08:35:300 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 16:08:35:300 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 16:08:35:307 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 16:08:35:456 [main] INFO  module init finished.
+2016-07-25 16:08:43:237 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:39)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 16:16:43:086 [main] INFO  log init finished.
+2016-07-25 16:16:43:161 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 16:16:43 CST 2016]; root of context hierarchy
+2016-07-25 16:16:43:200 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 16:16:43:275 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 16:16:43:347 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 16:16:43:348 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 16:16:43:355 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 16:16:43:515 [main] INFO  module init finished.
+2016-07-25 16:16:50:315 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at io.netty.buffer.WrappedByteBuf.array(WrappedByteBuf.java:752)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:32)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 16:18:13:724 [main] INFO  log init finished.
+2016-07-25 16:18:13:797 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 16:18:13 CST 2016]; root of context hierarchy
+2016-07-25 16:18:13:838 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 16:18:13:909 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 16:18:13:974 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 16:18:13:974 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 16:18:13:983 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 16:18:14:136 [main] INFO  module init finished.
+2016-07-25 16:18:20:844 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at io.netty.buffer.WrappedByteBuf.array(WrappedByteBuf.java:752)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:32)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-25 16:18:42:852 [main] INFO  log init finished.
+2016-07-25 16:18:42:921 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 16:18:42 CST 2016]; root of context hierarchy
+2016-07-25 16:18:42:958 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 16:18:43:030 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 16:18:43:096 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 16:18:43:096 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 16:18:43:103 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@22ab57: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 16:18:43:258 [main] INFO  module init finished.
+2016-07-25 16:18:56:552 [main] INFO  log init finished.
+2016-07-25 16:18:56:626 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@364641: startup date [Mon Jul 25 16:18:56 CST 2016]; root of context hierarchy
+2016-07-25 16:18:56:667 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 16:18:56:741 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 16:18:56:811 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 16:18:56:811 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 16:18:56:818 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@179a49f: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 16:18:56:982 [main] INFO  module init finished.
+2016-07-25 16:19:33:522 [main] INFO  log init finished.
+2016-07-25 16:19:33:596 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02928: startup date [Mon Jul 25 16:19:33 CST 2016]; root of context hierarchy
+2016-07-25 16:19:33:634 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 16:19:33:713 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 16:19:33:785 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 16:19:33:785 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 16:19:33:792 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@19a0feb: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-25 16:19:33:969 [main] INFO  module init finished.
+2016-07-25 17:25:17:587 [main] INFO  log init finished.
+2016-07-25 17:25:17:661 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 17:25:17 CST 2016]; root of context hierarchy
+2016-07-25 17:25:17:705 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 17:25:17:779 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 17:25:17:847 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 17:25:17:847 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 17:25:17:854 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,loginResponseDecoder]; root of factory hierarchy
+2016-07-25 17:25:18:003 [main] WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'view' defined in class path resource [spring/components.xml]: Cannot resolve reference to bean 'loginHandler' while setting bean property 'handlers' with key [TypedStringValue: value [com.neu.client.bean.LoginResponse], target type [null]]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginHandler' defined in class path resource [spring/components.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.neu.client.handler.LoginHandler]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.neu.client.handler.LoginHandler.<init>()
+2016-07-25 17:25:18:003 [main] INFO  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,loginResponseDecoder]; root of factory hierarchy
+2016-07-25 17:25:25:544 [AWT-EventQueue-0] ERROR [客户端client初始化失败]
+2016-07-25 17:25:25:545 [AWT-EventQueue-0] INFO  睡
+2016-07-25 17:27:13:222 [main] INFO  log init finished.
+2016-07-25 17:27:13:295 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 17:27:13 CST 2016]; root of context hierarchy
+2016-07-25 17:27:13:335 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 17:27:13:407 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 17:27:13:478 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 17:27:13:478 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 17:27:13:486 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,loginResponseDecoder]; root of factory hierarchy
+2016-07-25 17:27:13:640 [main] WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'view' defined in class path resource [spring/components.xml]: Cannot resolve reference to bean 'loginHandler' while setting bean property 'handlers' with key [TypedStringValue: value [com.neu.client.bean.LoginResponse], target type [null]]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginHandler' defined in class path resource [spring/components.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.neu.client.handler.LoginHandler]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.neu.client.handler.LoginHandler.<init>()
+2016-07-25 17:27:13:640 [main] INFO  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,loginResponseDecoder]; root of factory hierarchy
+2016-07-25 17:28:31:341 [main] INFO  log init finished.
+2016-07-25 17:28:31:418 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 17:28:31 CST 2016]; root of context hierarchy
+2016-07-25 17:28:31:455 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 17:28:31:524 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 17:28:31:592 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 17:28:31:592 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 17:28:31:600 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,loginResponseDecoder]; root of factory hierarchy
+2016-07-25 17:28:31:759 [main] WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'view' defined in class path resource [spring/components.xml]: Initialization of bean failed; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert property value of type 'java.util.LinkedHashMap' to required type 'java.util.Map' for property 'decoders'; nested exception is java.lang.NumberFormatException: Value out of range. Value:"8001" Radix:16
+2016-07-25 17:28:31:759 [main] INFO  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,loginResponseDecoder]; root of factory hierarchy
+2016-07-25 17:31:51:957 [main] INFO  log init finished.
+2016-07-25 17:31:52:031 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 17:31:52 CST 2016]; root of context hierarchy
+2016-07-25 17:31:52:069 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 17:31:52:142 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 17:31:52:211 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 17:31:52:212 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 17:31:52:220 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1eec35: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,loginResponseDecoder]; root of factory hierarchy
+2016-07-25 17:31:52:378 [main] INFO  module init finished.
+2016-07-25 17:31:59:451 [nioEventLoopGroup-2-1] INFO  [没有对应的Decoder]
+2016-07-25 17:34:23:893 [main] INFO  log init finished.
+2016-07-25 17:34:23:968 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 17:34:23 CST 2016]; root of context hierarchy
+2016-07-25 17:34:24:007 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 17:34:24:081 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 17:34:24:151 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 17:34:24:151 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 17:34:24:160 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,loginResponseDecoder]; root of factory hierarchy
+2016-07-25 17:34:24:326 [main] INFO  module init finished.
+2016-07-25 17:34:30:362 [nioEventLoopGroup-2-1] INFO  [没有对应的Decoder]
+2016-07-25 17:34:57:636 [main] INFO  log init finished.
+2016-07-25 17:34:57:711 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 17:34:57 CST 2016]; root of context hierarchy
+2016-07-25 17:34:57:752 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 17:34:57:825 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 17:34:57:899 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 17:34:57:899 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 17:34:57:907 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,loginResponseDecoder]; root of factory hierarchy
+2016-07-25 17:34:58:077 [main] INFO  module init finished.
+2016-07-25 17:35:02:760 [nioEventLoopGroup-2-1] INFO  [没有对应的Decoder]
+2016-07-25 18:00:00:267 [main] INFO  log init finished.
+2016-07-25 18:00:00:337 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 18:00:00 CST 2016]; root of context hierarchy
+2016-07-25 18:00:00:377 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 18:00:00:448 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 18:00:00:517 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 18:00:00:517 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 18:00:00:523 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,loginResponseDecoder]; root of factory hierarchy
+2016-07-25 18:00:00:684 [main] INFO  module init finished.
+2016-07-25 18:00:07:245 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-25 18:00:07:248 [nioEventLoopGroup-2-1] INFO  在线人数：2304
+2016-07-25 18:00:07:248 [nioEventLoopGroup-2-1] INFO  人名： zhubx 
+2016-07-25 18:13:18:625 [main] INFO  log init finished.
+2016-07-25 18:13:18:699 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 18:13:18 CST 2016]; root of context hierarchy
+2016-07-25 18:13:18:738 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 18:13:18:813 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 18:13:18:883 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 18:13:18:883 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 18:13:18:889 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,loginResponseDecoder]; root of factory hierarchy
+2016-07-25 18:13:19:049 [main] INFO  module init finished.
+2016-07-25 18:13:24:437 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-25 18:13:24:440 [nioEventLoopGroup-2-1] INFO  在线人数：1
+2016-07-25 18:13:24:440 [nioEventLoopGroup-2-1] INFO  人名：zhubx 
+2016-07-25 18:14:24:517 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-25 18:14:24:518 [AWT-EventQueue-0] INFO  睡
+2016-07-25 18:14:29:519 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-25 18:35:04:741 [main] INFO  log init finished.
+2016-07-25 18:35:04:815 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 18:35:04 CST 2016]; root of context hierarchy
+2016-07-25 18:35:04:856 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 18:35:04:930 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 18:35:05:001 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 18:35:05:002 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 18:35:05:009 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,loginResponseDecoder]; root of factory hierarchy
+2016-07-25 18:35:05:176 [main] INFO  module init finished.
+2016-07-25 18:35:11:295 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-25 18:35:11:297 [nioEventLoopGroup-2-1] INFO  在线人数：1
+2016-07-25 18:35:11:298 [nioEventLoopGroup-2-1] INFO  人名：zhubx 
+2016-07-25 18:45:18:630 [main] INFO  log init finished.
+2016-07-25 18:45:18:702 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Mon Jul 25 18:45:18 CST 2016]; root of context hierarchy
+2016-07-25 18:45:18:739 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 18:45:18:812 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 18:45:18:882 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-25 18:45:18:882 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-25 18:45:18:889 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,loginResponseDecoder]; root of factory hierarchy
+2016-07-25 18:45:19:050 [main] INFO  module init finished.
+2016-07-25 18:45:24:608 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-25 18:45:24:611 [nioEventLoopGroup-2-1] INFO  在线人数：1
+2016-07-25 18:45:24:611 [nioEventLoopGroup-2-1] INFO  人名：zhubx 
+2016-07-25 18:46:24:689 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-25 18:46:24:690 [AWT-EventQueue-0] INFO  登陆成功

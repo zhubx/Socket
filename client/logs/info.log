@@ -1,0 +1,1986 @@
+2016-07-28 12:15:55:830 [main] INFO  log init finished.
+2016-07-28 12:15:55:902 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 12:15:55 CST 2016]; root of context hierarchy
+2016-07-28 12:15:55:939 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 12:15:56:012 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 12:15:56:107 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 12:15:56:107 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 12:15:56:115 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 12:15:56:274 [main] INFO  module init finished.
+2016-07-28 12:16:01:237 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 12:16:01:306 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 12:16:01:309 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 12:16:01:309 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:16:01:311 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:16:02:239 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 12:16:06:309 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:16:06:311 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:16:11:309 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:16:11:311 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:16:16:309 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:16:16:311 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:16:21:309 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:16:21:311 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:16:26:309 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:16:26:311 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:16:31:309 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:16:31:312 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:16:36:309 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:16:36:311 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:16:38:425 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 12:16:41:309 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:16:41:312 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:16:46:309 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:16:46:311 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:16:51:310 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:16:51:312 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:19:52:437 [main] INFO  log init finished.
+2016-07-28 12:19:52:508 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 12:19:52 CST 2016]; root of context hierarchy
+2016-07-28 12:19:52:545 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 12:19:52:614 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 12:19:52:686 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 12:19:52:687 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 12:19:52:695 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 12:19:52:855 [main] INFO  module init finished.
+2016-07-28 12:19:58:274 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 12:19:58:308 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 12:19:58:311 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 12:19:58:312 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:19:58:314 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:19:59:275 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 12:20:03:313 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:20:03:316 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:20:08:313 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:20:08:315 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:20:13:313 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:20:13:316 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:20:41:394 [main] INFO  log init finished.
+2016-07-28 12:20:41:465 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 12:20:41 CST 2016]; root of context hierarchy
+2016-07-28 12:20:41:503 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 12:20:41:570 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 12:20:41:647 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 12:20:41:647 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 12:20:41:655 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 12:20:41:832 [main] INFO  module init finished.
+2016-07-28 12:20:46:943 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 12:20:46:978 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 12:20:46:981 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 12:20:46:982 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:20:46:984 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:20:47:944 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 12:20:51:981 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:20:51:984 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:20:56:982 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:20:56:984 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:20:57:023 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 12:21:01:981 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:21:01:983 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:21:06:982 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:21:06:984 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:21:11:981 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:21:11:984 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:21:16:982 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:21:16:985 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:21:21:981 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:21:21:984 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:21:26:981 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:21:26:984 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:21:31:981 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:21:31:984 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:21:36:981 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:21:36:983 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:21:41:981 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:21:41:983 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:21:46:981 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:21:46:983 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:21:51:982 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:21:51:984 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:21:56:982 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:21:56:984 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:21:57:081 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 12:22:01:981 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:22:01:984 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:22:06:031 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:446)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:871)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:208)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+2016-07-28 12:22:22:788 [main] INFO  log init finished.
+2016-07-28 12:22:22:859 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 12:22:22 CST 2016]; root of context hierarchy
+2016-07-28 12:22:22:896 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 12:22:22:965 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 12:22:23:037 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 12:22:23:037 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 12:22:23:044 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 12:22:23:208 [main] INFO  module init finished.
+2016-07-28 12:22:27:989 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 12:22:28:024 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 12:22:28:026 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 12:22:28:027 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:22:28:029 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:22:28:989 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 12:22:33:028 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:22:33:031 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:22:38:028 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:22:38:031 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:22:40:256 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 12:22:43:028 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:22:43:030 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:22:48:028 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:22:48:030 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:22:53:028 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:22:53:031 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:22:56:358 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:446)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:871)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:208)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+2016-07-28 12:25:13:146 [main] INFO  log init finished.
+2016-07-28 12:25:13:217 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 12:25:13 CST 2016]; root of context hierarchy
+2016-07-28 12:25:13:255 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 12:25:13:322 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 12:25:13:394 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 12:25:13:394 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 12:25:13:402 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 12:25:13:560 [main] INFO  module init finished.
+2016-07-28 12:25:18:927 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 12:25:18:961 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 12:25:18:964 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 12:25:18:965 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:25:18:966 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:25:19:927 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 12:25:23:965 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:25:23:967 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:25:28:008 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 12:25:28:009 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 12:25:28:965 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:25:28:968 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:25:33:964 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:25:33:967 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:25:38:965 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:25:38:968 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:26:39:361 [main] INFO  log init finished.
+2016-07-28 12:26:39:430 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 12:26:39 CST 2016]; root of context hierarchy
+2016-07-28 12:26:39:469 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 12:26:39:539 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 12:26:39:613 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 12:26:39:613 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 12:26:39:621 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 12:26:39:786 [main] INFO  module init finished.
+2016-07-28 12:26:45:941 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 12:26:45:960 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 12:26:45:963 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 12:26:45:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:26:45:964 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:26:46:942 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 12:26:50:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:26:50:966 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:26:55:964 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:26:55:966 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:26:57:648 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 12:26:57:649 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 12:27:00:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:27:00:967 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:27:05:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:27:05:965 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:27:10:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:27:10:965 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:27:15:962 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:27:15:965 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:27:20:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:27:20:965 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:27:25:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:27:25:965 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:27:30:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:27:30:965 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:27:35:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:27:35:965 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:27:40:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:27:40:965 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:27:45:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:27:45:965 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:27:50:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:27:50:965 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:27:55:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:27:55:966 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:27:57:687 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 12:27:57:688 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 12:28:00:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:28:00:965 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:28:05:964 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:28:05:966 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:28:10:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:28:10:965 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:28:15:964 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:28:15:966 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:28:20:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:28:20:965 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:28:25:963 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:28:25:966 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:28:30:964 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:28:30:966 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:28:44:633 [main] INFO  log init finished.
+2016-07-28 12:28:44:703 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 12:28:44 CST 2016]; root of context hierarchy
+2016-07-28 12:28:44:739 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 12:28:44:814 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 12:28:44:886 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 12:28:44:886 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 12:28:44:895 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 12:28:45:064 [main] INFO  module init finished.
+2016-07-28 12:28:50:658 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 12:28:50:693 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 12:28:50:696 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 12:28:50:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:28:50:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:28:51:658 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 12:28:55:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:28:55:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:28:57:046 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 12:28:57:047 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 12:29:00:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:29:00:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:29:05:273 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 12:29:05:274 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 12:29:05:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:29:05:698 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:29:10:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:29:10:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:29:15:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:29:15:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:29:20:696 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:29:20:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:29:25:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:29:25:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:29:30:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:29:30:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:29:35:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:29:35:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:29:40:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:29:40:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:29:45:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:29:45:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:29:50:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:29:50:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:29:55:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:29:55:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:30:00:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:30:00:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:30:05:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:30:05:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:30:10:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:30:10:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:30:15:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:30:15:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:30:20:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:30:20:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:30:25:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:30:25:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:30:30:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:30:30:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:30:35:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:30:35:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:30:40:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:30:40:702 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:30:45:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:30:45:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:30:50:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:30:50:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:30:55:696 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:30:55:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:31:00:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:31:00:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:31:05:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:31:05:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:31:10:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:31:10:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:31:15:696 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:31:15:698 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:31:20:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:31:20:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:31:25:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:31:25:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:31:30:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:31:30:698 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:31:35:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:31:35:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:31:40:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:31:40:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:31:45:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:31:45:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:31:50:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:31:50:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:31:55:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:31:55:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:32:00:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:32:00:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:32:05:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:32:05:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:32:10:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:32:10:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:32:15:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:32:15:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:32:20:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:32:20:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:32:25:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:32:25:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:32:30:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:32:30:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:32:35:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:32:35:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:32:40:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:32:40:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:32:45:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:32:45:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:32:50:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:32:50:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:32:55:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:32:55:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:33:00:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:33:00:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:33:05:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:33:05:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:33:10:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:33:10:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:33:15:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:33:15:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:33:20:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:33:20:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:33:25:696 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:33:25:698 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:33:30:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:33:30:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:33:35:696 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:33:35:698 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:33:40:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:33:40:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:33:45:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:33:45:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:33:50:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:33:50:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:33:55:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:33:55:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:34:00:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:34:00:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:34:05:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:34:05:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:34:10:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:34:10:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:34:15:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:34:15:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:34:20:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:34:20:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:34:25:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:34:25:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:34:30:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:34:30:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:34:35:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:34:35:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:34:40:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:34:40:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:34:45:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:34:45:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:34:50:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:34:50:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:34:55:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:34:55:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:35:00:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:35:00:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:35:05:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:35:05:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:35:10:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:35:10:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:35:15:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:35:15:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:35:20:696 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:35:20:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:35:25:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:35:25:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:35:30:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:35:30:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:35:35:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:35:35:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:35:40:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:35:40:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:35:45:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:35:45:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:35:50:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:35:50:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:35:55:696 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:35:55:698 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:36:00:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:36:00:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:36:05:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:36:05:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:36:10:698 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:36:10:700 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:36:15:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:36:15:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:36:20:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:36:20:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:36:25:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:36:25:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:36:30:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:36:30:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:36:35:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:36:35:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:36:40:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:36:40:698 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:36:45:696 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:36:45:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:36:50:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:36:50:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:36:55:696 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:36:55:698 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 12:37:00:697 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 12:37:00:699 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:06:33:625 [main] INFO  log init finished.
+2016-07-28 14:06:33:693 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 14:06:33 CST 2016]; root of context hierarchy
+2016-07-28 14:06:33:730 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 14:06:33:805 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 14:06:33:876 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 14:06:33:876 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 14:06:33:885 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 14:06:34:042 [main] INFO  module init finished.
+2016-07-28 14:06:39:862 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 14:06:39:895 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 14:06:39:898 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 14:06:39:899 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:06:39:900 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:06:40:863 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 14:06:44:899 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:06:44:902 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:07:33:531 [main] INFO  log init finished.
+2016-07-28 14:07:33:599 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 14:07:33 CST 2016]; root of context hierarchy
+2016-07-28 14:07:33:636 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 14:07:33:709 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 14:07:33:780 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 14:07:33:780 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 14:07:33:788 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 14:07:33:948 [main] INFO  module init finished.
+2016-07-28 14:07:38:443 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 14:07:38:461 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 14:07:38:464 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 14:07:38:465 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:07:38:466 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:07:39:443 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 14:07:43:465 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:07:43:466 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:07:44:288 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:07:44:289 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:07:45:843 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:07:45:843 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:07:48:464 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:07:48:467 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:09:16:726 [main] INFO  log init finished.
+2016-07-28 14:09:16:796 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 14:09:16 CST 2016]; root of context hierarchy
+2016-07-28 14:09:16:833 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 14:09:16:904 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 14:09:16:976 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 14:09:16:976 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 14:09:16:984 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 14:09:17:145 [main] INFO  module init finished.
+2016-07-28 14:09:22:290 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 14:09:22:324 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 14:09:22:327 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 14:09:22:328 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:09:22:329 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:09:23:291 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 14:09:27:328 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:09:27:331 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:09:28:571 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:09:28:572 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:09:32:329 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:09:32:332 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:21:39:317 [main] INFO  log init finished.
+2016-07-28 14:21:39:385 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 14:21:39 CST 2016]; root of context hierarchy
+2016-07-28 14:21:39:422 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 14:21:39:494 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 14:21:39:567 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 14:21:39:567 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 14:21:39:576 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 14:21:39:741 [main] INFO  module init finished.
+2016-07-28 14:21:47:127 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 14:21:47:145 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 14:21:47:148 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 14:21:47:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:21:47:154 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:21:48:127 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 14:21:52:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:21:52:152 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:21:54:458 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:21:54:459 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:21:57:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:21:57:152 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:22:02:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:22:02:151 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:22:03:024 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=xu, message=lalala]
+2016-07-28 14:22:03:028 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 14:22:03:029 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 14:22:03:029 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 14:22:07:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:22:07:151 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:22:09:704 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:22:09:704 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:22:12:150 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:22:12:153 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:22:17:150 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:22:17:153 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:22:22:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:22:22:151 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:22:25:235 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:22:25:235 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:22:27:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:22:27:151 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:22:32:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:22:32:151 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:22:34:495 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:22:34:496 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:22:37:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:22:37:151 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:22:40:099 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:22:40:099 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:22:42:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:22:42:150 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:22:47:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:22:47:152 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:22:52:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:22:52:150 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:22:57:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:22:57:151 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:23:02:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:23:02:152 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:23:07:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:23:07:150 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:23:12:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:23:12:151 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:23:17:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:23:17:151 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:23:22:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:23:22:151 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:23:27:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:23:27:150 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:23:32:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:23:32:154 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:23:37:149 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:23:37:151 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:23:40:125 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:23:40:125 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:23:42:150 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:23:42:152 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:23:51:584 [main] INFO  log init finished.
+2016-07-28 14:23:51:651 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@a1d1f4: startup date [Thu Jul 28 14:23:51 CST 2016]; root of context hierarchy
+2016-07-28 14:23:51:688 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 14:23:51:758 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 14:23:51:833 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 14:23:51:833 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 14:23:51:841 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 14:23:52:001 [main] INFO  module init finished.
+2016-07-28 14:23:56:745 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 14:23:56:763 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 14:23:56:766 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 14:23:56:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:23:56:768 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:23:57:746 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 14:24:01:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:24:01:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:24:04:906 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:24:04:907 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:24:06:766 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:24:06:768 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:24:08:255 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:24:08:255 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:24:11:766 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:24:11:768 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:24:12:306 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:24:12:306 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:24:16:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:24:16:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:24:18:559 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=xu, message=nihao]
+2016-07-28 14:24:18:561 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 14:24:18:562 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 14:24:18:563 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 14:24:21:766 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:24:21:768 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:24:26:766 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:24:26:768 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:24:29:611 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 14:24:31:768 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:24:31:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:24:32:383 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:24:32:383 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:24:36:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:24:36:768 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:24:41:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:24:41:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:24:46:766 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:24:46:768 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:24:51:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:24:51:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:24:56:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:24:56:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:25:01:768 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:25:01:770 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:25:06:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:25:06:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:25:11:766 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:25:11:768 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:25:16:768 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:25:16:770 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:25:21:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:25:21:768 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:25:23:772 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:25:23:773 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:25:26:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:25:26:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:25:31:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:25:31:767 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:25:36:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:25:36:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:25:41:766 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:25:41:767 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:25:46:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:25:46:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:25:51:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:25:51:768 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:25:56:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:25:56:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:26:01:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:26:01:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:26:06:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:26:06:768 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:26:11:766 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:26:11:768 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:26:16:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:26:16:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:26:21:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:26:21:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:26:23:847 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:26:23:848 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:26:26:766 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:26:26:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:26:31:766 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:26:31:767 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:26:36:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:26:36:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:26:41:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:26:41:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:26:46:767 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:26:46:769 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:31:05:528 [main] INFO  log init finished.
+2016-07-28 14:31:05:605 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 14:31:05 CST 2016]; root of context hierarchy
+2016-07-28 14:31:05:642 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 14:31:05:716 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 14:31:05:791 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 14:31:05:791 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 14:31:05:799 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 14:31:05:962 [main] INFO  module init finished.
+2016-07-28 14:31:10:248 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 14:31:10:267 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 14:31:10:270 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 14:31:10:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:31:10:271 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:31:11:250 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 14:31:15:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:31:15:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:31:17:592 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=xu, message=haha]
+2016-07-28 14:31:17:594 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 14:31:17:595 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 14:31:17:595 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 14:31:20:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:31:20:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:31:24:532 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:31:24:533 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:31:25:270 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:31:25:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:31:30:272 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:31:30:274 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:31:31:446 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=xu, message=nihao]
+2016-07-28 14:31:31:448 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 14:31:31:449 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 14:31:31:449 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 14:31:35:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:31:35:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:31:37:047 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:31:37:047 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:31:40:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:31:40:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:31:42:188 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:31:42:189 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:31:44:719 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:31:44:719 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:31:45:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:31:45:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:31:49:315 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:31:49:316 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:31:50:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:31:50:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:31:52:375 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 14:31:52:375 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 14:31:55:272 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:31:55:274 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:32:00:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:32:00:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:32:05:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:32:05:272 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:32:10:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:32:10:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:32:15:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:32:15:272 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:32:20:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:32:20:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:32:25:272 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:32:25:274 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:32:30:272 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:32:30:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:32:35:272 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:32:35:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:32:40:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:32:40:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:32:45:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:32:45:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:32:50:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:32:50:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:32:55:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:32:55:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:33:00:270 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:33:00:272 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:33:05:272 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:33:05:274 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:33:10:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:33:10:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:33:15:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:33:15:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:33:20:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:33:20:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:33:25:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:33:25:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:33:30:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:33:30:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:33:35:272 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:33:35:274 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:33:40:270 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:33:40:272 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:33:45:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:33:45:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:33:50:272 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:33:50:274 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:33:55:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:33:55:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:34:00:272 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:34:00:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:34:05:272 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:34:05:274 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:34:10:272 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:34:10:274 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:34:15:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:34:15:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:34:20:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:34:20:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:34:25:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:34:25:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:34:30:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:34:30:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:34:35:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:34:35:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:34:40:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:34:40:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:34:45:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:34:45:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:34:50:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:34:50:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:34:55:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:34:55:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:35:00:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:35:00:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:35:05:271 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:35:05:273 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:41:53:144 [main] INFO  log init finished.
+2016-07-28 14:41:53:214 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Thu Jul 28 14:41:53 CST 2016]; root of context hierarchy
+2016-07-28 14:41:53:251 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 14:41:53:321 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 14:41:53:396 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 14:41:53:397 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 14:41:53:404 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 14:41:53:565 [main] INFO  module init finished.
+2016-07-28 14:42:00:584 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 14:42:00:603 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 14:42:00:606 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 14:42:00:607 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:42:00:608 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:42:01:585 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 14:42:05:607 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:42:05:609 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:42:10:607 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:42:10:610 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:42:13:528 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=xu, message=sdf]
+2016-07-28 14:42:13:530 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 14:42:13:531 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 14:42:13:532 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 14:42:15:607 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:42:15:609 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:42:20:608 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:42:20:610 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:48:52:239 [main] INFO  log init finished.
+2016-07-28 14:48:52:307 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 14:48:52 CST 2016]; root of context hierarchy
+2016-07-28 14:48:52:343 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 14:48:52:414 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 14:48:52:487 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 14:48:52:487 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 14:48:52:497 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 14:48:52:665 [main] INFO  module init finished.
+2016-07-28 14:48:58:247 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 14:48:58:265 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 14:48:58:268 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 14:48:58:268 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 14:48:58:269 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 14:48:59:247 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 15:12:35:274 [main] INFO  log init finished.
+2016-07-28 15:12:35:347 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 15:12:35 CST 2016]; root of context hierarchy
+2016-07-28 15:12:35:390 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 15:12:35:460 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 15:12:35:535 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 15:12:35:535 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 15:12:35:543 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 15:12:35:716 [main] INFO  module init finished.
+2016-07-28 15:12:43:151 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 15:12:43:169 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 15:12:43:173 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 15:12:43:173 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:12:43:174 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:12:44:152 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 15:12:48:174 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:12:48:176 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:12:53:173 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:12:53:176 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:14:20:278 [main] INFO  log init finished.
+2016-07-28 15:14:20:345 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Thu Jul 28 15:14:20 CST 2016]; root of context hierarchy
+2016-07-28 15:14:20:382 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 15:14:20:453 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 15:14:20:526 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 15:14:20:527 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 15:14:20:536 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 15:14:20:701 [main] INFO  module init finished.
+2016-07-28 15:16:45:626 [main] INFO  log init finished.
+2016-07-28 15:16:45:696 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 15:16:45 CST 2016]; root of context hierarchy
+2016-07-28 15:16:45:735 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 15:16:45:805 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 15:16:45:881 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 15:16:45:882 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 15:16:45:889 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 15:16:46:060 [main] INFO  module init finished.
+2016-07-28 15:16:50:415 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 15:16:50:434 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 15:16:50:437 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 15:16:50:438 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:16:50:438 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:16:51:415 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 15:16:55:439 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:16:55:441 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:22:18:596 [main] INFO  log init finished.
+2016-07-28 15:22:18:666 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 15:22:18 CST 2016]; root of context hierarchy
+2016-07-28 15:22:18:705 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 15:22:18:777 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 15:22:18:852 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 15:22:18:853 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 15:22:18:862 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 15:22:19:034 [main] INFO  module init finished.
+2016-07-28 15:22:22:824 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 15:22:22:844 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 15:22:22:845 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: readerIndex(4) + length(2) exceeds writerIndex(4): UnpooledUnsafeDirectByteBuf(ridx: 4, widx: 4, cap: 4)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.IndexOutOfBoundsException: readerIndex(4) + length(2) exceeds writerIndex(4): UnpooledUnsafeDirectByteBuf(ridx: 4, widx: 4, cap: 4)
+	at io.netty.buffer.AbstractByteBuf.checkReadableBytes(AbstractByteBuf.java:1161)
+	at io.netty.buffer.AbstractByteBuf.readShort(AbstractByteBuf.java:582)
+	at com.neu.client.decoder.LoginResponseDecoder.doDecode(LoginResponseDecoder.java:28)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:38)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-28 15:22:23:826 [AWT-EventQueue-0] ERROR 未知错误
+2016-07-28 15:28:04:083 [main] INFO  log init finished.
+2016-07-28 15:28:04:150 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 15:28:04 CST 2016]; root of context hierarchy
+2016-07-28 15:28:04:187 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 15:28:04:258 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 15:28:04:333 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 15:28:04:333 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 15:28:04:341 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 15:28:04:509 [main] INFO  module init finished.
+2016-07-28 15:28:20:369 [main] INFO  log init finished.
+2016-07-28 15:28:20:439 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Thu Jul 28 15:28:20 CST 2016]; root of context hierarchy
+2016-07-28 15:28:20:477 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 15:28:20:546 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 15:28:20:621 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 15:28:20:621 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 15:28:20:629 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 15:28:20:798 [main] INFO  module init finished.
+2016-07-28 15:28:25:599 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 15:28:26:601 [AWT-EventQueue-0] ERROR 未知错误
+2016-07-28 15:28:44:999 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 15:28:45:001 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: readerIndex(4) + length(2) exceeds writerIndex(4): UnpooledUnsafeDirectByteBuf(ridx: 4, widx: 4, cap: 4)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.IndexOutOfBoundsException: readerIndex(4) + length(2) exceeds writerIndex(4): UnpooledUnsafeDirectByteBuf(ridx: 4, widx: 4, cap: 4)
+	at io.netty.buffer.AbstractByteBuf.checkReadableBytes(AbstractByteBuf.java:1161)
+	at io.netty.buffer.AbstractByteBuf.readShort(AbstractByteBuf.java:582)
+	at com.neu.client.decoder.LoginResponseDecoder.doDecode(LoginResponseDecoder.java:28)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:38)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-28 15:30:24:264 [main] INFO  log init finished.
+2016-07-28 15:30:24:339 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@364641: startup date [Thu Jul 28 15:30:24 CST 2016]; root of context hierarchy
+2016-07-28 15:30:24:378 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 15:30:24:454 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 15:30:24:534 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 15:30:24:534 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 15:30:24:543 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18b1f8f: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 15:30:24:733 [main] INFO  module init finished.
+2016-07-28 15:30:28:485 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 15:30:28:517 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 15:30:29:488 [AWT-EventQueue-0] ERROR 未知错误
+2016-07-28 15:36:54:841 [main] INFO  log init finished.
+2016-07-28 15:36:54:910 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 15:36:54 CST 2016]; root of context hierarchy
+2016-07-28 15:36:54:950 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 15:36:55:020 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 15:36:55:095 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 15:36:55:095 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 15:36:55:103 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 15:36:55:264 [main] INFO  module init finished.
+2016-07-28 15:37:00:678 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 15:37:00:711 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 15:37:00:712 [nioEventLoopGroup-2-1] INFO  [用户名或密码错误]
+2016-07-28 15:37:01:680 [AWT-EventQueue-0] ERROR 用户名或密码错误
+2016-07-28 15:38:14:151 [main] INFO  log init finished.
+2016-07-28 15:38:14:229 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Thu Jul 28 15:38:14 CST 2016]; root of context hierarchy
+2016-07-28 15:38:14:267 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 15:38:14:336 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 15:38:14:409 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 15:38:14:409 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 15:38:14:418 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 15:38:14:588 [main] INFO  module init finished.
+2016-07-28 15:38:20:053 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 15:38:20:088 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 15:38:20:089 [nioEventLoopGroup-2-1] INFO  [用户名或密码错误]
+2016-07-28 15:38:21:055 [AWT-EventQueue-0] ERROR 用户名或密码错误
+2016-07-28 15:38:31:364 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 15:38:31:366 [nioEventLoopGroup-3-1] INFO  [LoginResponseDecoder]
+2016-07-28 15:38:31:370 [nioEventLoopGroup-3-1] INFO  心跳线程启动...
+2016-07-28 15:38:31:370 [nioEventLoopGroup-3-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:38:31:372 [nioEventLoopGroup-3-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:38:32:365 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 15:38:36:371 [nioEventLoopGroup-3-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:38:36:374 [nioEventLoopGroup-3-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:45:01:978 [main] INFO  log init finished.
+2016-07-28 15:45:02:049 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 15:45:02 CST 2016]; root of context hierarchy
+2016-07-28 15:45:02:088 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 15:45:02:158 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 15:45:02:231 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 15:45:02:232 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 15:45:02:240 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 15:45:02:402 [main] INFO  module init finished.
+2016-07-28 15:45:10:423 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 15:45:10:456 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 15:45:10:459 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 15:45:10:460 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:45:10:461 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:45:11:423 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 15:45:15:460 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:45:15:463 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:45:18:998 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=zhubx, message=qwe]
+2016-07-28 15:45:19:003 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 15:45:19:004 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 15:45:19:004 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 15:45:19:877 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=zhubx, message=qwe]
+2016-07-28 15:45:19:878 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 15:45:19:879 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 15:45:19:879 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 15:45:20:461 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:45:20:462 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:45:20:676 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=zhubx, message=qwe]
+2016-07-28 15:45:20:678 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 15:45:20:678 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 15:45:20:678 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 15:45:21:948 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=zhubx, message=sf]
+2016-07-28 15:45:21:950 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 15:45:21:950 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 15:45:21:951 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 15:45:22:772 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=zhubx, message=sdf]
+2016-07-28 15:45:22:773 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 15:45:22:774 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 15:45:22:774 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 15:45:23:804 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=zhubx, message=trtg]
+2016-07-28 15:45:23:805 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 15:45:23:806 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 15:45:23:806 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 15:45:24:781 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=zhubx, message=th]
+2016-07-28 15:45:24:782 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 15:45:24:782 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 15:45:24:783 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 15:45:25:460 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:45:25:461 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:45:25:693 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=zhubx, message=tg]
+2016-07-28 15:45:25:694 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 15:45:25:695 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 15:45:25:695 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 15:45:30:460 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:45:30:462 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:45:35:460 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:45:35:462 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:45:40:461 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:45:40:463 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:45:45:461 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:45:45:462 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:45:50:461 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:45:50:463 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:45:55:460 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:45:55:462 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:46:00:461 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:46:00:463 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:46:05:460 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:46:05:462 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 15:46:10:460 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 15:46:10:463 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:01:49:422 [main] INFO  log init finished.
+2016-07-28 16:01:49:494 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 16:01:49 CST 2016]; root of context hierarchy
+2016-07-28 16:01:49:531 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 16:01:49:607 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 16:01:49:680 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 16:01:49:680 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 16:01:49:688 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 16:01:49:854 [main] INFO  module init finished.
+2016-07-28 16:02:11:484 [main] INFO  log init finished.
+2016-07-28 16:02:11:557 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 16:02:11 CST 2016]; root of context hierarchy
+2016-07-28 16:02:11:594 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 16:02:11:674 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 16:02:11:746 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 16:02:11:746 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 16:02:11:754 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 16:02:11:926 [main] INFO  module init finished.
+2016-07-28 16:02:15:595 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 16:02:15:615 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 16:02:15:618 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 16:02:15:618 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:02:15:619 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:02:16:596 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 16:02:20:618 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:02:20:621 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:02:25:618 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:02:25:620 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:07:46:806 [main] INFO  log init finished.
+2016-07-28 16:07:46:879 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 16:07:46 CST 2016]; root of context hierarchy
+2016-07-28 16:07:46:918 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 16:07:46:990 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 16:07:47:065 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 16:07:47:065 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 16:07:47:073 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 16:07:47:252 [main] INFO  module init finished.
+2016-07-28 16:07:52:184 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 16:07:52:202 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 16:07:52:205 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 16:07:52:206 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:07:52:207 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:07:53:185 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 16:07:57:206 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:07:57:208 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:08:02:206 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:08:02:208 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:31:06:255 [main] INFO  log init finished.
+2016-07-28 16:31:06:334 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 16:31:06 CST 2016]; root of context hierarchy
+2016-07-28 16:31:06:372 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 16:31:06:445 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 16:31:06:519 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 16:31:06:519 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 16:31:06:529 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 16:31:06:694 [main] INFO  module init finished.
+2016-07-28 16:31:14:023 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 16:31:14:042 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 16:31:14:046 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 16:31:14:047 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:31:14:047 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:31:15:023 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 16:31:19:047 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:31:19:048 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:31:24:047 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:31:24:049 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:33:03:583 [main] INFO  log init finished.
+2016-07-28 16:33:03:653 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 16:33:03 CST 2016]; root of context hierarchy
+2016-07-28 16:33:03:690 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 16:33:03:761 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 16:33:03:836 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 16:33:03:836 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 16:33:03:844 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 16:33:04:009 [main] INFO  module init finished.
+2016-07-28 16:34:12:884 [main] INFO  log init finished.
+2016-07-28 16:34:12:959 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Thu Jul 28 16:34:12 CST 2016]; root of context hierarchy
+2016-07-28 16:34:12:998 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 16:34:13:070 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 16:34:13:145 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 16:34:13:146 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 16:34:13:153 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 16:34:13:319 [main] INFO  module init finished.
+2016-07-28 16:34:17:384 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 16:34:17:402 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 16:34:17:405 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 16:34:17:406 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:34:17:407 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:34:18:385 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 16:34:22:406 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:34:22:408 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:45:10:648 [main] INFO  log init finished.
+2016-07-28 16:45:10:717 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 16:45:10 CST 2016]; root of context hierarchy
+2016-07-28 16:45:10:756 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 16:45:10:828 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 16:45:10:905 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 16:45:10:905 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 16:45:10:913 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 16:45:11:076 [main] INFO  module init finished.
+2016-07-28 16:45:15:918 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 16:45:15:937 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 16:45:15:941 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 16:45:15:941 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:45:15:942 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:45:16:919 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 16:45:20:942 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:45:20:944 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:45:27:551 [main] INFO  log init finished.
+2016-07-28 16:45:27:622 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 16:45:27 CST 2016]; root of context hierarchy
+2016-07-28 16:45:27:662 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 16:45:27:733 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 16:45:27:808 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 16:45:27:808 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 16:45:27:816 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 16:45:27:982 [main] INFO  module init finished.
+2016-07-28 16:45:31:996 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 16:45:32:014 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 16:45:32:017 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 16:45:32:018 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:45:32:019 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:45:32:997 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 16:45:37:019 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:45:37:021 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:45:42:019 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:45:42:021 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:45:47:018 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:45:47:019 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:45:52:018 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:45:52:020 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:45:57:018 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:45:57:019 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:46:02:018 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:46:02:021 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:46:07:018 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:46:07:020 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:46:12:018 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:46:12:020 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:46:29:645 [main] INFO  log init finished.
+2016-07-28 16:46:29:714 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 16:46:29 CST 2016]; root of context hierarchy
+2016-07-28 16:46:29:753 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 16:46:29:825 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 16:46:29:898 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 16:46:29:899 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 16:46:29:906 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 16:46:30:072 [main] INFO  module init finished.
+2016-07-28 16:46:34:755 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 16:46:34:775 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 16:46:34:778 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 16:46:34:778 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:46:34:779 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:46:35:756 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 16:46:39:778 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:46:39:781 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:46:44:779 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:46:44:781 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:47:06:883 [main] INFO  log init finished.
+2016-07-28 16:47:06:955 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 16:47:06 CST 2016]; root of context hierarchy
+2016-07-28 16:47:06:995 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 16:47:07:067 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 16:47:07:182 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 16:47:07:182 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 16:47:07:190 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 16:47:07:359 [main] INFO  module init finished.
+2016-07-28 16:47:12:592 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 16:47:12:611 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 16:47:12:614 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 16:47:12:614 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:47:12:615 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:47:13:592 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 16:47:17:614 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:47:17:616 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:47:22:616 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:47:22:618 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:47:27:614 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:47:27:616 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:47:32:615 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:47:32:616 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:48:08:248 [main] INFO  log init finished.
+2016-07-28 16:48:08:321 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 16:48:08 CST 2016]; root of context hierarchy
+2016-07-28 16:48:08:361 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 16:48:08:432 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 16:48:08:507 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 16:48:08:507 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 16:48:08:515 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 16:48:08:682 [main] INFO  module init finished.
+2016-07-28 16:48:13:509 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 16:48:13:527 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 16:48:13:530 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 16:48:13:531 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:48:13:532 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:48:14:509 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 16:48:18:532 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:48:18:535 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:48:23:530 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:48:23:532 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:48:28:531 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:48:28:533 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 16:48:33:530 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 16:48:33:532 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:06:28:698 [main] INFO  log init finished.
+2016-07-28 17:06:28:770 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 17:06:28 CST 2016]; root of context hierarchy
+2016-07-28 17:06:28:810 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 17:06:28:880 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 17:06:28:956 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 17:06:28:956 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 17:06:28:963 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder]; root of factory hierarchy
+2016-07-28 17:06:29:142 [main] INFO  module init finished.
+2016-07-28 17:06:33:617 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 17:06:33:636 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 17:06:33:639 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 17:06:33:640 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:06:33:641 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:06:34:618 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 17:06:38:640 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:06:38:642 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:06:42:060 [nioEventLoopGroup-2-1] INFO  [没有对应的encoder]com.neu.client.bean.O2OMessage
+2016-07-28 17:06:43:640 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:06:43:643 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:06:48:640 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:06:48:643 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:07:55:230 [main] INFO  log init finished.
+2016-07-28 17:07:55:304 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 17:07:55 CST 2016]; root of context hierarchy
+2016-07-28 17:07:55:341 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 17:07:55:410 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 17:07:55:484 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 17:07:55:485 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 17:07:55:493 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1cb52ae: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 17:07:55:665 [main] INFO  module init finished.
+2016-07-28 17:08:00:026 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 17:08:00:045 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 17:08:00:048 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 17:08:00:049 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:08:00:050 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:08:01:026 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 17:08:05:049 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:08:05:051 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:08:05:379 [nioEventLoopGroup-2-1] INFO  [O2OMessageEncoder]O2OMessage [incept=zhubx, message=nihao, sender=xu]
+2016-07-28 17:08:05:383 [nioEventLoopGroup-2-1] INFO  [没有对应的Decoder]
+2016-07-28 17:08:10:049 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:08:10:050 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:08:15:048 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:08:15:051 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:14:16:948 [main] INFO  log init finished.
+2016-07-28 17:14:17:023 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Thu Jul 28 17:14:17 CST 2016]; root of context hierarchy
+2016-07-28 17:14:17:061 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 17:14:17:133 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 17:14:17:209 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 17:14:17:210 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 17:14:17:218 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 17:14:17:382 [main] INFO  module init finished.
+2016-07-28 17:14:21:483 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 17:14:21:502 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 17:14:21:505 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 17:14:21:506 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:14:21:506 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:14:22:484 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 17:14:26:506 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:14:26:507 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:14:31:506 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:14:31:508 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:14:34:924 [nioEventLoopGroup-2-1] INFO  [O2OMessageEncoder]O2OMessage [incept=zhubx, message=nihao, sender=xu]
+2016-07-28 17:14:34:927 [nioEventLoopGroup-2-1] INFO  [O2OMessageResponseDecoder]
+2016-07-28 17:14:34:928 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2OMessageResponse
+2016-07-28 17:14:36:506 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:14:36:508 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:14:41:506 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:14:41:508 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:14:45:154 [nioEventLoopGroup-2-1] INFO  [O2OMessageEncoder]O2OMessage [incept=zhubx, message=haha, sender=xu]
+2016-07-28 17:14:45:157 [nioEventLoopGroup-2-1] INFO  [O2OMessageResponseDecoder]
+2016-07-28 17:14:45:157 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2OMessageResponse
+2016-07-28 17:14:46:506 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:14:46:508 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:14:51:506 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:14:51:508 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:25:31:888 [main] INFO  log init finished.
+2016-07-28 17:25:31:961 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 17:25:31 CST 2016]; root of context hierarchy
+2016-07-28 17:25:31:999 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 17:25:32:070 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 17:25:32:147 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 17:25:32:147 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 17:25:32:156 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1cb52ae: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 17:25:32:328 [main] INFO  module init finished.
+2016-07-28 17:25:36:699 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 17:25:36:719 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 17:25:36:722 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 17:25:36:723 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:25:36:723 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:25:37:700 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 17:25:41:723 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:25:41:725 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:25:46:723 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:25:46:725 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:25:51:723 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:25:51:725 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:25:52:575 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 17:25:56:723 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:25:56:725 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:25:57:499 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=xu, message=nihao]
+2016-07-28 17:25:57:502 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 17:25:57:502 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 17:25:57:503 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 17:26:01:723 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:26:01:725 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:26:02:627 [nioEventLoopGroup-2-1] INFO  [O2OMessageEncoder]O2OMessage [incept=zhubx, message=haha, sender=xu]
+2016-07-28 17:26:02:629 [nioEventLoopGroup-2-1] INFO  [O2OMessageResponseDecoder]
+2016-07-28 17:26:02:629 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2OMessageResponse
+2016-07-28 17:26:06:723 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:26:06:725 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:26:11:723 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:26:11:725 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:33:34:991 [main] INFO  log init finished.
+2016-07-28 17:33:35:060 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 17:33:35 CST 2016]; root of context hierarchy
+2016-07-28 17:33:35:098 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 17:33:35:169 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 17:33:35:246 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 17:33:35:246 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 17:33:35:255 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1cb52ae: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 17:33:35:433 [main] INFO  module init finished.
+2016-07-28 17:33:39:860 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 17:33:39:879 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 17:33:39:882 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 17:33:39:883 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:33:39:884 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:33:40:862 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 17:33:44:884 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:33:44:885 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:33:49:884 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:33:49:886 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:33:52:368 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 17:33:54:884 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:33:54:886 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:33:59:883 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:33:59:885 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:34:04:884 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:34:04:886 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:34:05:815 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 17:34:08:982 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 17:34:09:884 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:34:09:886 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:34:14:884 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:34:14:886 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:34:19:884 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:34:19:885 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:35:28:548 [main] INFO  log init finished.
+2016-07-28 17:35:28:621 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@13e754f: startup date [Thu Jul 28 17:35:28 CST 2016]; root of context hierarchy
+2016-07-28 17:35:28:661 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 17:35:28:735 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 17:35:28:816 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 17:35:28:816 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 17:35:28:826 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2d0479: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 17:35:29:016 [main] INFO  module init finished.
+2016-07-28 17:35:42:669 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 17:35:42:697 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 17:35:42:702 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 17:35:42:702 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:35:42:703 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:35:43:670 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 17:35:47:445 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=xu, message=nihao]
+2016-07-28 17:35:47:447 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 17:36:02:522 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:36:02:522 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 17:36:02:523 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 17:36:02:523 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:36:02:524 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:36:02:524 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:36:02:525 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:36:02:525 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:36:02:703 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:36:02:705 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:36:07:703 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:36:07:706 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:36:12:704 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:36:12:707 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:36:17:703 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:36:17:705 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:36:17:944 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 17:36:30:186 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:36:30:186 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:36:30:187 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:36:30:188 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:36:32:703 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:36:32:703 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:36:37:702 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:36:37:704 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:36:42:703 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:36:42:706 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:36:47:702 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:36:47:703 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:36:52:703 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:36:52:705 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:36:57:703 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:36:57:705 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:37:02:702 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:37:02:704 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:37:07:703 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:37:07:705 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:37:12:703 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:37:12:705 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:37:17:703 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:37:17:705 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:37:17:975 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 17:37:17:977 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 17:37:22:703 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:37:22:704 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:37:27:702 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:37:27:704 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:38:10:505 [main] INFO  log init finished.
+2016-07-28 17:38:10:577 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 17:38:10 CST 2016]; root of context hierarchy
+2016-07-28 17:38:10:615 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 17:38:10:687 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 17:38:10:762 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 17:38:10:762 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 17:38:10:770 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1cb52ae: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 17:38:10:934 [main] INFO  module init finished.
+2016-07-28 17:38:15:687 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 17:38:15:707 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 17:38:15:710 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 17:38:15:710 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:38:15:712 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:38:16:688 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 17:38:19:788 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=xu, message=ni]
+2016-07-28 17:38:19:791 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 17:38:19:792 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 17:38:19:793 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 17:38:20:710 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:38:20:712 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:38:35:512 [main] INFO  log init finished.
+2016-07-28 17:38:35:584 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Thu Jul 28 17:38:35 CST 2016]; root of context hierarchy
+2016-07-28 17:38:35:621 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 17:38:35:697 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 17:38:35:772 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 17:38:35:773 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 17:38:35:782 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 17:38:35:950 [main] INFO  module init finished.
+2016-07-28 17:38:39:889 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 17:38:39:926 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 17:38:39:929 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 17:38:39:930 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:38:39:931 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:38:40:889 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 17:38:42:475 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=xu, message=sdf]
+2016-07-28 17:38:44:930 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:38:49:930 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:38:51:824 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:446)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:871)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:208)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+2016-07-28 17:39:51:461 [main] INFO  log init finished.
+2016-07-28 17:39:51:533 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 17:39:51 CST 2016]; root of context hierarchy
+2016-07-28 17:39:51:571 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 17:39:51:644 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 17:39:51:717 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 17:39:51:717 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 17:39:51:725 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1cb52ae: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 17:39:51:889 [main] INFO  module init finished.
+2016-07-28 17:39:56:707 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 17:39:56:739 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 17:39:56:742 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 17:39:56:743 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:39:56:744 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:39:57:707 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 17:39:59:955 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=xu, message=a]
+2016-07-28 17:39:59:959 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 17:39:59:960 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 17:39:59:960 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 17:40:01:743 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:40:01:744 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:40:05:816 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 17:40:05:817 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 17:40:06:743 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:40:06:745 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:40:11:744 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:40:11:747 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:40:16:743 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:40:16:746 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:40:17:329 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 17:40:21:744 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:40:21:747 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:40:26:744 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:40:26:746 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:41:25:572 [main] INFO  log init finished.
+2016-07-28 17:41:25:647 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@13e754f: startup date [Thu Jul 28 17:41:25 CST 2016]; root of context hierarchy
+2016-07-28 17:41:25:686 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 17:41:25:760 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 17:41:25:844 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 17:41:25:844 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 17:41:25:853 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2d0479: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 17:41:26:044 [main] INFO  module init finished.
+2016-07-28 17:41:29:594 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 17:41:29:619 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 17:41:29:622 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 17:41:29:623 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:41:29:624 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:41:30:595 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 17:41:33:107 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=xu, message=123]
+2016-07-28 17:41:33:109 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 17:43:29:325 [main] INFO  log init finished.
+2016-07-28 17:43:29:395 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Thu Jul 28 17:43:29 CST 2016]; root of context hierarchy
+2016-07-28 17:43:29:432 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 17:43:29:505 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 17:43:29:579 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 17:43:29:579 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 17:43:29:589 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 17:43:29:759 [main] INFO  module init finished.
+2016-07-28 17:43:34:123 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 17:43:34:141 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 17:43:34:144 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 17:43:34:145 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:43:34:146 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:43:35:124 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 17:43:38:227 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=xu, message=sdf]
+2016-07-28 17:43:38:229 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 17:43:38:230 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 17:43:38:231 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 17:43:39:145 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:43:39:147 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:43:44:146 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:43:44:149 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:43:49:146 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:43:49:148 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:43:52:056 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 17:43:52:057 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 17:43:54:146 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:43:54:149 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:43:59:146 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:43:59:149 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:43:59:968 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 17:44:03:618 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 17:44:03:618 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 17:44:04:145 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:44:04:148 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:44:09:145 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:44:09:148 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:56:44:039 [main] INFO  log init finished.
+2016-07-28 17:56:44:107 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Thu Jul 28 17:56:44 CST 2016]; root of context hierarchy
+2016-07-28 17:56:44:149 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 17:56:44:220 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 17:56:44:297 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 17:56:44:297 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 17:56:44:306 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 17:56:44:470 [main] INFO  module init finished.
+2016-07-28 17:56:48:708 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 17:56:48:743 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 17:56:48:747 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 17:56:48:747 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:56:48:749 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:56:49:709 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 17:56:53:748 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:56:53:751 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:56:58:748 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:56:58:752 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:57:03:748 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:57:03:750 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:57:08:748 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:57:08:750 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:57:13:748 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:57:13:750 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:57:18:748 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:57:18:751 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:57:23:748 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:57:23:749 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:57:25:567 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:25)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:446)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:871)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:208)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+2016-07-28 17:57:47:411 [main] INFO  log init finished.
+2016-07-28 17:57:47:478 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 17:57:47 CST 2016]; root of context hierarchy
+2016-07-28 17:57:47:518 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 17:57:47:590 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 17:57:47:665 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 17:57:47:665 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 17:57:47:673 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d85cc: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 17:57:47:840 [main] INFO  module init finished.
+2016-07-28 17:57:53:963 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 17:57:53:982 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 17:57:53:985 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 17:57:53:986 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:57:53:987 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:57:54:964 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 17:57:58:986 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:57:58:988 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:58:03:986 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:58:03:989 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:58:08:985 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:58:08:988 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:58:09:883 [nioEventLoopGroup-2-1] INFO  [O2OMessageEncoder]O2OMessage [incept=xu, message=单条测试, sender=zhubx]
+2016-07-28 17:58:09:887 [nioEventLoopGroup-2-1] INFO  [O2OMessageResponseDecoder]
+2016-07-28 17:58:09:888 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2OMessageResponse
+2016-07-28 17:58:13:986 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:58:13:989 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:59:12:242 [main] INFO  log init finished.
+2016-07-28 17:59:12:311 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Thu Jul 28 17:59:12 CST 2016]; root of context hierarchy
+2016-07-28 17:59:12:350 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 17:59:12:438 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 17:59:12:522 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 17:59:12:522 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 17:59:12:530 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 17:59:12:703 [main] INFO  module init finished.
+2016-07-28 17:59:21:233 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 17:59:21:252 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 17:59:21:255 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 17:59:21:255 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:59:21:256 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:59:22:233 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 17:59:26:255 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:59:26:258 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:59:31:255 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:59:31:257 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:59:36:256 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:59:36:258 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:59:36:610 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 17:59:41:255 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:59:41:257 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 17:59:45:746 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 17:59:45:747 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 17:59:46:255 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 17:59:46:256 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:00:27:653 [main] INFO  log init finished.
+2016-07-28 18:00:27:724 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 18:00:27 CST 2016]; root of context hierarchy
+2016-07-28 18:00:27:763 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 18:00:27:836 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 18:00:27:908 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 18:00:27:908 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 18:00:27:918 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1cb52ae: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 18:00:28:082 [main] INFO  module init finished.
+2016-07-28 18:00:33:688 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 18:00:33:707 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 18:00:33:710 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 18:00:33:711 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:00:33:712 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:00:34:688 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 18:00:38:711 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:00:38:714 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:00:43:711 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:00:43:714 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:00:48:711 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:00:48:713 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:00:53:711 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:00:53:714 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:00:55:841 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 18:00:57:229 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 18:00:57:741 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 18:00:58:142 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 18:00:58:711 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:00:58:714 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:00:59:094 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 18:01:03:160 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 18:01:03:711 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:01:03:714 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:01:06:164 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 18:01:06:164 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 18:01:08:711 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:01:08:714 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:01:53:287 [main] INFO  log init finished.
+2016-07-28 18:01:53:357 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 18:01:53 CST 2016]; root of context hierarchy
+2016-07-28 18:01:53:396 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 18:01:53:465 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 18:01:53:539 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 18:01:53:539 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 18:01:53:548 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1cb52ae: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 18:01:53:712 [main] INFO  module init finished.
+2016-07-28 18:02:25:924 [main] INFO  log init finished.
+2016-07-28 18:02:25:996 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 18:02:25 CST 2016]; root of context hierarchy
+2016-07-28 18:02:26:035 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 18:02:26:107 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 18:02:26:181 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 18:02:26:182 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 18:02:26:191 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1cb52ae: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 18:02:26:360 [main] INFO  module init finished.
+2016-07-28 18:02:30:812 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 18:02:30:834 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 18:02:30:838 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 18:02:30:839 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:02:30:839 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:02:31:814 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 18:02:35:838 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:02:35:839 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:02:40:838 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:02:40:840 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:02:45:839 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:02:45:841 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:02:50:839 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:02:50:841 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:02:55:839 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:02:55:842 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:03:08:438 [main] INFO  log init finished.
+2016-07-28 18:03:08:512 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 18:03:08 CST 2016]; root of context hierarchy
+2016-07-28 18:03:08:549 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 18:03:08:622 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 18:03:08:699 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 18:03:08:700 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 18:03:08:708 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1cb52ae: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 18:03:08:873 [main] INFO  module init finished.
+2016-07-28 18:03:12:659 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 18:03:12:679 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 18:03:12:682 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 18:03:12:683 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:03:12:684 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:03:13:660 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 18:03:17:684 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:03:17:687 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:03:22:683 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:03:22:685 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:03:23:816 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 18:03:27:538 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 18:03:27:539 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 18:03:27:684 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:03:27:686 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:03:30:770 [nioEventLoopGroup-2-1] INFO  [O2OMessageEncoder]O2OMessage [incept=zhubx, message=haha, sender=xu]
+2016-07-28 18:03:30:775 [nioEventLoopGroup-2-1] INFO  [O2OMessageResponseDecoder]
+2016-07-28 18:03:30:775 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2OMessageResponse
+2016-07-28 18:03:32:684 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:03:32:687 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:03:37:684 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:03:37:686 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:03:42:684 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:03:42:686 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:03:47:683 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:03:47:685 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:03:52:683 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:03:52:685 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:04:30:864 [main] INFO  log init finished.
+2016-07-28 18:04:30:938 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 18:04:30 CST 2016]; root of context hierarchy
+2016-07-28 18:04:30:976 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 18:04:31:045 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 18:04:31:120 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 18:04:31:120 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 18:04:31:128 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1cb52ae: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 18:04:31:291 [main] INFO  module init finished.
+2016-07-28 18:04:34:981 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 18:04:35:000 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 18:04:35:003 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 18:04:35:003 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:04:35:004 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:04:35:983 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 18:04:40:004 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:04:40:006 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:04:40:455 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 18:04:40:456 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 18:04:45:004 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:04:45:006 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:04:50:004 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:04:50:006 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:04:55:004 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:04:55:006 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:05:00:003 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:05:00:006 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:05:05:003 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:05:05:004 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:05:08:096 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 18:05:10:004 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:05:10:006 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:05:15:004 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:05:15:006 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:05:20:005 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:05:20:007 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:05:20:875 [nioEventLoopGroup-2-1] INFO  [O2OMessageEncoder]O2OMessage [incept=zhubx, message=haha, sender=xu]
+2016-07-28 18:05:20:877 [nioEventLoopGroup-2-1] INFO  [O2OMessageResponseDecoder]
+2016-07-28 18:05:20:877 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2OMessageResponse
+2016-07-28 18:05:25:005 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:05:25:006 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:05:30:004 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:05:30:006 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:05:35:004 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:05:35:006 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:05:40:004 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:05:40:006 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:05:43:322 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 18:05:43:322 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 18:07:03:906 [main] INFO  log init finished.
+2016-07-28 18:07:03:979 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Thu Jul 28 18:07:03 CST 2016]; root of context hierarchy
+2016-07-28 18:07:04:016 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 18:07:04:090 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 18:07:04:166 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 18:07:04:166 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 18:07:04:174 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 18:07:04:344 [main] INFO  module init finished.
+2016-07-28 18:07:08:072 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 18:07:08:092 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 18:07:08:095 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 18:07:08:095 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:07:08:096 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:07:09:073 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 18:07:13:096 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:07:13:098 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:07:18:095 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:07:18:096 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:07:23:095 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:07:23:098 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:07:28:096 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:07:28:096 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:14:02:131 [main] INFO  log init finished.
+2016-07-28 18:14:02:202 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Thu Jul 28 18:14:02 CST 2016]; root of context hierarchy
+2016-07-28 18:14:02:242 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 18:14:02:312 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 18:14:02:387 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 18:14:02:388 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 18:14:02:397 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 18:14:02:570 [main] INFO  module init finished.
+2016-07-28 18:14:07:608 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 18:14:07:628 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 18:14:07:631 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 18:14:07:632 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:14:07:633 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:14:08:609 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 18:14:08:666 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 18:14:12:632 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:14:12:635 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:14:13:282 [nioEventLoopGroup-2-1] INFO  [O2OMessageEncoder]O2OMessage [incept=liufanhua, message=nihao a, sender=zhubx]
+2016-07-28 18:14:13:286 [nioEventLoopGroup-2-1] INFO  [O2OMessageResponseDecoder]
+2016-07-28 18:14:13:287 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2OMessageResponse
+2016-07-28 18:14:17:632 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:14:17:634 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:14:22:159 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 18:14:22:441 [nioEventLoopGroup-2-1] INFO  [O2OMessageEncoder]O2OMessage [incept=liufanhua, message=干啥呢, sender=zhubx]
+2016-07-28 18:14:22:443 [nioEventLoopGroup-2-1] INFO  [O2OMessageResponseDecoder]
+2016-07-28 18:14:22:443 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2OMessageResponse
+2016-07-28 18:14:22:633 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:14:22:635 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:14:27:632 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:14:27:634 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:14:29:428 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 18:14:31:820 [nioEventLoopGroup-2-1] INFO  [O2MMessageEncoder]O2MMessage [sender=zhubx, message=lalala]
+2016-07-28 18:14:31:821 [nioEventLoopGroup-2-1] INFO  [ServerMessageDecoder]
+2016-07-28 18:14:31:822 [nioEventLoopGroup-2-1] INFO  [O2MMessageResponseDecoder]
+2016-07-28 18:14:31:822 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2MMessageResponse
+2016-07-28 18:14:32:631 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:14:32:634 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:14:37:632 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:14:37:634 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:14:41:897 [nioEventLoopGroup-2-1] INFO  [O2OMessageEncoder]O2OMessage [incept=liufanhua, message=哦 啥豆豆, sender=zhubx]
+2016-07-28 18:14:41:899 [nioEventLoopGroup-2-1] INFO  [O2OMessageResponseDecoder]
+2016-07-28 18:14:41:899 [nioEventLoopGroup-2-1] INFO  [没有对应的handler]com.neu.client.bean.O2OMessageResponse
+2016-07-28 18:14:42:633 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:14:42:635 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:14:47:632 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:14:47:634 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:14:52:633 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:14:52:635 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:17:37:637 [main] INFO  log init finished.
+2016-07-28 18:17:37:708 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Thu Jul 28 18:17:37 CST 2016]; root of context hierarchy
+2016-07-28 18:17:37:746 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-28 18:17:37:816 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-28 18:17:37:891 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-28 18:17:37:892 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-28 18:17:37:900 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1cb52ae: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view,loginHandler,serverMsgHandler,updateMessageHandler,loginResponseDecoder,o2MMessageResponseDecoder,serverMessageDecoder,hearBeatResponseDecoder,updateMessageDecoder,o2OMessageResponseDecoder,o2MMessageEncoder,heartBeatEncoder,o2OMessageEncoder]; root of factory hierarchy
+2016-07-28 18:17:38:069 [main] INFO  module init finished.
+2016-07-28 18:17:41:875 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-28 18:17:41:895 [nioEventLoopGroup-2-1] INFO  [LoginResponseDecoder]
+2016-07-28 18:17:41:898 [nioEventLoopGroup-2-1] INFO  心跳线程启动...
+2016-07-28 18:17:41:898 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:17:41:899 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:17:42:875 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-28 18:17:46:899 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:17:46:901 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:17:51:898 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:17:51:900 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:17:56:899 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:17:56:901 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:18:01:898 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:18:01:900 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:18:06:898 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:18:06:900 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:18:11:898 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:18:11:900 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:18:16:898 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:18:16:901 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:18:21:898 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:18:21:900 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:18:26:898 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:18:26:901 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:18:31:900 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:18:31:902 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:18:32:876 [nioEventLoopGroup-2-1] INFO  [UpdateMessageDecoder]
+2016-07-28 18:18:32:878 [nioEventLoopGroup-2-1] INFO  [UpdateMessageHandler]
+2016-07-28 18:18:36:898 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:18:36:900 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:18:41:899 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:18:41:901 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]
+2016-07-28 18:18:46:898 [nioEventLoopGroup-2-1] INFO  [HeartBeatEncoder]
+2016-07-28 18:18:46:900 [nioEventLoopGroup-2-1] INFO  [HearBeatResponseDecoder]

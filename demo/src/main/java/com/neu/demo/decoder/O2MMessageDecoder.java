@@ -15,9 +15,10 @@ public class O2MMessageDecoder implements IDecoder{
 			ChannelBuffer buffer) {
 		// TODO Auto-generated method stub
 		short len = buffer.readShort();
-		String sender = buffer.readBytes(30).toString(Charset.forName(GlobalConstant.CHARSET_UTF8));
+		String sender = buffer.readBytes(30).toString(Charset.forName(GlobalConstant.CHARSET_UTF8)).trim();
 		String message = buffer.readBytes(len - 30).toString(Charset.forName(GlobalConstant.CHARSET_UTF8));
 		O2MMessage m = new O2MMessage();
+		m.setMsglength(len);
 		m.setCommandId((byte)0x0003);
 		m.setSender(sender);
 		m.setMessage(message);

@@ -106,4 +106,13 @@ public class StringUtil {
 	 private static byte charToByte(char c) {  
 	    return (byte) "0123456789ABCDEF".indexOf(c);  
 	}  
+	 
+	 /**
+	  * 将sring空格补位 30
+	  * @param string
+	  * @return
+	  */
+	 public static String get30String(String string){
+			return String.format("%-30s", string);
+		}
 }

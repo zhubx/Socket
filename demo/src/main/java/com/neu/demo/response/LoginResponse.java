@@ -47,4 +47,9 @@ public class LoginResponse extends ProtocolMsg{
 		this.onlinuser = onlinuser;
 	}
 	
+	public String msgDetail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 }

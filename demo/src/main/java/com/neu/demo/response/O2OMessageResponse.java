@@ -14,5 +14,9 @@ public class O2OMessageResponse extends ProtocolMsg{
 		this.result = result;
 	}
 
+	public String msgDetail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }

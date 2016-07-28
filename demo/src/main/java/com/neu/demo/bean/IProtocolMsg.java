@@ -32,4 +32,6 @@ public interface IProtocolMsg {
     public static final byte COMMAND_ID_LEN = 1;
     
     
+    public String msgDetail();
+    
 }

@@ -1,0 +1,332 @@
+2016-07-22 16:04:38:125 [main] INFO  log init finished.
+2016-07-22 16:04:38:193 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 16:04:38 CST 2016]; root of context hierarchy
+2016-07-22 16:04:38:232 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 16:04:38:302 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 16:04:38:374 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 16:04:38:375 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 16:04:38:383 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1eec35: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,client]; root of factory hierarchy
+2016-07-22 16:04:38:384 [main] WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.neu.client.client.Client] for bean with name 'client' defined in class path resource [spring/components.xml]; nested exception is java.lang.ClassNotFoundException: com.neu.client.client.Client
+2016-07-22 16:04:38:384 [main] INFO  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1eec35: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,client]; root of factory hierarchy
+2016-07-22 16:05:26:854 [main] INFO  log init finished.
+2016-07-22 16:05:26:925 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 16:05:26 CST 2016]; root of context hierarchy
+2016-07-22 16:05:26:964 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 16:05:27:034 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 16:05:27:099 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 16:05:27:099 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 16:05:27:106 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,client]; root of factory hierarchy
+2016-07-22 16:06:21:220 [main] INFO  log init finished.
+2016-07-22 16:06:21:288 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 16:06:21 CST 2016]; root of context hierarchy
+2016-07-22 16:06:21:327 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 16:06:21:397 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 16:06:21:461 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 16:06:21:462 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 16:06:21:468 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,client]; root of factory hierarchy
+2016-07-22 16:06:22:647 [main] ERROR [客户端client初始化失败]
+2016-07-22 16:06:22:651 [main] WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in class path resource [spring/components.xml]: Invocation of init method failed; nested exception is java.net.ConnectException: Connection refused: no further information: /192.168.1.142:666
+2016-07-22 16:06:22:652 [main] INFO  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,client]; root of factory hierarchy
+2016-07-22 16:20:07:625 [main] INFO  log init finished.
+2016-07-22 16:20:07:697 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 16:20:07 CST 2016]; root of context hierarchy
+2016-07-22 16:20:07:741 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 16:20:07:809 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 16:20:07:875 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 16:20:07:875 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 16:20:07:882 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,client,view]; root of factory hierarchy
+2016-07-22 16:20:09:061 [main] ERROR [客户端client初始化失败]
+2016-07-22 16:20:09:065 [main] WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'client' defined in class path resource [spring/components.xml]: Invocation of init method failed; nested exception is java.net.ConnectException: Connection refused: no further information: /192.168.1.142:6666
+2016-07-22 16:20:09:065 [main] INFO  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77ef83: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,client,view]; root of factory hierarchy
+2016-07-22 16:20:43:666 [main] INFO  log init finished.
+2016-07-22 16:20:43:734 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 16:20:43 CST 2016]; root of context hierarchy
+2016-07-22 16:20:43:771 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 16:20:43:839 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 16:20:43:906 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 16:20:43:906 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 16:20:43:913 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1eec35: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,client,view]; root of factory hierarchy
+2016-07-22 16:21:44:141 [main] INFO  [客户端client初始化完成]
+2016-07-22 16:21:44:143 [main] ERROR [客户端client初始化失败]
+2016-07-22 16:21:44:275 [main] INFO  module init finished.
+2016-07-22 16:26:03:155 [main] INFO  log init finished.
+2016-07-22 16:26:03:226 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 16:26:03 CST 2016]; root of context hierarchy
+2016-07-22 16:26:03:263 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 16:26:03:333 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 16:26:03:398 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 16:26:03:399 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 16:26:03:406 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,client,view]; root of factory hierarchy
+2016-07-22 16:27:03:714 [main] INFO  [客户端client初始化完成]
+2016-07-22 16:27:03:716 [main] ERROR [客户端client初始化失败]
+2016-07-22 16:27:03:855 [main] INFO  module init finished.
+2016-07-22 16:30:47:555 [main] INFO  log init finished.
+2016-07-22 16:30:47:626 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 16:30:47 CST 2016]; root of context hierarchy
+2016-07-22 16:30:47:665 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 16:30:47:733 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 16:30:47:800 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 16:30:47:800 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 16:30:47:806 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,client,view]; root of factory hierarchy
+2016-07-22 16:31:48:117 [main] INFO  [客户端client初始化完成]
+2016-07-22 16:31:48:120 [main] ERROR [客户端client初始化失败]
+2016-07-22 16:31:48:269 [main] INFO  module init finished.
+2016-07-22 16:32:21:141 [main] INFO  log init finished.
+2016-07-22 16:32:21:214 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 16:32:21 CST 2016]; root of context hierarchy
+2016-07-22 16:32:21:251 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 16:32:21:322 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 16:32:21:387 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 16:32:21:388 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 16:32:21:394 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,client,view]; root of factory hierarchy
+2016-07-22 16:33:21:700 [main] INFO  [客户端client初始化完成]
+2016-07-22 16:33:21:702 [main] ERROR [客户端client初始化失败]
+2016-07-22 16:33:21:834 [main] INFO  module init finished.
+2016-07-22 16:36:09:100 [main] INFO  log init finished.
+2016-07-22 16:36:09:169 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 16:36:09 CST 2016]; root of context hierarchy
+2016-07-22 16:36:09:211 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 16:36:09:280 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 16:36:09:346 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 16:36:09:347 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 16:36:09:353 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,client,view]; root of factory hierarchy
+2016-07-22 16:37:09:666 [main] INFO  [客户端client初始化完成]
+2016-07-22 16:37:09:794 [main] INFO  module init finished.
+2016-07-22 17:10:57:409 [main] INFO  log init finished.
+2016-07-22 17:10:57:479 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@a1d1f4: startup date [Fri Jul 22 17:10:57 CST 2016]; root of context hierarchy
+2016-07-22 17:10:57:515 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 17:10:57:584 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 17:10:57:648 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 17:10:57:648 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 17:10:57:654 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@55a338: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 17:10:57:780 [main] INFO  module init finished.
+2016-07-22 17:13:17:290 [main] INFO  log init finished.
+2016-07-22 17:13:17:358 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 17:13:17 CST 2016]; root of context hierarchy
+2016-07-22 17:13:17:397 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 17:13:17:473 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 17:13:17:538 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 17:13:17:540 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 17:13:17:547 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4ee70b: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 17:13:17:673 [main] INFO  module init finished.
+2016-07-22 17:15:32:385 [main] INFO  log init finished.
+2016-07-22 17:15:32:455 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 17:15:32 CST 2016]; root of context hierarchy
+2016-07-22 17:15:32:491 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 17:15:32:561 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 17:15:32:624 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 17:15:32:625 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 17:15:32:631 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@22ab57: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 17:15:32:755 [main] INFO  module init finished.
+2016-07-22 17:18:51:917 [main] INFO  log init finished.
+2016-07-22 17:18:51:985 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@a1d1f4: startup date [Fri Jul 22 17:18:51 CST 2016]; root of context hierarchy
+2016-07-22 17:18:52:022 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 17:18:52:095 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 17:18:52:161 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 17:18:52:162 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 17:18:52:168 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@22ab57: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 17:18:52:296 [main] INFO  module init finished.
+2016-07-22 17:19:00:204 [main] INFO  log init finished.
+2016-07-22 17:19:00:272 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 17:19:00 CST 2016]; root of context hierarchy
+2016-07-22 17:19:00:309 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 17:19:00:379 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 17:19:00:444 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 17:19:00:444 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 17:19:00:451 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@22ab57: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 17:19:00:574 [main] INFO  module init finished.
+2016-07-22 17:22:44:238 [main] INFO  log init finished.
+2016-07-22 17:22:44:309 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 17:22:44 CST 2016]; root of context hierarchy
+2016-07-22 17:22:44:345 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 17:22:44:416 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 17:22:44:482 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 17:22:44:482 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 17:22:44:489 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@22ab57: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 17:22:44:617 [main] INFO  module init finished.
+2016-07-22 17:52:38:915 [main] INFO  log init finished.
+2016-07-22 17:52:38:988 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Fri Jul 22 17:52:38 CST 2016]; root of context hierarchy
+2016-07-22 17:52:39:025 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 17:52:39:100 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 17:52:39:166 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 17:52:39:166 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 17:52:39:173 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@55a338: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 17:52:39:303 [main] INFO  module init finished.
+2016-07-22 17:52:53:188 [main] INFO  log init finished.
+2016-07-22 17:52:53:256 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 17:52:53 CST 2016]; root of context hierarchy
+2016-07-22 17:52:53:292 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 17:52:53:366 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 17:52:53:430 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 17:52:53:430 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 17:52:53:438 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@22ab57: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 17:52:53:566 [main] INFO  module init finished.
+2016-07-22 17:53:45:868 [main] INFO  log init finished.
+2016-07-22 17:53:45:936 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 17:53:45 CST 2016]; root of context hierarchy
+2016-07-22 17:53:45:973 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 17:53:46:044 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 17:53:46:107 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 17:53:46:108 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 17:53:46:114 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@22ab57: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 17:53:46:198 [main] INFO  module init finished.
+2016-07-22 17:54:08:205 [main] INFO  log init finished.
+2016-07-22 17:54:08:273 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 17:54:08 CST 2016]; root of context hierarchy
+2016-07-22 17:54:08:311 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 17:54:08:381 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 17:54:08:446 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 17:54:08:446 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 17:54:08:453 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4ee70b: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 17:54:08:578 [main] INFO  module init finished.
+2016-07-22 17:54:18:304 [AWT-EventQueue-0] ERROR [客户端client初始化失败]
+2016-07-22 17:54:18:307 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-22 17:54:18:307 [AWT-EventQueue-0] ERROR 登陆超时
+2016-07-22 17:58:20:032 [main] INFO  log init finished.
+2016-07-22 17:58:20:102 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 17:58:20 CST 2016]; root of context hierarchy
+2016-07-22 17:58:20:141 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 17:58:20:211 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 17:58:20:275 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 17:58:20:276 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 17:58:20:282 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1eec35: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 17:58:20:456 [main] INFO  module init finished.
+2016-07-22 17:58:28:489 [AWT-EventQueue-0] ERROR [客户端client初始化失败]
+2016-07-22 17:58:28:492 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-22 17:58:28:492 [AWT-EventQueue-0] ERROR 登陆超时
+2016-07-22 18:00:27:796 [main] INFO  log init finished.
+2016-07-22 18:00:27:864 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 18:00:27 CST 2016]; root of context hierarchy
+2016-07-22 18:00:27:901 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 18:00:27:978 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 18:00:28:043 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 18:00:28:043 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 18:00:28:050 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1eec35: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 18:00:28:219 [main] INFO  module init finished.
+2016-07-22 18:00:39:872 [AWT-EventQueue-0] ERROR [客户端client初始化失败]
+2016-07-22 18:00:39:874 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-22 18:00:39:874 [AWT-EventQueue-0] ERROR 登陆超时
+2016-07-22 18:04:21:629 [main] INFO  log init finished.
+2016-07-22 18:04:21:699 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 18:04:21 CST 2016]; root of context hierarchy
+2016-07-22 18:04:21:736 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 18:04:21:804 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 18:04:21:871 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 18:04:21:871 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 18:04:21:877 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 18:04:22:040 [main] INFO  module init finished.
+2016-07-22 18:05:32:434 [main] INFO  log init finished.
+2016-07-22 18:05:32:501 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 18:05:32 CST 2016]; root of context hierarchy
+2016-07-22 18:05:32:538 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 18:05:32:610 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 18:05:51:461 [main] INFO  log init finished.
+2016-07-22 18:05:51:528 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Fri Jul 22 18:05:51 CST 2016]; root of context hierarchy
+2016-07-22 18:05:51:565 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 18:05:51:637 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 18:05:51:703 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 18:05:51:703 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 18:05:51:710 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@22ab57: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 18:05:51:866 [main] INFO  module init finished.
+2016-07-22 18:31:05:314 [main] INFO  log init finished.
+2016-07-22 18:31:05:383 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 18:31:05 CST 2016]; root of context hierarchy
+2016-07-22 18:31:05:420 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 18:31:05:490 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 18:31:05:556 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 18:31:05:556 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 18:31:05:562 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 18:31:05:715 [main] INFO  module init finished.
+2016-07-22 18:31:14:080 [nioEventLoopGroup-2-1] INFO  消息长度：9
+2016-07-22 18:31:14:080 [nioEventLoopGroup-2-1] INFO  结果：0
+2016-07-22 18:31:14:080 [nioEventLoopGroup-2-1] INFO  在线人数：1
+2016-07-22 18:31:14:083 [nioEventLoopGroup-2-1] INFO  人名：zhubx 
+2016-07-22 18:32:14:164 [AWT-EventQueue-0] INFO  [客户端client初始化完成]
+2016-07-22 18:32:24:165 [AWT-EventQueue-0] INFO  登陆成功
+2016-07-22 18:33:28:849 [main] INFO  log init finished.
+2016-07-22 18:33:28:920 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 18:33:28 CST 2016]; root of context hierarchy
+2016-07-22 18:33:28:957 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 18:33:29:027 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 18:33:29:092 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 18:33:29:092 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 18:33:29:098 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 18:33:29:253 [main] INFO  module init finished.
+2016-07-22 18:33:35:647 [nioEventLoopGroup-2-1] INFO  消息长度：9
+2016-07-22 18:33:35:647 [nioEventLoopGroup-2-1] INFO  结果：0
+2016-07-22 18:33:35:647 [nioEventLoopGroup-2-1] INFO  在线人数：1
+2016-07-22 18:33:35:650 [nioEventLoopGroup-2-1] INFO  人名：zhubx 
+2016-07-22 18:34:24:581 [main] INFO  log init finished.
+2016-07-22 18:34:24:651 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 18:34:24 CST 2016]; root of context hierarchy
+2016-07-22 18:34:24:689 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 18:34:24:760 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 18:34:24:825 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 18:34:24:825 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 18:34:24:831 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 18:34:24:985 [main] INFO  module init finished.
+2016-07-22 18:34:31:423 [nioEventLoopGroup-2-1] INFO  消息长度：9
+2016-07-22 18:34:31:423 [nioEventLoopGroup-2-1] INFO  结果：0
+2016-07-22 18:34:31:423 [nioEventLoopGroup-2-1] INFO  在线人数：1
+2016-07-22 18:34:31:426 [nioEventLoopGroup-2-1] INFO  人名：zhubx 
+2016-07-22 18:51:40:187 [main] INFO  log init finished.
+2016-07-22 18:51:40:260 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 18:51:40 CST 2016]; root of context hierarchy
+2016-07-22 18:51:40:301 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 18:51:40:370 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 18:51:40:435 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 18:51:40:435 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 18:51:40:443 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c828: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 18:51:40:593 [main] INFO  module init finished.
+2016-07-22 18:51:47:795 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:30)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-22 18:53:14:936 [main] INFO  log init finished.
+2016-07-22 18:53:15:015 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1be0f0a: startup date [Fri Jul 22 18:53:15 CST 2016]; root of context hierarchy
+2016-07-22 18:53:15:052 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 18:53:15:124 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 18:53:15:189 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 18:53:15:190 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 18:53:15:196 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@22ab57: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 18:53:15:348 [main] INFO  module init finished.
+2016-07-22 18:53:20:681 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:30)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more
+2016-07-22 18:54:08:783 [main] INFO  log init finished.
+2016-07-22 18:54:08:855 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1df280b: startup date [Fri Jul 22 18:54:08 CST 2016]; root of context hierarchy
+2016-07-22 18:54:08:893 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-22 18:54:08:965 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-22 18:54:09:031 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\jdbc.properties]
+2016-07-22 18:54:09:031 [main] INFO  Loading properties file from file [E:\newworkspace\client\target\classes\conf\sysconfig.properties]
+2016-07-22 18:54:09:037 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1eec35: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,view]; root of factory hierarchy
+2016-07-22 18:54:09:197 [main] INFO  module init finished.
+2016-07-22 18:54:14:385 [nioEventLoopGroup-2-1] WARN  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:258)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:140)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:74)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:320)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:794)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.UnsupportedOperationException: direct buffer
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.array(UnpooledUnsafeDirectByteBuf.java:199)
+	at com.neu.client.decoder.MessageDecoder.decode(MessageDecoder.java:30)
+	at io.netty.handler.codec.LengthFieldBasedFrameDecoder.decode(LengthFieldBasedFrameDecoder.java:343)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:227)
+	... 11 more

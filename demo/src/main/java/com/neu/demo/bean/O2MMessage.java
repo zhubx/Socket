@@ -21,5 +21,12 @@ public class O2MMessage extends ProtocolMsg{
 	public final void setMessage(String message) {
 		this.message = message;
 	}
+
+	
+	public String msgDetail() {
+		// TODO Auto-generated method stub
+		return "O2MMessage [commandId=" + super.getCommandId() + ",msglength=" + 
+				super.getMsglength() + ",sender=" + sender + ", message=" + message + "]";
+	}
 	
 }

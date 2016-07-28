@@ -1,0 +1,869 @@
+2016-07-25 09:55:31:984 [main] INFO  log init finished.
+2016-07-25 09:55:32:053 [main] DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-25 09:55:32:054 [main] DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-25 09:55:32:055 [main] DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-25 09:55:32:057 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@dc57db: startup date [Mon Jul 25 09:55:32 CST 2016]; root of context hierarchy
+2016-07-25 09:55:32:089 [main] DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-25 09:55:32:089 [main] DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-25 09:55:32:090 [main] DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-25 09:55:32:098 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 09:55:32:099 [main] DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-07-25 09:55:32:115 [main] DEBUG Loading schema mappings from [META-INF/spring.schemas]
+2016-07-25 09:55:32:117 [main] DEBUG Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2016-07-25 09:55:32:118 [main] DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-07-25 09:55:32:142 [main] DEBUG Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2016-07-25 09:55:32:144 [main] DEBUG Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2016-07-25 09:55:32:151 [main] DEBUG Loading bean definitions
+2016-07-25 09:55:32:158 [main] DEBUG Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2016-07-25 09:55:32:172 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 09:55:32:207 [main] DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-07-25 09:55:32:208 [main] DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-07-25 09:55:32:218 [main] DEBUG Loading bean definitions
+2016-07-25 09:55:32:223 [main] DEBUG Loaded 11 bean definitions from location pattern [classpath:spring/components.xml]
+2016-07-25 09:55:32:223 [main] DEBUG Imported 11 bean definitions from URL location [classpath:spring/components.xml]
+2016-07-25 09:55:32:223 [main] DEBUG Loaded 12 bean definitions from location pattern [classpath:spring/main.xml]
+2016-07-25 09:55:32:223 [main] DEBUG Bean factory for org.springframework.context.support.FileSystemXmlApplicationContext@dc57db: org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 09:55:32:239 [main] DEBUG Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 09:55:32:239 [main] DEBUG Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 09:55:32:253 [main] DEBUG Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+2016-07-25 09:55:32:274 [main] DEBUG Looking for matching resources in directory tree [E:\newworkspace\demo\target\classes\conf]
+2016-07-25 09:55:32:274 [main] DEBUG Searching directory [E:\newworkspace\demo\target\classes\conf] for files matching pattern [E:/newworkspace/demo/target/classes/conf/**/*.properties]
+2016-07-25 09:55:32:276 [main] DEBUG Resolved location pattern [classpath*:conf/**/*.properties] to resources [file [E:\newworkspace\demo\target\classes\conf\jdbc.properties], file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]]
+2016-07-25 09:55:32:285 [main] DEBUG Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 09:55:32:285 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-25 09:55:32:286 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-25 09:55:32:291 [main] DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1c5ddc9]
+2016-07-25 09:55:32:292 [main] DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1b273cc]
+2016-07-25 09:55:32:294 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 09:55:32:294 [main] DEBUG Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 09:55:32:294 [main] DEBUG Creating shared instance of singleton bean 'server'
+2016-07-25 09:55:32:294 [main] DEBUG Creating instance of bean 'server'
+2016-07-25 09:55:32:297 [main] DEBUG Eagerly caching bean 'server' to allow for resolving potential circular references
+2016-07-25 09:55:32:305 [main] DEBUG Creating shared instance of singleton bean 'loginHandler'
+2016-07-25 09:55:32:305 [main] DEBUG Creating instance of bean 'loginHandler'
+2016-07-25 09:55:32:307 [main] DEBUG Eagerly caching bean 'loginHandler' to allow for resolving potential circular references
+2016-07-25 09:55:32:308 [main] DEBUG Finished creating instance of bean 'loginHandler'
+2016-07-25 09:55:32:308 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageHandler'
+2016-07-25 09:55:32:308 [main] DEBUG Creating instance of bean 'o2OMessageHandler'
+2016-07-25 09:55:32:308 [main] DEBUG Eagerly caching bean 'o2OMessageHandler' to allow for resolving potential circular references
+2016-07-25 09:55:32:308 [main] DEBUG Finished creating instance of bean 'o2OMessageHandler'
+2016-07-25 09:55:32:308 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageHandler'
+2016-07-25 09:55:32:308 [main] DEBUG Creating instance of bean 'o2MMessageHandler'
+2016-07-25 09:55:32:308 [main] DEBUG Eagerly caching bean 'o2MMessageHandler' to allow for resolving potential circular references
+2016-07-25 09:55:32:308 [main] DEBUG Finished creating instance of bean 'o2MMessageHandler'
+2016-07-25 09:55:32:311 [main] DEBUG Creating shared instance of singleton bean 'loginDecoder'
+2016-07-25 09:55:32:311 [main] DEBUG Creating instance of bean 'loginDecoder'
+2016-07-25 09:55:32:311 [main] DEBUG Eagerly caching bean 'loginDecoder' to allow for resolving potential circular references
+2016-07-25 09:55:32:311 [main] DEBUG Finished creating instance of bean 'loginDecoder'
+2016-07-25 09:55:32:312 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageDecoder'
+2016-07-25 09:55:32:312 [main] DEBUG Creating instance of bean 'o2OMessageDecoder'
+2016-07-25 09:55:32:312 [main] DEBUG Eagerly caching bean 'o2OMessageDecoder' to allow for resolving potential circular references
+2016-07-25 09:55:32:312 [main] DEBUG Finished creating instance of bean 'o2OMessageDecoder'
+2016-07-25 09:55:32:312 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageDecoder'
+2016-07-25 09:55:32:312 [main] DEBUG Creating instance of bean 'o2MMessageDecoder'
+2016-07-25 09:55:32:312 [main] DEBUG Eagerly caching bean 'o2MMessageDecoder' to allow for resolving potential circular references
+2016-07-25 09:55:32:312 [main] DEBUG Finished creating instance of bean 'o2MMessageDecoder'
+2016-07-25 09:55:32:313 [main] DEBUG Creating shared instance of singleton bean 'loginResponseEncoder'
+2016-07-25 09:55:32:313 [main] DEBUG Creating instance of bean 'loginResponseEncoder'
+2016-07-25 09:55:32:313 [main] DEBUG Eagerly caching bean 'loginResponseEncoder' to allow for resolving potential circular references
+2016-07-25 09:55:32:313 [main] DEBUG Finished creating instance of bean 'loginResponseEncoder'
+2016-07-25 09:55:32:313 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageResponseEncoder'
+2016-07-25 09:55:32:313 [main] DEBUG Creating instance of bean 'o2OMessageResponseEncoder'
+2016-07-25 09:55:32:313 [main] DEBUG Eagerly caching bean 'o2OMessageResponseEncoder' to allow for resolving potential circular references
+2016-07-25 09:55:32:314 [main] DEBUG Finished creating instance of bean 'o2OMessageResponseEncoder'
+2016-07-25 09:55:32:314 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageResponseEncoder'
+2016-07-25 09:55:32:314 [main] DEBUG Creating instance of bean 'o2MMessageResponseEncoder'
+2016-07-25 09:55:32:314 [main] DEBUG Eagerly caching bean 'o2MMessageResponseEncoder' to allow for resolving potential circular references
+2016-07-25 09:55:32:314 [main] DEBUG Finished creating instance of bean 'o2MMessageResponseEncoder'
+2016-07-25 09:55:32:314 [main] DEBUG Creating shared instance of singleton bean 'serverMessageEncoder'
+2016-07-25 09:55:32:314 [main] DEBUG Creating instance of bean 'serverMessageEncoder'
+2016-07-25 09:55:32:314 [main] DEBUG Eagerly caching bean 'serverMessageEncoder' to allow for resolving potential circular references
+2016-07-25 09:55:32:314 [main] DEBUG Finished creating instance of bean 'serverMessageEncoder'
+2016-07-25 09:55:32:315 [main] DEBUG Invoking init method  'init' on bean with name 'server'
+2016-07-25 09:55:32:506 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-25 09:55:32:506 [main] DEBUG Finished creating instance of bean 'server'
+2016-07-25 09:55:32:506 [main] DEBUG Returning cached instance of singleton bean 'loginHandler'
+2016-07-25 09:55:32:506 [main] DEBUG Returning cached instance of singleton bean 'o2OMessageHandler'
+2016-07-25 09:55:32:506 [main] DEBUG Returning cached instance of singleton bean 'o2MMessageHandler'
+2016-07-25 09:55:32:506 [main] DEBUG Returning cached instance of singleton bean 'loginDecoder'
+2016-07-25 09:55:32:507 [main] DEBUG Returning cached instance of singleton bean 'o2OMessageDecoder'
+2016-07-25 09:55:32:507 [main] DEBUG Returning cached instance of singleton bean 'o2MMessageDecoder'
+2016-07-25 09:55:32:507 [main] DEBUG Returning cached instance of singleton bean 'loginResponseEncoder'
+2016-07-25 09:55:32:507 [main] DEBUG Returning cached instance of singleton bean 'o2OMessageResponseEncoder'
+2016-07-25 09:55:32:507 [main] DEBUG Returning cached instance of singleton bean 'o2MMessageResponseEncoder'
+2016-07-25 09:55:32:507 [main] DEBUG Returning cached instance of singleton bean 'serverMessageEncoder'
+2016-07-25 09:55:32:509 [main] DEBUG Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@114b82b]
+2016-07-25 09:55:32:509 [main] DEBUG Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-07-25 09:55:32:511 [main] DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2016-07-25 09:55:32:511 [main] DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2016-07-25 09:55:32:512 [main] DEBUG Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2016-07-25 09:55:32:512 [main] INFO  module init finished.
+2016-07-25 09:55:40:556 [main] INFO  log init finished.
+2016-07-25 09:55:40:624 [main] DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-25 09:55:40:626 [main] DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-25 09:55:40:626 [main] DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-25 09:55:40:629 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Mon Jul 25 09:55:40 CST 2016]; root of context hierarchy
+2016-07-25 09:55:40:658 [main] DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-25 09:55:40:658 [main] DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-25 09:55:40:658 [main] DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-25 09:55:40:666 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 09:55:40:667 [main] DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-07-25 09:55:40:680 [main] DEBUG Loading schema mappings from [META-INF/spring.schemas]
+2016-07-25 09:55:40:683 [main] DEBUG Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2016-07-25 09:55:40:684 [main] DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-07-25 09:55:40:707 [main] DEBUG Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2016-07-25 09:55:40:710 [main] DEBUG Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2016-07-25 09:55:40:717 [main] DEBUG Loading bean definitions
+2016-07-25 09:55:40:725 [main] DEBUG Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2016-07-25 09:55:40:737 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 09:55:40:738 [main] DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-07-25 09:55:40:739 [main] DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-07-25 09:55:40:750 [main] DEBUG Loading bean definitions
+2016-07-25 09:55:40:754 [main] DEBUG Loaded 11 bean definitions from location pattern [classpath:spring/components.xml]
+2016-07-25 09:55:40:754 [main] DEBUG Imported 11 bean definitions from URL location [classpath:spring/components.xml]
+2016-07-25 09:55:40:754 [main] DEBUG Loaded 12 bean definitions from location pattern [classpath:spring/main.xml]
+2016-07-25 09:55:40:754 [main] DEBUG Bean factory for org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 09:55:40:766 [main] DEBUG Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 09:55:40:767 [main] DEBUG Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 09:55:40:779 [main] DEBUG Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+2016-07-25 09:55:40:798 [main] DEBUG Looking for matching resources in directory tree [E:\newworkspace\demo\target\classes\conf]
+2016-07-25 09:55:40:798 [main] DEBUG Searching directory [E:\newworkspace\demo\target\classes\conf] for files matching pattern [E:/newworkspace/demo/target/classes/conf/**/*.properties]
+2016-07-25 09:55:40:800 [main] DEBUG Resolved location pattern [classpath*:conf/**/*.properties] to resources [file [E:\newworkspace\demo\target\classes\conf\jdbc.properties], file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]]
+2016-07-25 09:55:40:807 [main] DEBUG Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 09:55:40:808 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-25 09:55:40:808 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-25 09:55:40:813 [main] DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1c5ddc9]
+2016-07-25 09:55:40:815 [main] DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1b273cc]
+2016-07-25 09:55:40:816 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 09:55:40:817 [main] DEBUG Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 09:55:40:817 [main] DEBUG Creating shared instance of singleton bean 'server'
+2016-07-25 09:55:40:817 [main] DEBUG Creating instance of bean 'server'
+2016-07-25 09:55:40:819 [main] DEBUG Eagerly caching bean 'server' to allow for resolving potential circular references
+2016-07-25 09:55:40:826 [main] DEBUG Creating shared instance of singleton bean 'loginHandler'
+2016-07-25 09:55:40:826 [main] DEBUG Creating instance of bean 'loginHandler'
+2016-07-25 09:55:40:828 [main] DEBUG Eagerly caching bean 'loginHandler' to allow for resolving potential circular references
+2016-07-25 09:55:40:828 [main] DEBUG Finished creating instance of bean 'loginHandler'
+2016-07-25 09:55:40:829 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageHandler'
+2016-07-25 09:55:40:829 [main] DEBUG Creating instance of bean 'o2OMessageHandler'
+2016-07-25 09:55:40:829 [main] DEBUG Eagerly caching bean 'o2OMessageHandler' to allow for resolving potential circular references
+2016-07-25 09:55:40:829 [main] DEBUG Finished creating instance of bean 'o2OMessageHandler'
+2016-07-25 09:55:40:829 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageHandler'
+2016-07-25 09:55:40:829 [main] DEBUG Creating instance of bean 'o2MMessageHandler'
+2016-07-25 09:55:40:829 [main] DEBUG Eagerly caching bean 'o2MMessageHandler' to allow for resolving potential circular references
+2016-07-25 09:55:40:829 [main] DEBUG Finished creating instance of bean 'o2MMessageHandler'
+2016-07-25 09:55:40:831 [main] DEBUG Creating shared instance of singleton bean 'loginDecoder'
+2016-07-25 09:55:40:831 [main] DEBUG Creating instance of bean 'loginDecoder'
+2016-07-25 09:55:40:831 [main] DEBUG Eagerly caching bean 'loginDecoder' to allow for resolving potential circular references
+2016-07-25 09:55:40:831 [main] DEBUG Finished creating instance of bean 'loginDecoder'
+2016-07-25 09:55:40:831 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageDecoder'
+2016-07-25 09:55:40:831 [main] DEBUG Creating instance of bean 'o2OMessageDecoder'
+2016-07-25 09:55:40:833 [main] DEBUG Eagerly caching bean 'o2OMessageDecoder' to allow for resolving potential circular references
+2016-07-25 09:55:40:833 [main] DEBUG Finished creating instance of bean 'o2OMessageDecoder'
+2016-07-25 09:55:40:833 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageDecoder'
+2016-07-25 09:55:40:833 [main] DEBUG Creating instance of bean 'o2MMessageDecoder'
+2016-07-25 09:55:40:833 [main] DEBUG Eagerly caching bean 'o2MMessageDecoder' to allow for resolving potential circular references
+2016-07-25 09:55:40:833 [main] DEBUG Finished creating instance of bean 'o2MMessageDecoder'
+2016-07-25 09:55:40:834 [main] DEBUG Creating shared instance of singleton bean 'loginResponseEncoder'
+2016-07-25 09:55:40:834 [main] DEBUG Creating instance of bean 'loginResponseEncoder'
+2016-07-25 09:55:40:834 [main] DEBUG Eagerly caching bean 'loginResponseEncoder' to allow for resolving potential circular references
+2016-07-25 09:55:40:834 [main] DEBUG Finished creating instance of bean 'loginResponseEncoder'
+2016-07-25 09:55:40:834 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageResponseEncoder'
+2016-07-25 09:55:40:834 [main] DEBUG Creating instance of bean 'o2OMessageResponseEncoder'
+2016-07-25 09:55:40:834 [main] DEBUG Eagerly caching bean 'o2OMessageResponseEncoder' to allow for resolving potential circular references
+2016-07-25 09:55:40:834 [main] DEBUG Finished creating instance of bean 'o2OMessageResponseEncoder'
+2016-07-25 09:55:40:834 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageResponseEncoder'
+2016-07-25 09:55:40:834 [main] DEBUG Creating instance of bean 'o2MMessageResponseEncoder'
+2016-07-25 09:55:40:834 [main] DEBUG Eagerly caching bean 'o2MMessageResponseEncoder' to allow for resolving potential circular references
+2016-07-25 09:55:40:834 [main] DEBUG Finished creating instance of bean 'o2MMessageResponseEncoder'
+2016-07-25 09:55:40:835 [main] DEBUG Creating shared instance of singleton bean 'serverMessageEncoder'
+2016-07-25 09:55:40:835 [main] DEBUG Creating instance of bean 'serverMessageEncoder'
+2016-07-25 09:55:40:835 [main] DEBUG Eagerly caching bean 'serverMessageEncoder' to allow for resolving potential circular references
+2016-07-25 09:55:40:835 [main] DEBUG Finished creating instance of bean 'serverMessageEncoder'
+2016-07-25 09:55:40:835 [main] DEBUG Invoking init method  'init' on bean with name 'server'
+2016-07-25 09:55:40:899 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-25 09:55:40:900 [main] DEBUG Finished creating instance of bean 'server'
+2016-07-25 09:55:40:900 [main] DEBUG Returning cached instance of singleton bean 'loginHandler'
+2016-07-25 09:55:40:900 [main] DEBUG Returning cached instance of singleton bean 'o2OMessageHandler'
+2016-07-25 09:55:40:900 [main] DEBUG Returning cached instance of singleton bean 'o2MMessageHandler'
+2016-07-25 09:55:40:900 [main] DEBUG Returning cached instance of singleton bean 'loginDecoder'
+2016-07-25 09:55:40:900 [main] DEBUG Returning cached instance of singleton bean 'o2OMessageDecoder'
+2016-07-25 09:55:40:900 [main] DEBUG Returning cached instance of singleton bean 'o2MMessageDecoder'
+2016-07-25 09:55:40:900 [main] DEBUG Returning cached instance of singleton bean 'loginResponseEncoder'
+2016-07-25 09:55:40:900 [main] DEBUG Returning cached instance of singleton bean 'o2OMessageResponseEncoder'
+2016-07-25 09:55:40:900 [main] DEBUG Returning cached instance of singleton bean 'o2MMessageResponseEncoder'
+2016-07-25 09:55:40:900 [main] DEBUG Returning cached instance of singleton bean 'serverMessageEncoder'
+2016-07-25 09:55:40:901 [main] DEBUG Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@114b82b]
+2016-07-25 09:55:40:901 [main] DEBUG Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-07-25 09:55:40:903 [main] DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2016-07-25 09:55:40:903 [main] DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2016-07-25 09:55:40:903 [main] DEBUG Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2016-07-25 09:55:40:903 [main] INFO  module init finished.
+2016-07-25 09:56:01:083 [New I/O worker #1] INFO  receive:0100097A6875627820313233
+2016-07-25 09:56:01:085 [New I/O worker #1] INFO  do LoginHandler
+2016-07-25 09:56:01:087 [New I/O worker #1] INFO  [id: 0xeb997c91, /192.168.1.142:57425 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 09:56:01:089 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-25 09:56:07:247 [New I/O worker #1] INFO  exceptionCaught
+2016-07-25 09:56:07:247 [New I/O worker #1] INFO  channelDisconnected
+2016-07-25 09:56:07:278 [New I/O worker #1] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 12:33:00:868 [New I/O worker #2] INFO  receive:0100097A6875627820313233
+2016-07-25 12:33:00:868 [New I/O worker #2] INFO  do LoginHandler
+2016-07-25 12:33:00:869 [New I/O worker #2] INFO  [id: 0x1908b569, /192.168.1.142:58386 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 12:33:00:869 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-25 12:34:00:950 [New I/O worker #2] INFO  [id: 0x1908b569, /192.168.1.142:58386 => /192.168.1.142:6666]超时断开.
+2016-07-25 12:34:00:951 [New I/O worker #2] INFO  channelDisconnected
+2016-07-25 12:34:00:952 [New I/O worker #2] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 14:00:59:301 [New I/O worker #3] INFO  receive:0100097A6875627820313233
+2016-07-25 14:00:59:302 [New I/O worker #3] INFO  do LoginHandler
+2016-07-25 14:00:59:302 [New I/O worker #3] INFO  [id: 0x67107793, /192.168.1.142:58887 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 14:00:59:302 [New I/O worker #3] INFO  用户名为：[zhubx]登录成功
+2016-07-25 14:01:03:149 [New I/O worker #3] INFO  exceptionCaught
+2016-07-25 14:01:03:149 [New I/O worker #3] INFO  channelDisconnected
+2016-07-25 14:01:03:149 [New I/O worker #3] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 14:23:30:805 [main] INFO  log init finished.
+2016-07-25 14:23:30:873 [main] DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-25 14:23:30:876 [main] DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-25 14:23:30:876 [main] DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-25 14:23:30:879 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Mon Jul 25 14:23:30 CST 2016]; root of context hierarchy
+2016-07-25 14:23:30:909 [main] DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-25 14:23:30:909 [main] DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-25 14:23:30:909 [main] DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-25 14:23:30:917 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 14:23:30:918 [main] DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-07-25 14:23:30:932 [main] DEBUG Loading schema mappings from [META-INF/spring.schemas]
+2016-07-25 14:23:30:935 [main] DEBUG Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2016-07-25 14:23:30:936 [main] DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-07-25 14:23:30:961 [main] DEBUG Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2016-07-25 14:23:30:964 [main] DEBUG Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2016-07-25 14:23:30:970 [main] DEBUG Loading bean definitions
+2016-07-25 14:23:30:981 [main] DEBUG Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2016-07-25 14:23:30:995 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 14:23:30:996 [main] DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-07-25 14:23:30:997 [main] DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-07-25 14:23:31:007 [main] DEBUG Loading bean definitions
+2016-07-25 14:23:31:011 [main] DEBUG Loaded 11 bean definitions from location pattern [classpath:spring/components.xml]
+2016-07-25 14:23:31:011 [main] DEBUG Imported 11 bean definitions from URL location [classpath:spring/components.xml]
+2016-07-25 14:23:31:012 [main] DEBUG Loaded 12 bean definitions from location pattern [classpath:spring/main.xml]
+2016-07-25 14:23:31:012 [main] DEBUG Bean factory for org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 14:23:31:024 [main] DEBUG Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 14:23:31:025 [main] DEBUG Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 14:23:31:038 [main] DEBUG Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+2016-07-25 14:23:31:057 [main] DEBUG Looking for matching resources in directory tree [E:\newworkspace\demo\target\classes\conf]
+2016-07-25 14:23:31:057 [main] DEBUG Searching directory [E:\newworkspace\demo\target\classes\conf] for files matching pattern [E:/newworkspace/demo/target/classes/conf/**/*.properties]
+2016-07-25 14:23:31:059 [main] DEBUG Resolved location pattern [classpath*:conf/**/*.properties] to resources [file [E:\newworkspace\demo\target\classes\conf\jdbc.properties], file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]]
+2016-07-25 14:23:31:067 [main] DEBUG Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 14:23:31:067 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-25 14:23:31:068 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-25 14:23:31:073 [main] DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1c5ddc9]
+2016-07-25 14:23:31:074 [main] DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1b273cc]
+2016-07-25 14:23:31:076 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 14:23:31:076 [main] DEBUG Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 14:23:31:076 [main] DEBUG Creating shared instance of singleton bean 'server'
+2016-07-25 14:23:31:076 [main] DEBUG Creating instance of bean 'server'
+2016-07-25 14:23:31:079 [main] DEBUG Eagerly caching bean 'server' to allow for resolving potential circular references
+2016-07-25 14:23:31:085 [main] DEBUG Creating shared instance of singleton bean 'loginHandler'
+2016-07-25 14:23:31:085 [main] DEBUG Creating instance of bean 'loginHandler'
+2016-07-25 14:23:31:088 [main] DEBUG Eagerly caching bean 'loginHandler' to allow for resolving potential circular references
+2016-07-25 14:23:31:088 [main] DEBUG Finished creating instance of bean 'loginHandler'
+2016-07-25 14:23:31:088 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageHandler'
+2016-07-25 14:23:31:088 [main] DEBUG Creating instance of bean 'o2OMessageHandler'
+2016-07-25 14:23:31:089 [main] DEBUG Eagerly caching bean 'o2OMessageHandler' to allow for resolving potential circular references
+2016-07-25 14:23:31:089 [main] DEBUG Finished creating instance of bean 'o2OMessageHandler'
+2016-07-25 14:23:31:089 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageHandler'
+2016-07-25 14:23:31:089 [main] DEBUG Creating instance of bean 'o2MMessageHandler'
+2016-07-25 14:23:31:089 [main] DEBUG Eagerly caching bean 'o2MMessageHandler' to allow for resolving potential circular references
+2016-07-25 14:23:31:089 [main] DEBUG Finished creating instance of bean 'o2MMessageHandler'
+2016-07-25 14:23:31:092 [main] DEBUG Creating shared instance of singleton bean 'loginDecoder'
+2016-07-25 14:23:31:092 [main] DEBUG Creating instance of bean 'loginDecoder'
+2016-07-25 14:23:31:092 [main] DEBUG Eagerly caching bean 'loginDecoder' to allow for resolving potential circular references
+2016-07-25 14:23:31:092 [main] DEBUG Finished creating instance of bean 'loginDecoder'
+2016-07-25 14:23:31:092 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageDecoder'
+2016-07-25 14:23:31:092 [main] DEBUG Creating instance of bean 'o2OMessageDecoder'
+2016-07-25 14:23:31:092 [main] DEBUG Eagerly caching bean 'o2OMessageDecoder' to allow for resolving potential circular references
+2016-07-25 14:23:31:092 [main] DEBUG Finished creating instance of bean 'o2OMessageDecoder'
+2016-07-25 14:23:31:093 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageDecoder'
+2016-07-25 14:23:31:093 [main] DEBUG Creating instance of bean 'o2MMessageDecoder'
+2016-07-25 14:23:31:093 [main] DEBUG Eagerly caching bean 'o2MMessageDecoder' to allow for resolving potential circular references
+2016-07-25 14:23:31:093 [main] DEBUG Finished creating instance of bean 'o2MMessageDecoder'
+2016-07-25 14:23:31:093 [main] DEBUG Creating shared instance of singleton bean 'loginResponseEncoder'
+2016-07-25 14:23:31:093 [main] DEBUG Creating instance of bean 'loginResponseEncoder'
+2016-07-25 14:23:31:093 [main] DEBUG Eagerly caching bean 'loginResponseEncoder' to allow for resolving potential circular references
+2016-07-25 14:23:31:093 [main] DEBUG Finished creating instance of bean 'loginResponseEncoder'
+2016-07-25 14:23:31:093 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageResponseEncoder'
+2016-07-25 14:23:31:094 [main] DEBUG Creating instance of bean 'o2OMessageResponseEncoder'
+2016-07-25 14:23:31:094 [main] DEBUG Eagerly caching bean 'o2OMessageResponseEncoder' to allow for resolving potential circular references
+2016-07-25 14:23:31:094 [main] DEBUG Finished creating instance of bean 'o2OMessageResponseEncoder'
+2016-07-25 14:23:31:094 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageResponseEncoder'
+2016-07-25 14:23:31:094 [main] DEBUG Creating instance of bean 'o2MMessageResponseEncoder'
+2016-07-25 14:23:31:094 [main] DEBUG Eagerly caching bean 'o2MMessageResponseEncoder' to allow for resolving potential circular references
+2016-07-25 14:23:31:094 [main] DEBUG Finished creating instance of bean 'o2MMessageResponseEncoder'
+2016-07-25 14:23:31:094 [main] DEBUG Creating shared instance of singleton bean 'serverMessageEncoder'
+2016-07-25 14:23:31:094 [main] DEBUG Creating instance of bean 'serverMessageEncoder'
+2016-07-25 14:23:31:094 [main] DEBUG Eagerly caching bean 'serverMessageEncoder' to allow for resolving potential circular references
+2016-07-25 14:23:31:094 [main] DEBUG Finished creating instance of bean 'serverMessageEncoder'
+2016-07-25 14:23:31:095 [main] DEBUG Invoking init method  'init' on bean with name 'server'
+2016-07-25 14:23:31:160 [main] WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'server' defined in class path resource [spring/components.xml]: Invocation of init method failed; nested exception is org.jboss.netty.channel.ChannelException: Failed to bind to: /192.168.1.142:6666
+2016-07-25 14:23:31:160 [main] INFO  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 14:23:53:406 [main] INFO  log init finished.
+2016-07-25 14:23:53:479 [main] DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-25 14:23:53:481 [main] DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-25 14:23:53:481 [main] DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-25 14:23:53:484 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Mon Jul 25 14:23:53 CST 2016]; root of context hierarchy
+2016-07-25 14:23:53:517 [main] DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-25 14:23:53:517 [main] DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-25 14:23:53:517 [main] DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-25 14:23:53:525 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 14:23:53:526 [main] DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-07-25 14:23:53:541 [main] DEBUG Loading schema mappings from [META-INF/spring.schemas]
+2016-07-25 14:23:53:544 [main] DEBUG Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2016-07-25 14:23:53:544 [main] DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-07-25 14:23:53:568 [main] DEBUG Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2016-07-25 14:23:53:570 [main] DEBUG Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2016-07-25 14:23:53:578 [main] DEBUG Loading bean definitions
+2016-07-25 14:23:53:586 [main] DEBUG Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2016-07-25 14:23:53:599 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 14:23:53:600 [main] DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-07-25 14:23:53:601 [main] DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-07-25 14:23:53:612 [main] DEBUG Loading bean definitions
+2016-07-25 14:23:53:616 [main] DEBUG Loaded 11 bean definitions from location pattern [classpath:spring/components.xml]
+2016-07-25 14:23:53:616 [main] DEBUG Imported 11 bean definitions from URL location [classpath:spring/components.xml]
+2016-07-25 14:23:53:616 [main] DEBUG Loaded 12 bean definitions from location pattern [classpath:spring/main.xml]
+2016-07-25 14:23:53:616 [main] DEBUG Bean factory for org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 14:23:53:629 [main] DEBUG Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 14:23:53:629 [main] DEBUG Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 14:23:53:642 [main] DEBUG Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+2016-07-25 14:23:53:660 [main] DEBUG Looking for matching resources in directory tree [E:\newworkspace\demo\target\classes\conf]
+2016-07-25 14:23:53:661 [main] DEBUG Searching directory [E:\newworkspace\demo\target\classes\conf] for files matching pattern [E:/newworkspace/demo/target/classes/conf/**/*.properties]
+2016-07-25 14:23:53:663 [main] DEBUG Resolved location pattern [classpath*:conf/**/*.properties] to resources [file [E:\newworkspace\demo\target\classes\conf\jdbc.properties], file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]]
+2016-07-25 14:23:53:671 [main] DEBUG Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 14:23:53:671 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-25 14:23:53:671 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-25 14:23:53:676 [main] DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1c5ddc9]
+2016-07-25 14:23:53:677 [main] DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1b273cc]
+2016-07-25 14:23:53:679 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 14:23:53:679 [main] DEBUG Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 14:23:53:679 [main] DEBUG Creating shared instance of singleton bean 'server'
+2016-07-25 14:23:53:679 [main] DEBUG Creating instance of bean 'server'
+2016-07-25 14:23:53:682 [main] DEBUG Eagerly caching bean 'server' to allow for resolving potential circular references
+2016-07-25 14:23:53:688 [main] DEBUG Creating shared instance of singleton bean 'loginHandler'
+2016-07-25 14:23:53:688 [main] DEBUG Creating instance of bean 'loginHandler'
+2016-07-25 14:23:53:690 [main] DEBUG Eagerly caching bean 'loginHandler' to allow for resolving potential circular references
+2016-07-25 14:23:53:690 [main] DEBUG Finished creating instance of bean 'loginHandler'
+2016-07-25 14:23:53:691 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageHandler'
+2016-07-25 14:23:53:691 [main] DEBUG Creating instance of bean 'o2OMessageHandler'
+2016-07-25 14:23:53:691 [main] DEBUG Eagerly caching bean 'o2OMessageHandler' to allow for resolving potential circular references
+2016-07-25 14:23:53:691 [main] DEBUG Finished creating instance of bean 'o2OMessageHandler'
+2016-07-25 14:23:53:691 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageHandler'
+2016-07-25 14:23:53:691 [main] DEBUG Creating instance of bean 'o2MMessageHandler'
+2016-07-25 14:23:53:691 [main] DEBUG Eagerly caching bean 'o2MMessageHandler' to allow for resolving potential circular references
+2016-07-25 14:23:53:691 [main] DEBUG Finished creating instance of bean 'o2MMessageHandler'
+2016-07-25 14:23:53:694 [main] DEBUG Creating shared instance of singleton bean 'loginDecoder'
+2016-07-25 14:23:53:694 [main] DEBUG Creating instance of bean 'loginDecoder'
+2016-07-25 14:23:53:694 [main] DEBUG Eagerly caching bean 'loginDecoder' to allow for resolving potential circular references
+2016-07-25 14:23:53:694 [main] DEBUG Finished creating instance of bean 'loginDecoder'
+2016-07-25 14:23:53:694 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageDecoder'
+2016-07-25 14:23:53:694 [main] DEBUG Creating instance of bean 'o2OMessageDecoder'
+2016-07-25 14:23:53:694 [main] DEBUG Eagerly caching bean 'o2OMessageDecoder' to allow for resolving potential circular references
+2016-07-25 14:23:53:694 [main] DEBUG Finished creating instance of bean 'o2OMessageDecoder'
+2016-07-25 14:23:53:695 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageDecoder'
+2016-07-25 14:23:53:695 [main] DEBUG Creating instance of bean 'o2MMessageDecoder'
+2016-07-25 14:23:53:695 [main] DEBUG Eagerly caching bean 'o2MMessageDecoder' to allow for resolving potential circular references
+2016-07-25 14:23:53:695 [main] DEBUG Finished creating instance of bean 'o2MMessageDecoder'
+2016-07-25 14:23:53:695 [main] DEBUG Creating shared instance of singleton bean 'loginResponseEncoder'
+2016-07-25 14:23:53:695 [main] DEBUG Creating instance of bean 'loginResponseEncoder'
+2016-07-25 14:23:53:695 [main] DEBUG Eagerly caching bean 'loginResponseEncoder' to allow for resolving potential circular references
+2016-07-25 14:23:53:695 [main] DEBUG Finished creating instance of bean 'loginResponseEncoder'
+2016-07-25 14:23:53:695 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageResponseEncoder'
+2016-07-25 14:23:53:696 [main] DEBUG Creating instance of bean 'o2OMessageResponseEncoder'
+2016-07-25 14:23:53:696 [main] DEBUG Eagerly caching bean 'o2OMessageResponseEncoder' to allow for resolving potential circular references
+2016-07-25 14:23:53:696 [main] DEBUG Finished creating instance of bean 'o2OMessageResponseEncoder'
+2016-07-25 14:23:53:696 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageResponseEncoder'
+2016-07-25 14:23:53:696 [main] DEBUG Creating instance of bean 'o2MMessageResponseEncoder'
+2016-07-25 14:23:53:696 [main] DEBUG Eagerly caching bean 'o2MMessageResponseEncoder' to allow for resolving potential circular references
+2016-07-25 14:23:53:696 [main] DEBUG Finished creating instance of bean 'o2MMessageResponseEncoder'
+2016-07-25 14:23:53:696 [main] DEBUG Creating shared instance of singleton bean 'serverMessageEncoder'
+2016-07-25 14:23:53:696 [main] DEBUG Creating instance of bean 'serverMessageEncoder'
+2016-07-25 14:23:53:696 [main] DEBUG Eagerly caching bean 'serverMessageEncoder' to allow for resolving potential circular references
+2016-07-25 14:23:53:696 [main] DEBUG Finished creating instance of bean 'serverMessageEncoder'
+2016-07-25 14:23:53:697 [main] DEBUG Invoking init method  'init' on bean with name 'server'
+2016-07-25 14:23:53:762 [main] WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'server' defined in class path resource [spring/components.xml]: Invocation of init method failed; nested exception is org.jboss.netty.channel.ChannelException: Failed to bind to: /192.168.1.142:6666
+2016-07-25 14:23:53:762 [main] INFO  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 14:25:48:156 [main] INFO  log init finished.
+2016-07-25 14:25:48:223 [main] DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-25 14:25:48:225 [main] DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-25 14:25:48:225 [main] DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-25 14:25:48:229 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Mon Jul 25 14:25:48 CST 2016]; root of context hierarchy
+2016-07-25 14:25:48:260 [main] DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-25 14:25:48:260 [main] DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-25 14:25:48:260 [main] DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-25 14:25:48:268 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 14:25:48:269 [main] DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-07-25 14:25:48:286 [main] DEBUG Loading schema mappings from [META-INF/spring.schemas]
+2016-07-25 14:25:48:289 [main] DEBUG Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2016-07-25 14:25:48:290 [main] DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-07-25 14:25:48:315 [main] DEBUG Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2016-07-25 14:25:48:319 [main] DEBUG Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2016-07-25 14:25:48:326 [main] DEBUG Loading bean definitions
+2016-07-25 14:25:48:334 [main] DEBUG Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2016-07-25 14:25:48:348 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 14:25:48:349 [main] DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-07-25 14:25:48:350 [main] DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-07-25 14:25:48:359 [main] DEBUG Loading bean definitions
+2016-07-25 14:25:48:364 [main] DEBUG Loaded 11 bean definitions from location pattern [classpath:spring/components.xml]
+2016-07-25 14:25:48:364 [main] DEBUG Imported 11 bean definitions from URL location [classpath:spring/components.xml]
+2016-07-25 14:25:48:365 [main] DEBUG Loaded 12 bean definitions from location pattern [classpath:spring/main.xml]
+2016-07-25 14:25:48:365 [main] DEBUG Bean factory for org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 14:25:48:378 [main] DEBUG Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 14:25:48:378 [main] DEBUG Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 14:25:48:391 [main] DEBUG Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+2016-07-25 14:25:48:410 [main] DEBUG Looking for matching resources in directory tree [E:\newworkspace\demo\target\classes\conf]
+2016-07-25 14:25:48:411 [main] DEBUG Searching directory [E:\newworkspace\demo\target\classes\conf] for files matching pattern [E:/newworkspace/demo/target/classes/conf/**/*.properties]
+2016-07-25 14:25:48:412 [main] DEBUG Resolved location pattern [classpath*:conf/**/*.properties] to resources [file [E:\newworkspace\demo\target\classes\conf\jdbc.properties], file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]]
+2016-07-25 14:25:48:421 [main] DEBUG Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 14:25:48:422 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-25 14:25:48:422 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-25 14:25:48:427 [main] DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1c5ddc9]
+2016-07-25 14:25:48:429 [main] DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1b273cc]
+2016-07-25 14:25:48:431 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 14:25:48:431 [main] DEBUG Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 14:25:48:431 [main] DEBUG Creating shared instance of singleton bean 'server'
+2016-07-25 14:25:48:431 [main] DEBUG Creating instance of bean 'server'
+2016-07-25 14:25:48:434 [main] DEBUG Eagerly caching bean 'server' to allow for resolving potential circular references
+2016-07-25 14:25:48:440 [main] DEBUG Creating shared instance of singleton bean 'loginHandler'
+2016-07-25 14:25:48:441 [main] DEBUG Creating instance of bean 'loginHandler'
+2016-07-25 14:25:48:443 [main] DEBUG Eagerly caching bean 'loginHandler' to allow for resolving potential circular references
+2016-07-25 14:25:48:443 [main] DEBUG Finished creating instance of bean 'loginHandler'
+2016-07-25 14:25:48:443 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageHandler'
+2016-07-25 14:25:48:443 [main] DEBUG Creating instance of bean 'o2OMessageHandler'
+2016-07-25 14:25:48:443 [main] DEBUG Eagerly caching bean 'o2OMessageHandler' to allow for resolving potential circular references
+2016-07-25 14:25:48:443 [main] DEBUG Finished creating instance of bean 'o2OMessageHandler'
+2016-07-25 14:25:48:443 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageHandler'
+2016-07-25 14:25:48:443 [main] DEBUG Creating instance of bean 'o2MMessageHandler'
+2016-07-25 14:25:48:444 [main] DEBUG Eagerly caching bean 'o2MMessageHandler' to allow for resolving potential circular references
+2016-07-25 14:25:48:444 [main] DEBUG Finished creating instance of bean 'o2MMessageHandler'
+2016-07-25 14:25:48:446 [main] DEBUG Creating shared instance of singleton bean 'loginDecoder'
+2016-07-25 14:25:48:447 [main] DEBUG Creating instance of bean 'loginDecoder'
+2016-07-25 14:25:48:447 [main] DEBUG Eagerly caching bean 'loginDecoder' to allow for resolving potential circular references
+2016-07-25 14:25:48:447 [main] DEBUG Finished creating instance of bean 'loginDecoder'
+2016-07-25 14:25:48:447 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageDecoder'
+2016-07-25 14:25:48:447 [main] DEBUG Creating instance of bean 'o2OMessageDecoder'
+2016-07-25 14:25:48:447 [main] DEBUG Eagerly caching bean 'o2OMessageDecoder' to allow for resolving potential circular references
+2016-07-25 14:25:48:447 [main] DEBUG Finished creating instance of bean 'o2OMessageDecoder'
+2016-07-25 14:25:48:447 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageDecoder'
+2016-07-25 14:25:48:447 [main] DEBUG Creating instance of bean 'o2MMessageDecoder'
+2016-07-25 14:25:48:448 [main] DEBUG Eagerly caching bean 'o2MMessageDecoder' to allow for resolving potential circular references
+2016-07-25 14:25:48:448 [main] DEBUG Finished creating instance of bean 'o2MMessageDecoder'
+2016-07-25 14:25:48:448 [main] DEBUG Creating shared instance of singleton bean 'loginResponseEncoder'
+2016-07-25 14:25:48:448 [main] DEBUG Creating instance of bean 'loginResponseEncoder'
+2016-07-25 14:25:48:448 [main] DEBUG Eagerly caching bean 'loginResponseEncoder' to allow for resolving potential circular references
+2016-07-25 14:25:48:448 [main] DEBUG Finished creating instance of bean 'loginResponseEncoder'
+2016-07-25 14:25:48:448 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageResponseEncoder'
+2016-07-25 14:25:48:448 [main] DEBUG Creating instance of bean 'o2OMessageResponseEncoder'
+2016-07-25 14:25:48:449 [main] DEBUG Eagerly caching bean 'o2OMessageResponseEncoder' to allow for resolving potential circular references
+2016-07-25 14:25:48:449 [main] DEBUG Finished creating instance of bean 'o2OMessageResponseEncoder'
+2016-07-25 14:25:48:449 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageResponseEncoder'
+2016-07-25 14:25:48:449 [main] DEBUG Creating instance of bean 'o2MMessageResponseEncoder'
+2016-07-25 14:25:48:449 [main] DEBUG Eagerly caching bean 'o2MMessageResponseEncoder' to allow for resolving potential circular references
+2016-07-25 14:25:48:449 [main] DEBUG Finished creating instance of bean 'o2MMessageResponseEncoder'
+2016-07-25 14:25:48:449 [main] DEBUG Creating shared instance of singleton bean 'serverMessageEncoder'
+2016-07-25 14:25:48:449 [main] DEBUG Creating instance of bean 'serverMessageEncoder'
+2016-07-25 14:25:48:449 [main] DEBUG Eagerly caching bean 'serverMessageEncoder' to allow for resolving potential circular references
+2016-07-25 14:25:48:449 [main] DEBUG Finished creating instance of bean 'serverMessageEncoder'
+2016-07-25 14:25:48:450 [main] DEBUG Invoking init method  'init' on bean with name 'server'
+2016-07-25 14:25:48:514 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-25 14:25:48:514 [main] DEBUG Finished creating instance of bean 'server'
+2016-07-25 14:25:48:514 [main] DEBUG Returning cached instance of singleton bean 'loginHandler'
+2016-07-25 14:25:48:514 [main] DEBUG Returning cached instance of singleton bean 'o2OMessageHandler'
+2016-07-25 14:25:48:514 [main] DEBUG Returning cached instance of singleton bean 'o2MMessageHandler'
+2016-07-25 14:25:48:514 [main] DEBUG Returning cached instance of singleton bean 'loginDecoder'
+2016-07-25 14:25:48:514 [main] DEBUG Returning cached instance of singleton bean 'o2OMessageDecoder'
+2016-07-25 14:25:48:514 [main] DEBUG Returning cached instance of singleton bean 'o2MMessageDecoder'
+2016-07-25 14:25:48:515 [main] DEBUG Returning cached instance of singleton bean 'loginResponseEncoder'
+2016-07-25 14:25:48:515 [main] DEBUG Returning cached instance of singleton bean 'o2OMessageResponseEncoder'
+2016-07-25 14:25:48:515 [main] DEBUG Returning cached instance of singleton bean 'o2MMessageResponseEncoder'
+2016-07-25 14:25:48:515 [main] DEBUG Returning cached instance of singleton bean 'serverMessageEncoder'
+2016-07-25 14:25:48:516 [main] DEBUG Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@147358f]
+2016-07-25 14:25:48:516 [main] DEBUG Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-07-25 14:25:48:518 [main] DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2016-07-25 14:25:48:518 [main] DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2016-07-25 14:25:48:519 [main] DEBUG Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2016-07-25 14:25:48:519 [main] INFO  module init finished.
+2016-07-25 14:26:04:855 [New I/O worker #1] INFO  receive:0100097A6875627820313233
+2016-07-25 14:26:04:857 [New I/O worker #1] INFO  do LoginHandler
+2016-07-25 14:26:04:859 [New I/O worker #1] INFO  [id: 0x11a139aa, /192.168.1.142:59020 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 14:26:04:861 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-25 14:26:08:366 [New I/O worker #1] INFO  exceptionCaught
+2016-07-25 14:26:08:367 [New I/O worker #1] INFO  channelDisconnected
+2016-07-25 14:26:08:367 [New I/O worker #1] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 14:27:01:145 [New I/O worker #2] INFO  exceptionCaught
+2016-07-25 14:27:01:146 [New I/O worker #2] INFO  channelDisconnected
+2016-07-25 14:27:01:147 [New I/O worker #2] INFO  exceptionCaught
+2016-07-25 14:37:58:619 [New I/O worker #3] INFO  exceptionCaught
+2016-07-25 14:37:58:619 [New I/O worker #3] INFO  channelDisconnected
+2016-07-25 14:37:58:619 [New I/O worker #3] INFO  exceptionCaught
+2016-07-25 14:39:13:293 [New I/O worker #4] INFO  [id: 0x4b63137c, /192.168.1.142:59090 => /192.168.1.142:6666]超时断开.
+2016-07-25 14:39:13:294 [New I/O worker #4] INFO  channelDisconnected
+2016-07-25 14:39:13:296 [New I/O worker #4] INFO  exceptionCaught
+2016-07-25 14:46:07:402 [New I/O worker #5] INFO  [id: 0xd3f78a9b, /192.168.1.142:59119 => /192.168.1.142:6666]超时断开.
+2016-07-25 14:46:07:404 [New I/O worker #5] INFO  channelDisconnected
+2016-07-25 14:46:07:406 [New I/O worker #5] INFO  exceptionCaught
+2016-07-25 14:46:56:986 [New I/O worker #6] INFO  receive:0100097A6875627820313233
+2016-07-25 14:46:56:986 [New I/O worker #6] INFO  do LoginHandler
+2016-07-25 14:46:56:986 [New I/O worker #6] INFO  [id: 0xcd95f5d4, /192.168.1.142:59143 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 14:46:56:986 [New I/O worker #6] INFO  用户名为：[zhubx]登录成功
+2016-07-25 14:47:00:783 [New I/O worker #6] INFO  exceptionCaught
+2016-07-25 14:47:00:783 [New I/O worker #6] INFO  channelDisconnected
+2016-07-25 14:47:00:784 [New I/O worker #6] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 15:14:04:170 [New I/O worker #7] INFO  receive:0100097A6875627820313233
+2016-07-25 15:14:04:170 [New I/O worker #7] INFO  do LoginHandler
+2016-07-25 15:14:04:170 [New I/O worker #7] INFO  [id: 0xbbbd9c06, /192.168.1.142:59284 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 15:14:04:170 [New I/O worker #7] INFO  用户名为：[zhubx]登录成功
+2016-07-25 15:14:07:899 [New I/O worker #7] INFO  exceptionCaught
+2016-07-25 15:14:07:899 [New I/O worker #7] INFO  channelDisconnected
+2016-07-25 15:14:07:899 [New I/O worker #7] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 15:35:31:428 [New I/O worker #8] INFO  receive:0100097A6875627820313233
+2016-07-25 15:35:31:428 [New I/O worker #8] INFO  do LoginHandler
+2016-07-25 15:35:31:428 [New I/O worker #8] INFO  [id: 0x66adb960, /192.168.1.142:59371 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 15:35:31:428 [New I/O worker #8] INFO  用户名为：[zhubx]登录成功
+2016-07-25 15:35:34:561 [New I/O worker #8] INFO  exceptionCaught
+2016-07-25 15:35:34:562 [New I/O worker #8] INFO  channelDisconnected
+2016-07-25 15:35:34:562 [New I/O worker #8] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 15:53:43:064 [New I/O worker #1] INFO  receive:0100097A6875627820313233
+2016-07-25 15:53:43:065 [New I/O worker #1] INFO  do LoginHandler
+2016-07-25 15:53:43:065 [New I/O worker #1] INFO  [id: 0xccd8fd17, /192.168.1.142:59446 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 15:53:43:065 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-25 15:53:46:595 [New I/O worker #1] INFO  exceptionCaught
+2016-07-25 15:53:46:595 [New I/O worker #1] INFO  channelDisconnected
+2016-07-25 15:53:46:595 [New I/O worker #1] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 15:54:54:133 [New I/O worker #2] INFO  receive:0100097A6875627820313233
+2016-07-25 15:54:54:133 [New I/O worker #2] INFO  do LoginHandler
+2016-07-25 15:54:54:133 [New I/O worker #2] INFO  [id: 0x5aad9885, /192.168.1.142:59475 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 15:54:54:134 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-25 15:55:54:207 [New I/O worker #2] INFO  [id: 0x5aad9885, /192.168.1.142:59475 => /192.168.1.142:6666]超时断开.
+2016-07-25 15:55:54:208 [New I/O worker #2] INFO  channelDisconnected
+2016-07-25 15:55:54:211 [New I/O worker #2] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 15:59:08:187 [main] INFO  log init finished.
+2016-07-25 15:59:08:255 [main] DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-25 15:59:08:257 [main] DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-25 15:59:08:257 [main] DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-25 15:59:08:260 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@dc57db: startup date [Mon Jul 25 15:59:08 CST 2016]; root of context hierarchy
+2016-07-25 15:59:08:290 [main] DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-25 15:59:08:290 [main] DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-25 15:59:08:291 [main] DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-25 15:59:08:298 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 15:59:08:299 [main] DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-07-25 15:59:08:313 [main] DEBUG Loading schema mappings from [META-INF/spring.schemas]
+2016-07-25 15:59:08:317 [main] DEBUG Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2016-07-25 15:59:08:318 [main] DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-07-25 15:59:08:342 [main] DEBUG Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2016-07-25 15:59:08:346 [main] DEBUG Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2016-07-25 15:59:08:352 [main] DEBUG Loading bean definitions
+2016-07-25 15:59:08:361 [main] DEBUG Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2016-07-25 15:59:08:376 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 15:59:08:377 [main] DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-07-25 15:59:08:378 [main] DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-07-25 15:59:08:388 [main] DEBUG Loading bean definitions
+2016-07-25 15:59:08:393 [main] DEBUG Loaded 11 bean definitions from location pattern [classpath:spring/components.xml]
+2016-07-25 15:59:08:393 [main] DEBUG Imported 11 bean definitions from URL location [classpath:spring/components.xml]
+2016-07-25 15:59:08:394 [main] DEBUG Loaded 12 bean definitions from location pattern [classpath:spring/main.xml]
+2016-07-25 15:59:08:394 [main] DEBUG Bean factory for org.springframework.context.support.FileSystemXmlApplicationContext@dc57db: org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 15:59:08:407 [main] DEBUG Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 15:59:08:407 [main] DEBUG Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 15:59:08:420 [main] DEBUG Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+2016-07-25 15:59:08:439 [main] DEBUG Looking for matching resources in directory tree [E:\newworkspace\demo\target\classes\conf]
+2016-07-25 15:59:08:439 [main] DEBUG Searching directory [E:\newworkspace\demo\target\classes\conf] for files matching pattern [E:/newworkspace/demo/target/classes/conf/**/*.properties]
+2016-07-25 15:59:08:441 [main] DEBUG Resolved location pattern [classpath*:conf/**/*.properties] to resources [file [E:\newworkspace\demo\target\classes\conf\jdbc.properties], file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]]
+2016-07-25 15:59:08:449 [main] DEBUG Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 15:59:08:449 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-25 15:59:08:449 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-25 15:59:08:455 [main] DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1c5ddc9]
+2016-07-25 15:59:08:457 [main] DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1b273cc]
+2016-07-25 15:59:08:459 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 15:59:08:459 [main] DEBUG Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 15:59:08:459 [main] DEBUG Creating shared instance of singleton bean 'server'
+2016-07-25 15:59:08:459 [main] DEBUG Creating instance of bean 'server'
+2016-07-25 15:59:08:462 [main] DEBUG Eagerly caching bean 'server' to allow for resolving potential circular references
+2016-07-25 15:59:08:468 [main] DEBUG Creating shared instance of singleton bean 'loginHandler'
+2016-07-25 15:59:08:468 [main] DEBUG Creating instance of bean 'loginHandler'
+2016-07-25 15:59:08:471 [main] DEBUG Eagerly caching bean 'loginHandler' to allow for resolving potential circular references
+2016-07-25 15:59:08:471 [main] DEBUG Finished creating instance of bean 'loginHandler'
+2016-07-25 15:59:08:471 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageHandler'
+2016-07-25 15:59:08:471 [main] DEBUG Creating instance of bean 'o2OMessageHandler'
+2016-07-25 15:59:08:471 [main] DEBUG Eagerly caching bean 'o2OMessageHandler' to allow for resolving potential circular references
+2016-07-25 15:59:08:471 [main] DEBUG Finished creating instance of bean 'o2OMessageHandler'
+2016-07-25 15:59:08:471 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageHandler'
+2016-07-25 15:59:08:471 [main] DEBUG Creating instance of bean 'o2MMessageHandler'
+2016-07-25 15:59:08:471 [main] DEBUG Eagerly caching bean 'o2MMessageHandler' to allow for resolving potential circular references
+2016-07-25 15:59:08:471 [main] DEBUG Finished creating instance of bean 'o2MMessageHandler'
+2016-07-25 15:59:08:474 [main] DEBUG Creating shared instance of singleton bean 'loginDecoder'
+2016-07-25 15:59:08:474 [main] DEBUG Creating instance of bean 'loginDecoder'
+2016-07-25 15:59:08:474 [main] DEBUG Eagerly caching bean 'loginDecoder' to allow for resolving potential circular references
+2016-07-25 15:59:08:474 [main] DEBUG Finished creating instance of bean 'loginDecoder'
+2016-07-25 15:59:08:474 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageDecoder'
+2016-07-25 15:59:08:474 [main] DEBUG Creating instance of bean 'o2OMessageDecoder'
+2016-07-25 15:59:08:474 [main] DEBUG Eagerly caching bean 'o2OMessageDecoder' to allow for resolving potential circular references
+2016-07-25 15:59:08:475 [main] DEBUG Finished creating instance of bean 'o2OMessageDecoder'
+2016-07-25 15:59:08:475 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageDecoder'
+2016-07-25 15:59:08:475 [main] DEBUG Creating instance of bean 'o2MMessageDecoder'
+2016-07-25 15:59:08:475 [main] DEBUG Eagerly caching bean 'o2MMessageDecoder' to allow for resolving potential circular references
+2016-07-25 15:59:08:475 [main] DEBUG Finished creating instance of bean 'o2MMessageDecoder'
+2016-07-25 15:59:08:475 [main] DEBUG Creating shared instance of singleton bean 'loginResponseEncoder'
+2016-07-25 15:59:08:475 [main] DEBUG Creating instance of bean 'loginResponseEncoder'
+2016-07-25 15:59:08:476 [main] DEBUG Eagerly caching bean 'loginResponseEncoder' to allow for resolving potential circular references
+2016-07-25 15:59:08:476 [main] DEBUG Finished creating instance of bean 'loginResponseEncoder'
+2016-07-25 15:59:08:476 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageResponseEncoder'
+2016-07-25 15:59:08:476 [main] DEBUG Creating instance of bean 'o2OMessageResponseEncoder'
+2016-07-25 15:59:08:476 [main] DEBUG Eagerly caching bean 'o2OMessageResponseEncoder' to allow for resolving potential circular references
+2016-07-25 15:59:08:476 [main] DEBUG Finished creating instance of bean 'o2OMessageResponseEncoder'
+2016-07-25 15:59:08:476 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageResponseEncoder'
+2016-07-25 15:59:08:476 [main] DEBUG Creating instance of bean 'o2MMessageResponseEncoder'
+2016-07-25 15:59:08:476 [main] DEBUG Eagerly caching bean 'o2MMessageResponseEncoder' to allow for resolving potential circular references
+2016-07-25 15:59:08:476 [main] DEBUG Finished creating instance of bean 'o2MMessageResponseEncoder'
+2016-07-25 15:59:08:476 [main] DEBUG Creating shared instance of singleton bean 'serverMessageEncoder'
+2016-07-25 15:59:08:476 [main] DEBUG Creating instance of bean 'serverMessageEncoder'
+2016-07-25 15:59:08:476 [main] DEBUG Eagerly caching bean 'serverMessageEncoder' to allow for resolving potential circular references
+2016-07-25 15:59:08:477 [main] DEBUG Finished creating instance of bean 'serverMessageEncoder'
+2016-07-25 15:59:08:477 [main] DEBUG Invoking init method  'init' on bean with name 'server'
+2016-07-25 15:59:08:541 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-25 15:59:08:541 [main] DEBUG Finished creating instance of bean 'server'
+2016-07-25 15:59:08:541 [main] DEBUG Returning cached instance of singleton bean 'loginHandler'
+2016-07-25 15:59:08:541 [main] DEBUG Returning cached instance of singleton bean 'o2OMessageHandler'
+2016-07-25 15:59:08:542 [main] DEBUG Returning cached instance of singleton bean 'o2MMessageHandler'
+2016-07-25 15:59:08:542 [main] DEBUG Returning cached instance of singleton bean 'loginDecoder'
+2016-07-25 15:59:08:542 [main] DEBUG Returning cached instance of singleton bean 'o2OMessageDecoder'
+2016-07-25 15:59:08:542 [main] DEBUG Returning cached instance of singleton bean 'o2MMessageDecoder'
+2016-07-25 15:59:08:542 [main] DEBUG Returning cached instance of singleton bean 'loginResponseEncoder'
+2016-07-25 15:59:08:542 [main] DEBUG Returning cached instance of singleton bean 'o2OMessageResponseEncoder'
+2016-07-25 15:59:08:542 [main] DEBUG Returning cached instance of singleton bean 'o2MMessageResponseEncoder'
+2016-07-25 15:59:08:542 [main] DEBUG Returning cached instance of singleton bean 'serverMessageEncoder'
+2016-07-25 15:59:08:543 [main] DEBUG Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@147358f]
+2016-07-25 15:59:08:544 [main] DEBUG Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-07-25 15:59:08:545 [main] DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2016-07-25 15:59:08:546 [main] DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2016-07-25 15:59:08:546 [main] DEBUG Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2016-07-25 15:59:08:546 [main] INFO  module init finished.
+2016-07-25 15:59:24:014 [New I/O worker #1] INFO  receive:0100097A6875627820313233
+2016-07-25 15:59:24:016 [New I/O worker #1] INFO  do LoginHandler
+2016-07-25 15:59:24:018 [New I/O worker #1] INFO  [id: 0x84b5d921, /192.168.1.142:59534 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 15:59:24:020 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-25 15:59:28:770 [New I/O worker #1] INFO  exceptionCaught
+2016-07-25 15:59:28:770 [New I/O worker #1] INFO  channelDisconnected
+2016-07-25 15:59:28:771 [New I/O worker #1] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 16:02:04:440 [New I/O worker #2] INFO  receive:0100097A6875627820313233
+2016-07-25 16:02:04:440 [New I/O worker #2] INFO  do LoginHandler
+2016-07-25 16:02:04:440 [New I/O worker #2] INFO  [id: 0xee0bc45e, /192.168.1.142:59553 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 16:02:04:441 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-25 16:02:06:917 [New I/O worker #2] INFO  exceptionCaught
+2016-07-25 16:02:06:917 [New I/O worker #2] INFO  channelDisconnected
+2016-07-25 16:02:06:918 [New I/O worker #2] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 16:02:47:111 [New I/O worker #3] INFO  receive:0100097A6875627820313233
+2016-07-25 16:02:47:111 [New I/O worker #3] INFO  do LoginHandler
+2016-07-25 16:02:47:111 [New I/O worker #3] INFO  [id: 0xac1efa4b, /192.168.1.142:59571 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 16:02:47:112 [New I/O worker #3] INFO  用户名为：[zhubx]登录成功
+2016-07-25 16:02:51:307 [New I/O worker #3] INFO  exceptionCaught
+2016-07-25 16:02:51:308 [New I/O worker #3] INFO  channelDisconnected
+2016-07-25 16:02:51:308 [New I/O worker #3] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 16:03:29:233 [New I/O worker #4] INFO  receive:0100097A6875627820313233
+2016-07-25 16:03:29:234 [New I/O worker #4] INFO  do LoginHandler
+2016-07-25 16:03:29:234 [New I/O worker #4] INFO  [id: 0x9143e18f, /192.168.1.142:59589 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 16:03:29:234 [New I/O worker #4] INFO  用户名为：[zhubx]登录成功
+2016-07-25 16:03:47:124 [New I/O worker #4] INFO  exceptionCaught
+2016-07-25 16:03:47:124 [New I/O worker #4] INFO  channelDisconnected
+2016-07-25 16:03:47:124 [New I/O worker #4] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 16:06:42:813 [New I/O worker #5] INFO  receive:0100087A68756278203233
+2016-07-25 16:06:42:813 [New I/O worker #5] INFO  do LoginHandler
+2016-07-25 16:06:42:813 [New I/O worker #5] INFO  [id: 0x3baebd73, /192.168.1.142:59628 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 16:06:42:813 [New I/O worker #5] INFO  用户名为：[zhubx]登录成功
+2016-07-25 16:06:47:230 [New I/O worker #5] INFO  exceptionCaught
+2016-07-25 16:06:47:231 [New I/O worker #5] INFO  channelDisconnected
+2016-07-25 16:06:47:231 [New I/O worker #5] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 16:07:27:735 [New I/O worker #6] INFO  receive:0100097A6875627820313233
+2016-07-25 16:07:27:735 [New I/O worker #6] INFO  do LoginHandler
+2016-07-25 16:07:27:735 [New I/O worker #6] INFO  [id: 0xa35d139f, /192.168.1.142:59648 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 16:07:27:735 [New I/O worker #6] INFO  用户名为：[zhubx]登录成功
+2016-07-25 16:07:30:633 [New I/O worker #6] INFO  exceptionCaught
+2016-07-25 16:07:30:633 [New I/O worker #6] INFO  channelDisconnected
+2016-07-25 16:07:30:633 [New I/O worker #6] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 16:08:43:233 [New I/O worker #7] INFO  receive:0100097A6875627820313233
+2016-07-25 16:08:43:233 [New I/O worker #7] INFO  do LoginHandler
+2016-07-25 16:08:43:234 [New I/O worker #7] INFO  [id: 0x83f788b6, /192.168.1.142:59666 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 16:08:43:234 [New I/O worker #7] INFO  用户名为：[zhubx]登录成功
+2016-07-25 16:08:46:759 [New I/O worker #7] INFO  exceptionCaught
+2016-07-25 16:08:46:760 [New I/O worker #7] INFO  channelDisconnected
+2016-07-25 16:08:46:760 [New I/O worker #7] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 16:16:50:312 [New I/O worker #8] INFO  receive:0100097A6875627820313233
+2016-07-25 16:16:50:312 [New I/O worker #8] INFO  do LoginHandler
+2016-07-25 16:16:50:312 [New I/O worker #8] INFO  [id: 0x419f2dea, /192.168.1.142:59706 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 16:16:50:312 [New I/O worker #8] INFO  用户名为：[zhubx]登录成功
+2016-07-25 16:16:53:890 [New I/O worker #8] INFO  exceptionCaught
+2016-07-25 16:16:53:891 [New I/O worker #8] INFO  channelDisconnected
+2016-07-25 16:16:53:891 [New I/O worker #8] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 16:18:20:841 [New I/O worker #1] INFO  receive:0100097A6875627820313233
+2016-07-25 16:18:20:841 [New I/O worker #1] INFO  do LoginHandler
+2016-07-25 16:18:20:841 [New I/O worker #1] INFO  [id: 0x70a1c38b, /192.168.1.142:59734 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 16:18:20:842 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-25 16:18:23:162 [New I/O worker #1] INFO  exceptionCaught
+2016-07-25 16:18:23:163 [New I/O worker #1] INFO  channelDisconnected
+2016-07-25 16:18:23:163 [New I/O worker #1] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 16:19:03:059 [New I/O worker #2] INFO  receive:0100097A6875627820313233
+2016-07-25 16:19:03:059 [New I/O worker #2] INFO  do LoginHandler
+2016-07-25 16:19:03:059 [New I/O worker #2] INFO  [id: 0x9a443d33, /192.168.1.142:59754 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 16:19:03:060 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-25 16:19:24:731 [New I/O worker #2] INFO  exceptionCaught
+2016-07-25 16:19:24:731 [New I/O worker #2] INFO  channelDisconnected
+2016-07-25 16:19:24:731 [New I/O worker #2] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 16:19:39:138 [New I/O worker #3] INFO  receive:0100097A6875627820313233
+2016-07-25 16:19:39:139 [New I/O worker #3] INFO  do LoginHandler
+2016-07-25 16:19:39:139 [New I/O worker #3] INFO  [id: 0xb88f856e, /192.168.1.142:59774 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 16:19:39:139 [New I/O worker #3] INFO  用户名为：[zhubx]登录成功
+2016-07-25 16:20:08:738 [New I/O worker #3] INFO  exceptionCaught
+2016-07-25 16:20:08:739 [New I/O worker #3] INFO  channelDisconnected
+2016-07-25 16:20:08:739 [New I/O worker #3] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 17:24:59:937 [main] INFO  log init finished.
+2016-07-25 17:25:00:008 [main] DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-25 17:25:00:010 [main] DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-25 17:25:00:010 [main] DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-25 17:25:00:014 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Mon Jul 25 17:25:00 CST 2016]; root of context hierarchy
+2016-07-25 17:25:00:046 [main] DEBUG Adding [systemProperties] PropertySource with lowest search precedence
+2016-07-25 17:25:00:046 [main] DEBUG Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-07-25 17:25:00:046 [main] DEBUG Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-07-25 17:25:00:054 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-25 17:25:00:055 [main] DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-07-25 17:25:00:070 [main] DEBUG Loading schema mappings from [META-INF/spring.schemas]
+2016-07-25 17:25:00:073 [main] DEBUG Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2016-07-25 17:25:00:073 [main] DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-07-25 17:25:00:098 [main] DEBUG Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2016-07-25 17:25:00:100 [main] DEBUG Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2016-07-25 17:25:00:107 [main] DEBUG Loading bean definitions
+2016-07-25 17:25:00:115 [main] DEBUG Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2016-07-25 17:25:00:128 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-25 17:25:00:128 [main] DEBUG Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-07-25 17:25:00:129 [main] DEBUG Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-07-25 17:25:00:140 [main] DEBUG Loading bean definitions
+2016-07-25 17:25:00:145 [main] DEBUG Loaded 11 bean definitions from location pattern [classpath:spring/components.xml]
+2016-07-25 17:25:00:145 [main] DEBUG Imported 11 bean definitions from URL location [classpath:spring/components.xml]
+2016-07-25 17:25:00:145 [main] DEBUG Loaded 12 bean definitions from location pattern [classpath:spring/main.xml]
+2016-07-25 17:25:00:145 [main] DEBUG Bean factory for org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 17:25:00:159 [main] DEBUG Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 17:25:00:159 [main] DEBUG Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 17:25:00:173 [main] DEBUG Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+2016-07-25 17:25:00:192 [main] DEBUG Looking for matching resources in directory tree [E:\newworkspace\demo\target\classes\conf]
+2016-07-25 17:25:00:192 [main] DEBUG Searching directory [E:\newworkspace\demo\target\classes\conf] for files matching pattern [E:/newworkspace/demo/target/classes/conf/**/*.properties]
+2016-07-25 17:25:00:194 [main] DEBUG Resolved location pattern [classpath*:conf/**/*.properties] to resources [file [E:\newworkspace\demo\target\classes\conf\jdbc.properties], file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]]
+2016-07-25 17:25:00:203 [main] DEBUG Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 17:25:00:203 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-25 17:25:00:203 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-25 17:25:00:208 [main] DEBUG Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1c5ddc9]
+2016-07-25 17:25:00:209 [main] DEBUG Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1b273cc]
+2016-07-25 17:25:00:211 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-25 17:25:00:211 [main] DEBUG Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2016-07-25 17:25:00:211 [main] DEBUG Creating shared instance of singleton bean 'server'
+2016-07-25 17:25:00:211 [main] DEBUG Creating instance of bean 'server'
+2016-07-25 17:25:00:214 [main] DEBUG Eagerly caching bean 'server' to allow for resolving potential circular references
+2016-07-25 17:25:00:221 [main] DEBUG Creating shared instance of singleton bean 'loginHandler'
+2016-07-25 17:25:00:221 [main] DEBUG Creating instance of bean 'loginHandler'
+2016-07-25 17:25:00:223 [main] DEBUG Eagerly caching bean 'loginHandler' to allow for resolving potential circular references
+2016-07-25 17:25:00:223 [main] DEBUG Finished creating instance of bean 'loginHandler'
+2016-07-25 17:25:00:224 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageHandler'
+2016-07-25 17:25:00:224 [main] DEBUG Creating instance of bean 'o2OMessageHandler'
+2016-07-25 17:25:00:224 [main] DEBUG Eagerly caching bean 'o2OMessageHandler' to allow for resolving potential circular references
+2016-07-25 17:25:00:224 [main] DEBUG Finished creating instance of bean 'o2OMessageHandler'
+2016-07-25 17:25:00:224 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageHandler'
+2016-07-25 17:25:00:224 [main] DEBUG Creating instance of bean 'o2MMessageHandler'
+2016-07-25 17:25:00:224 [main] DEBUG Eagerly caching bean 'o2MMessageHandler' to allow for resolving potential circular references
+2016-07-25 17:25:00:224 [main] DEBUG Finished creating instance of bean 'o2MMessageHandler'
+2016-07-25 17:25:00:227 [main] DEBUG Creating shared instance of singleton bean 'loginDecoder'
+2016-07-25 17:25:00:227 [main] DEBUG Creating instance of bean 'loginDecoder'
+2016-07-25 17:25:00:227 [main] DEBUG Eagerly caching bean 'loginDecoder' to allow for resolving potential circular references
+2016-07-25 17:25:00:227 [main] DEBUG Finished creating instance of bean 'loginDecoder'
+2016-07-25 17:25:00:227 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageDecoder'
+2016-07-25 17:25:00:227 [main] DEBUG Creating instance of bean 'o2OMessageDecoder'
+2016-07-25 17:25:00:227 [main] DEBUG Eagerly caching bean 'o2OMessageDecoder' to allow for resolving potential circular references
+2016-07-25 17:25:00:227 [main] DEBUG Finished creating instance of bean 'o2OMessageDecoder'
+2016-07-25 17:25:00:228 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageDecoder'
+2016-07-25 17:25:00:228 [main] DEBUG Creating instance of bean 'o2MMessageDecoder'
+2016-07-25 17:25:00:228 [main] DEBUG Eagerly caching bean 'o2MMessageDecoder' to allow for resolving potential circular references
+2016-07-25 17:25:00:228 [main] DEBUG Finished creating instance of bean 'o2MMessageDecoder'
+2016-07-25 17:25:00:228 [main] DEBUG Creating shared instance of singleton bean 'loginResponseEncoder'
+2016-07-25 17:25:00:228 [main] DEBUG Creating instance of bean 'loginResponseEncoder'
+2016-07-25 17:25:00:228 [main] DEBUG Eagerly caching bean 'loginResponseEncoder' to allow for resolving potential circular references
+2016-07-25 17:25:00:228 [main] DEBUG Finished creating instance of bean 'loginResponseEncoder'
+2016-07-25 17:25:00:229 [main] DEBUG Creating shared instance of singleton bean 'o2OMessageResponseEncoder'
+2016-07-25 17:25:00:229 [main] DEBUG Creating instance of bean 'o2OMessageResponseEncoder'
+2016-07-25 17:25:00:229 [main] DEBUG Eagerly caching bean 'o2OMessageResponseEncoder' to allow for resolving potential circular references
+2016-07-25 17:25:00:229 [main] DEBUG Finished creating instance of bean 'o2OMessageResponseEncoder'
+2016-07-25 17:25:00:229 [main] DEBUG Creating shared instance of singleton bean 'o2MMessageResponseEncoder'
+2016-07-25 17:25:00:229 [main] DEBUG Creating instance of bean 'o2MMessageResponseEncoder'
+2016-07-25 17:25:00:229 [main] DEBUG Eagerly caching bean 'o2MMessageResponseEncoder' to allow for resolving potential circular references
+2016-07-25 17:25:00:229 [main] DEBUG Finished creating instance of bean 'o2MMessageResponseEncoder'
+2016-07-25 17:25:00:229 [main] DEBUG Creating shared instance of singleton bean 'serverMessageEncoder'
+2016-07-25 17:25:00:229 [main] DEBUG Creating instance of bean 'serverMessageEncoder'
+2016-07-25 17:25:00:229 [main] DEBUG Eagerly caching bean 'serverMessageEncoder' to allow for resolving potential circular references
+2016-07-25 17:25:00:230 [main] DEBUG Finished creating instance of bean 'serverMessageEncoder'
+2016-07-25 17:25:00:230 [main] DEBUG Invoking init method  'init' on bean with name 'server'
+2016-07-25 17:25:00:296 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-25 17:25:00:296 [main] DEBUG Finished creating instance of bean 'server'
+2016-07-25 17:25:00:296 [main] DEBUG Returning cached instance of singleton bean 'loginHandler'
+2016-07-25 17:25:00:296 [main] DEBUG Returning cached instance of singleton bean 'o2OMessageHandler'
+2016-07-25 17:25:00:296 [main] DEBUG Returning cached instance of singleton bean 'o2MMessageHandler'
+2016-07-25 17:25:00:297 [main] DEBUG Returning cached instance of singleton bean 'loginDecoder'
+2016-07-25 17:25:00:297 [main] DEBUG Returning cached instance of singleton bean 'o2OMessageDecoder'
+2016-07-25 17:25:00:297 [main] DEBUG Returning cached instance of singleton bean 'o2MMessageDecoder'
+2016-07-25 17:25:00:297 [main] DEBUG Returning cached instance of singleton bean 'loginResponseEncoder'
+2016-07-25 17:25:00:297 [main] DEBUG Returning cached instance of singleton bean 'o2OMessageResponseEncoder'
+2016-07-25 17:25:00:297 [main] DEBUG Returning cached instance of singleton bean 'o2MMessageResponseEncoder'
+2016-07-25 17:25:00:297 [main] DEBUG Returning cached instance of singleton bean 'serverMessageEncoder'
+2016-07-25 17:25:00:298 [main] DEBUG Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@114b82b]
+2016-07-25 17:25:00:298 [main] DEBUG Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-07-25 17:25:00:300 [main] DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2016-07-25 17:25:00:300 [main] DEBUG Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2016-07-25 17:25:00:300 [main] DEBUG Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2016-07-25 17:25:00:300 [main] INFO  module init finished.
+2016-07-25 17:31:59:442 [New I/O worker #1] INFO  receive:0100097A6875627820313233
+2016-07-25 17:31:59:444 [New I/O worker #1] INFO  do LoginHandler
+2016-07-25 17:31:59:446 [New I/O worker #1] INFO  [id: 0xf070f698, /192.168.1.142:60187 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 17:31:59:448 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-25 17:32:08:158 [New I/O worker #1] INFO  exceptionCaught
+2016-07-25 17:32:08:158 [New I/O worker #1] INFO  channelDisconnected
+2016-07-25 17:32:08:159 [New I/O worker #1] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 17:34:30:358 [New I/O worker #2] INFO  receive:0100097A6875627820313233
+2016-07-25 17:34:30:359 [New I/O worker #2] INFO  do LoginHandler
+2016-07-25 17:34:30:359 [New I/O worker #2] INFO  [id: 0xaac95ed9, /192.168.1.142:60207 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 17:34:30:359 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-25 17:34:38:229 [New I/O worker #2] INFO  exceptionCaught
+2016-07-25 17:34:38:229 [New I/O worker #2] INFO  channelDisconnected
+2016-07-25 17:34:38:229 [New I/O worker #2] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 17:35:02:757 [New I/O worker #3] INFO  receive:0100097A6875627820313233
+2016-07-25 17:35:02:757 [New I/O worker #3] INFO  do LoginHandler
+2016-07-25 17:35:02:757 [New I/O worker #3] INFO  [id: 0x9cc07d71, /192.168.1.142:60226 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 17:35:02:757 [New I/O worker #3] INFO  用户名为：[zhubx]登录成功
+2016-07-25 17:35:34:291 [New I/O worker #3] INFO  exceptionCaught
+2016-07-25 17:35:34:291 [New I/O worker #3] INFO  channelDisconnected
+2016-07-25 17:35:34:291 [New I/O worker #3] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 18:00:07:242 [New I/O worker #4] INFO  receive:0100097A6875627820313233
+2016-07-25 18:00:07:242 [New I/O worker #4] INFO  do LoginHandler
+2016-07-25 18:00:07:242 [New I/O worker #4] INFO  [id: 0xd67565c9, /192.168.1.142:60358 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 18:00:07:243 [New I/O worker #4] INFO  用户名为：[zhubx]登录成功
+2016-07-25 18:00:13:534 [New I/O worker #4] INFO  exceptionCaught
+2016-07-25 18:00:13:534 [New I/O worker #4] INFO  channelDisconnected
+2016-07-25 18:00:13:534 [New I/O worker #4] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 18:13:24:434 [New I/O worker #5] INFO  receive:0100097A6875627820313233
+2016-07-25 18:13:24:434 [New I/O worker #5] INFO  do LoginHandler
+2016-07-25 18:13:24:434 [New I/O worker #5] INFO  [id: 0x09301f45, /192.168.1.142:60412 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 18:13:24:435 [New I/O worker #5] INFO  用户名为：[zhubx]登录成功
+2016-07-25 18:14:24:515 [New I/O worker #5] INFO  [id: 0x09301f45, /192.168.1.142:60412 => /192.168.1.142:6666]超时断开.
+2016-07-25 18:14:24:516 [New I/O worker #5] INFO  channelDisconnected
+2016-07-25 18:14:24:517 [New I/O worker #5] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 18:35:11:292 [New I/O worker #6] INFO  receive:0100097A6875627820313233
+2016-07-25 18:35:11:292 [New I/O worker #6] INFO  do LoginHandler
+2016-07-25 18:35:11:292 [New I/O worker #6] INFO  [id: 0xc37e42fd, /192.168.1.142:60515 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 18:35:11:292 [New I/O worker #6] INFO  用户名为：[zhubx]登录成功
+2016-07-25 18:35:42:007 [New I/O worker #6] INFO  exceptionCaught
+2016-07-25 18:35:42:008 [New I/O worker #6] INFO  channelDisconnected
+2016-07-25 18:35:42:008 [New I/O worker #6] INFO  [MessageServerHandler]在线人数:0
+2016-07-25 18:45:24:605 [New I/O worker #7] INFO  receive:0100097A6875627820313233
+2016-07-25 18:45:24:605 [New I/O worker #7] INFO  do LoginHandler
+2016-07-25 18:45:24:605 [New I/O worker #7] INFO  [id: 0x455421bd, /192.168.1.142:60839 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-25 18:45:24:605 [New I/O worker #7] INFO  用户名为：[zhubx]登录成功
+2016-07-25 18:46:24:687 [New I/O worker #7] INFO  [id: 0x455421bd, /192.168.1.142:60839 => /192.168.1.142:6666]超时断开.
+2016-07-25 18:46:24:689 [New I/O worker #7] INFO  channelDisconnected
+2016-07-25 18:46:24:689 [New I/O worker #7] INFO  [MessageServerHandler]在线人数:0

@@ -13,5 +13,11 @@ public class O2MMessageResponse extends ProtocolMsg{
 	public final void setResult(byte result) {
 		this.result = result;
 	}
+	
+	public String msgDetail() {
+		// TODO Auto-generated method stub
+		return "O2MMessageResponse [commandId=" + super.getCommandId() + ",msglength=" + 
+		super.getMsglength() + ",result=" + result + "]";
+	}
 
 }

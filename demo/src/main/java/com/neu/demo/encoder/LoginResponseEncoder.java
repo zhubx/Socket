@@ -41,7 +41,7 @@ public class LoginResponseEncoder implements IEncoder{
 				buffer.writeBytes(sb.toString().getBytes());
 			}else{
 				buffer.writeShort(response.getMsglength());
-				buffer.writeShort(response.getResult());
+				buffer.writeByte(response.getResult());
 			}
 			 
 			LOG.info(channel + "[Encoder--LoginResponse],userid:"+response.getUserid()+",result:"+response.getResult());

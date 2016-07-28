@@ -14,4 +14,9 @@ public class MessageResponse extends ProtocolMsg{
 		this.result = result;
 	}
 	
+	public String msgDetail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 }

@@ -40,5 +40,12 @@ public class LoginMessage extends ProtocolMsg{
 	public final void setPassword(String password) {
 		this.password = password;
 	}
+
+
+
+	public String msgDetail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }

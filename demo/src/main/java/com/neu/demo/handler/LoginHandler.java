@@ -42,6 +42,12 @@ public class LoginHandler implements IHandler{
 		m2.setUsername("xu");
 		m2.setPassword("123");
 		map.put(m2.getUsername(), m2);
+		
+		LoginMessage m3 = new LoginMessage();
+		m3.setUserid("3");
+		m3.setUsername("liufanhua");
+		m3.setPassword("123");
+		map.put(m3.getUsername(), m3);
 	}
 	
 	
@@ -66,7 +72,7 @@ public class LoginHandler implements IHandler{
 			session.saveSession(user,e.getChannel());
 			keysession.put(user.getUsername(), e.getChannel());
 			LoginResponse response = new LoginResponse();
-			response.setCommandId((byte)0x8001);
+			response.setCommandId((byte)0x0002);
 			response.setResult((byte)0);
 			//response.setMessagelength((short)3);
 			response.setOnlinnum(session.getOnlinnum());
@@ -75,7 +81,7 @@ public class LoginHandler implements IHandler{
 			LOG.info("用户名为：[" + user.getUsername() + "]登录成功");
 		}else{
 			LoginResponse response = new LoginResponse();
-			response.setCommandId((byte)0x8001);
+			response.setCommandId((byte)0x0002);
 			response.setResult((byte)1);
 			response.setMsglength((short)1);
 			e.getChannel().write(response);

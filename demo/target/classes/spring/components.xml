@@ -15,13 +15,15 @@
 				<entry key="com.neu.demo.bean.LoginMessage" value-ref="loginHandler" />
 				<entry key="com.neu.demo.bean.O2OMessage" value-ref="o2OMessageHandler" />
 				<entry key="com.neu.demo.bean.O2MMessage" value-ref="o2MMessageHandler" />
+				<entry key="com.neu.demo.bean.HeartBeat" value-ref="heartBeatHandler" />
 			</map>
 		</property>
 		<property name="decoders">
 			<map>
 				<entry key="0x0001" value-ref="loginDecoder" />
-				<entry key="0x0002" value-ref="o2OMessageDecoder" />
-				<entry key="0x0003" value-ref="o2MMessageDecoder" />
+				<entry key="0x0003" value-ref="o2OMessageDecoder" />
+				<entry key="0x0005" value-ref="o2MMessageDecoder" />
+				<entry key="0x0008" value-ref="heartBeatDecoder" />
 			</map>
 		</property>
 		<property name="encoders">
@@ -30,6 +32,8 @@
 				<entry key="com.neu.demo.response.O2OMessageResponse" value-ref="o2OMessageResponseEncoder" />
 				<entry key="com.neu.demo.response.O2MMessageResponse" value-ref="o2MMessageResponseEncoder" />
 				<entry key="com.neu.demo.bean.ServerMessage" value-ref="serverMessageEncoder" />
+				<entry key="com.neu.demo.response.HeartBeatResponse" value-ref="heartBeatResponseEncoder" />
+				<entry key="com.neu.demo.bean.UpdateMessage" value-ref="updateMessageEncoder" />
 			</map>
 		</property>
 	</bean>
@@ -37,16 +41,20 @@
 	<bean id="loginHandler" class="com.neu.demo.handler.LoginHandler" />
     <bean id="o2OMessageHandler" class="com.neu.demo.handler.O2OMessageHandler" />
     <bean id="o2MMessageHandler" class="com.neu.demo.handler.O2MMessageHandler" />
+    <bean id="heartBeatHandler" class="com.neu.demo.handler.HeartBeatHandler" />
     
     <!-- All Decoder -->
     <bean id="loginDecoder" class="com.neu.demo.decoder.LoginDecoder" />
     <bean id="o2OMessageDecoder" class="com.neu.demo.decoder.O2OMessageDecoder" />
     <bean id="o2MMessageDecoder" class="com.neu.demo.decoder.O2MMessageDecoder" />
+    <bean id="heartBeatDecoder" class="com.neu.demo.decoder.HeartBeatDecoder" />
     
     <!-- All Encoder -->
     <bean id="loginResponseEncoder" class="com.neu.demo.encoder.LoginResponseEncoder" />
     <bean id="o2OMessageResponseEncoder" class="com.neu.demo.encoder.O2OMessageResponseEncoder" />
     <bean id="o2MMessageResponseEncoder" class="com.neu.demo.encoder.O2MMessageResponseEncoder" />
     <bean id="serverMessageEncoder" class="com.neu.demo.encoder.ServerMessageEncoder" />
+    <bean id="heartBeatResponseEncoder" class="com.neu.demo.encoder.HeartBeatResponseEncoder" />
+    <bean id="updateMessageEncoder" class="com.neu.demo.encoder.UpdateMessageEncoder" />
 
 </beans>

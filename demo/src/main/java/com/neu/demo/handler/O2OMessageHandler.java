@@ -31,11 +31,11 @@ public class O2OMessageHandler implements IHandler{
 		String ruser = message.getIncept();
 		Channel channel = session.getChannel(ruser);
 		O2OMessageResponse response = new O2OMessageResponse();
-		response.setCommandId((byte)0x8002);
+		response.setCommandId((byte)0x0004);
 		response.setMsglength((short)1);
 		if(channel !=null && channel.isConnected()){
 			ServerMessage sm = new ServerMessage();
-			sm.setCommandId((byte)0x0004);
+			sm.setCommandId((byte)0x0007);
 			sm.setContent(message.getMessage());
 			sm.setType((byte)2);
 			sm.setSender(message.getSender());
@@ -44,14 +44,13 @@ public class O2OMessageHandler implements IHandler{
 			
 			//返回结果
 			response.setResult((byte)0);
-			e.getChannel().write(response);
 			
 		}else{
 			//用户不在线 返回结果
 			LOG.info("[用户不在线]" + ruser);
 			response.setResult((byte)2);
-			e.getChannel().write(response);
 		}
+		e.getChannel().write(response);
 	}
 
 }

@@ -1,0 +1,1057 @@
+2016-07-27 10:15:28:303 [main] INFO  log init finished.
+2016-07-27 10:15:28:377 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Wed Jul 27 10:15:28 CST 2016]; root of context hierarchy
+2016-07-27 10:15:28:414 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-27 10:15:28:482 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-27 10:15:28:573 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-27 10:15:28:573 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-27 10:15:28:580 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-27 10:15:28:694 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-27 10:15:28:699 [main] INFO  module init finished.
+2016-07-27 10:20:43:539 [New I/O worker #1] INFO  receive:0100097A6875627820313233
+2016-07-27 10:20:43:540 [New I/O worker #1] INFO  do LoginHandler
+2016-07-27 10:20:43:543 [New I/O worker #1] INFO  [id: 0x2b913898, /192.168.1.142:52132 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 10:20:43:545 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-27 10:20:50:203 [New I/O worker #1] INFO  receive:0500237A687562782020202020202020202020202020202020202020202020202068656C6C6F
+2016-07-27 10:20:50:232 [New I/O worker #1] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=35,sender=zhubx, message=hello]
+2016-07-27 10:20:50:233 [New I/O worker #1] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:20:57:153 [New I/O worker #1] INFO  receive:0500247A68756278202020202020202020202020202020202020202020202020206E6968616F61
+2016-07-27 10:20:57:153 [New I/O worker #1] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=36,sender=zhubx, message=nihaoa]
+2016-07-27 10:20:57:154 [New I/O worker #1] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:21:10:070 [New I/O worker #1] INFO  exceptionCaught
+2016-07-27 10:21:10:071 [New I/O worker #1] INFO  channelDisconnected
+2016-07-27 10:21:10:071 [New I/O worker #1] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 10:22:45:325 [New I/O worker #2] INFO  receive:0100097A6875627820313233
+2016-07-27 10:22:45:325 [New I/O worker #2] INFO  do LoginHandler
+2016-07-27 10:22:45:325 [New I/O worker #2] INFO  [id: 0xbb659830, /192.168.1.142:52161 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 10:22:45:325 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-27 10:22:49:570 [New I/O worker #2] INFO  receive:0500237A68756278202020202020202020202020202020202020202020202020206E6968616F
+2016-07-27 10:22:49:571 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=35,sender=zhubx, message=nihao]
+2016-07-27 10:22:49:571 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:22:56:601 [New I/O worker #2] INFO  receive:05001F7A68756278202020202020202020202020202020202020202020202020206F
+2016-07-27 10:22:56:601 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=o]
+2016-07-27 10:22:56:602 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:23:03:710 [New I/O worker #2] INFO  exceptionCaught
+2016-07-27 10:23:03:710 [New I/O worker #2] INFO  channelDisconnected
+2016-07-27 10:23:03:710 [New I/O worker #2] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 10:24:09:606 [New I/O worker #3] INFO  receive:0100097A6875627820313233
+2016-07-27 10:24:09:606 [New I/O worker #3] INFO  do LoginHandler
+2016-07-27 10:24:09:607 [New I/O worker #3] INFO  [id: 0xf31faa7a, /192.168.1.142:52191 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 10:24:09:607 [New I/O worker #3] INFO  用户名为：[zhubx]登录成功
+2016-07-27 10:24:13:619 [New I/O worker #3] INFO  receive:0500227A68756278202020202020202020202020202020202020202020202020206C616C61
+2016-07-27 10:24:13:619 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=34,sender=zhubx, message=lala]
+2016-07-27 10:24:13:619 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:24:16:976 [New I/O worker #3] INFO  receive:0500237A68756278202020202020202020202020202020202020202020202020206E6968616F
+2016-07-27 10:24:16:976 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=35,sender=zhubx, message=nihao]
+2016-07-27 10:24:16:977 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:24:22:915 [New I/O worker #3] INFO  exceptionCaught
+2016-07-27 10:24:22:915 [New I/O worker #3] INFO  channelDisconnected
+2016-07-27 10:24:22:916 [New I/O worker #3] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 10:37:27:366 [New I/O worker #4] INFO  receive:0100097A6875627820313233
+2016-07-27 10:37:27:367 [New I/O worker #4] INFO  do LoginHandler
+2016-07-27 10:37:27:367 [New I/O worker #4] INFO  [id: 0x16a07e51, /192.168.1.142:52475 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 10:37:27:367 [New I/O worker #4] INFO  用户名为：[zhubx]登录成功
+2016-07-27 10:37:32:674 [New I/O worker #4] INFO  receive:0500227A687562782020202020202020202020202020202020202020202020202068616861
+2016-07-27 10:37:32:674 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=34,sender=zhubx, message=haha]
+2016-07-27 10:37:32:675 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:37:35:616 [New I/O worker #4] INFO  receive:0500227A68756278202020202020202020202020202020202020202020202020206C616C61
+2016-07-27 10:37:35:616 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=34,sender=zhubx, message=lala]
+2016-07-27 10:37:35:617 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:37:39:553 [New I/O worker #4] INFO  receive:0500237A68756278202020202020202020202020202020202020202020202020206E6968616F
+2016-07-27 10:37:39:553 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=35,sender=zhubx, message=nihao]
+2016-07-27 10:37:39:553 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:38:08:377 [New I/O worker #4] INFO  exceptionCaught
+2016-07-27 10:38:08:378 [New I/O worker #4] INFO  channelDisconnected
+2016-07-27 10:38:08:379 [New I/O worker #4] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 10:45:45:165 [New I/O worker #5] INFO  receive:0100097A6875627820313233
+2016-07-27 10:45:45:166 [New I/O worker #5] INFO  do LoginHandler
+2016-07-27 10:45:45:166 [New I/O worker #5] INFO  [id: 0xd8ff4b40, /192.168.1.142:52508 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 10:45:45:166 [New I/O worker #5] INFO  用户名为：[zhubx]登录成功
+2016-07-27 10:45:55:787 [New I/O worker #5] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 10:45:55:787 [New I/O worker #5] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 10:45:55:787 [New I/O worker #5] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:45:58:640 [New I/O worker #5] INFO  receive:05001E7A6875627820202020202020202020202020202020202020202020202020
+2016-07-27 10:45:58:641 [New I/O worker #5] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=30,sender=zhubx, message=]
+2016-07-27 10:45:58:641 [New I/O worker #5] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:45:59:152 [New I/O worker #5] INFO  receive:05001E7A6875627820202020202020202020202020202020202020202020202020
+2016-07-27 10:45:59:152 [New I/O worker #5] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=30,sender=zhubx, message=]
+2016-07-27 10:45:59:152 [New I/O worker #5] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:45:59:345 [New I/O worker #5] INFO  receive:05001E7A6875627820202020202020202020202020202020202020202020202020
+2016-07-27 10:45:59:345 [New I/O worker #5] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=30,sender=zhubx, message=]
+2016-07-27 10:45:59:345 [New I/O worker #5] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:45:59:521 [New I/O worker #5] INFO  receive:05001E7A6875627820202020202020202020202020202020202020202020202020
+2016-07-27 10:45:59:521 [New I/O worker #5] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=30,sender=zhubx, message=]
+2016-07-27 10:45:59:521 [New I/O worker #5] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:46:05:157 [New I/O worker #5] INFO  exceptionCaught
+2016-07-27 10:46:05:158 [New I/O worker #5] INFO  channelDisconnected
+2016-07-27 10:46:05:159 [New I/O worker #5] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 10:48:53:557 [New I/O worker #6] INFO  receive:0100097A6875627820313233
+2016-07-27 10:48:53:557 [New I/O worker #6] INFO  do LoginHandler
+2016-07-27 10:48:53:557 [New I/O worker #6] INFO  [id: 0x74a6af5a, /192.168.1.142:52558 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 10:48:53:557 [New I/O worker #6] INFO  用户名为：[zhubx]登录成功
+2016-07-27 10:49:13:145 [New I/O worker #6] INFO  exceptionCaught
+2016-07-27 10:49:13:146 [New I/O worker #6] INFO  channelDisconnected
+2016-07-27 10:49:13:147 [New I/O worker #6] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 10:50:53:630 [New I/O worker #7] INFO  receive:0100097A6875627820313233
+2016-07-27 10:50:53:630 [New I/O worker #7] INFO  do LoginHandler
+2016-07-27 10:50:53:630 [New I/O worker #7] INFO  [id: 0xc2c32a62, /192.168.1.142:52579 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 10:50:53:630 [New I/O worker #7] INFO  用户名为：[zhubx]登录成功
+2016-07-27 10:51:01:521 [New I/O worker #7] INFO  receive:0500227A687562782020202020202020202020202020202020202020202020202073666473
+2016-07-27 10:51:01:522 [New I/O worker #7] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=34,sender=zhubx, message=sfds]
+2016-07-27 10:51:01:522 [New I/O worker #7] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:51:03:872 [New I/O worker #7] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 10:51:03:872 [New I/O worker #7] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 10:51:03:872 [New I/O worker #7] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:51:05:208 [New I/O worker #7] INFO  receive:0500207A68756278202020202020202020202020202020202020202020202020207366
+2016-07-27 10:51:05:208 [New I/O worker #7] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=32,sender=zhubx, message=sf]
+2016-07-27 10:51:05:209 [New I/O worker #7] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:51:06:257 [New I/O worker #7] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736664
+2016-07-27 10:51:06:257 [New I/O worker #7] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sfd]
+2016-07-27 10:51:06:257 [New I/O worker #7] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:51:07:256 [New I/O worker #7] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 10:51:07:256 [New I/O worker #7] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 10:51:07:256 [New I/O worker #7] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:51:08:424 [New I/O worker #7] INFO  receive:0500207A68756278202020202020202020202020202020202020202020202020207366
+2016-07-27 10:51:08:424 [New I/O worker #7] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=32,sender=zhubx, message=sf]
+2016-07-27 10:51:08:425 [New I/O worker #7] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:51:09:592 [New I/O worker #7] INFO  receive:0500207A68756278202020202020202020202020202020202020202020202020207366
+2016-07-27 10:51:09:593 [New I/O worker #7] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=32,sender=zhubx, message=sf]
+2016-07-27 10:51:09:593 [New I/O worker #7] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:51:10:952 [New I/O worker #7] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 10:51:10:952 [New I/O worker #7] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 10:51:10:953 [New I/O worker #7] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:51:13:543 [New I/O worker #7] INFO  exceptionCaught
+2016-07-27 10:51:13:543 [New I/O worker #7] INFO  channelDisconnected
+2016-07-27 10:51:13:543 [New I/O worker #7] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 10:53:04:933 [New I/O worker #8] INFO  receive:0100097A6875627820313233
+2016-07-27 10:53:04:934 [New I/O worker #8] INFO  do LoginHandler
+2016-07-27 10:53:04:934 [New I/O worker #8] INFO  [id: 0x79036305, /192.168.1.142:52605 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 10:53:04:934 [New I/O worker #8] INFO  用户名为：[zhubx]登录成功
+2016-07-27 10:53:12:874 [New I/O worker #8] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 10:53:12:874 [New I/O worker #8] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 10:53:12:875 [New I/O worker #8] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:53:13:864 [New I/O worker #8] INFO  receive:0500207A68756278202020202020202020202020202020202020202020202020207366
+2016-07-27 10:53:13:864 [New I/O worker #8] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=32,sender=zhubx, message=sf]
+2016-07-27 10:53:13:865 [New I/O worker #8] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:53:14:720 [New I/O worker #8] INFO  receive:0500207A68756278202020202020202020202020202020202020202020202020207366
+2016-07-27 10:53:14:720 [New I/O worker #8] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=32,sender=zhubx, message=sf]
+2016-07-27 10:53:14:721 [New I/O worker #8] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:53:15:653 [New I/O worker #8] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 10:53:15:653 [New I/O worker #8] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 10:53:15:654 [New I/O worker #8] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:53:16:536 [New I/O worker #8] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 10:53:16:536 [New I/O worker #8] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 10:53:16:537 [New I/O worker #8] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:53:17:600 [New I/O worker #8] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 10:53:17:600 [New I/O worker #8] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 10:53:17:600 [New I/O worker #8] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:53:21:773 [New I/O worker #8] INFO  exceptionCaught
+2016-07-27 10:53:21:773 [New I/O worker #8] INFO  channelDisconnected
+2016-07-27 10:53:21:774 [New I/O worker #8] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 10:57:17:711 [New I/O worker #1] INFO  receive:0100097A6875627820313233
+2016-07-27 10:57:17:711 [New I/O worker #1] INFO  do LoginHandler
+2016-07-27 10:57:17:711 [New I/O worker #1] INFO  [id: 0x06c77b8e, /192.168.1.142:52631 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 10:57:17:711 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-27 10:58:09:486 [New I/O worker #1] INFO  exceptionCaught
+2016-07-27 10:58:09:486 [New I/O worker #1] INFO  channelDisconnected
+2016-07-27 10:58:09:486 [New I/O worker #1] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 10:58:19:725 [New I/O worker #2] INFO  receive:0100097A6875627820313233
+2016-07-27 10:58:19:726 [New I/O worker #2] INFO  do LoginHandler
+2016-07-27 10:58:19:726 [New I/O worker #2] INFO  [id: 0xb8e2387d, /192.168.1.142:52650 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 10:58:19:726 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-27 10:58:25:162 [New I/O worker #2] INFO  receive:0500227A687562782020202020202020202020202020202020202020202020202073646673
+2016-07-27 10:58:25:162 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=34,sender=zhubx, message=sdfs]
+2016-07-27 10:58:25:162 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:58:26:432 [New I/O worker #2] INFO  receive:0500207A68756278202020202020202020202020202020202020202020202020207366
+2016-07-27 10:58:26:432 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=32,sender=zhubx, message=sf]
+2016-07-27 10:58:26:433 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:58:27:312 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 10:58:27:313 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 10:58:27:313 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:58:29:344 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 10:58:29:344 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 10:58:29:345 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:58:30:192 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 10:58:30:192 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 10:58:30:193 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:58:31:560 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020776572
+2016-07-27 10:58:31:560 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=wer]
+2016-07-27 10:58:31:561 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:58:32:536 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020776572
+2016-07-27 10:58:32:536 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=wer]
+2016-07-27 10:58:32:537 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:58:33:680 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020776572
+2016-07-27 10:58:33:681 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=wer]
+2016-07-27 10:58:33:681 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:58:34:752 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020776572
+2016-07-27 10:58:34:752 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=wer]
+2016-07-27 10:58:34:753 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:58:36:216 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020776572
+2016-07-27 10:58:36:216 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=wer]
+2016-07-27 10:58:36:217 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:59:07:892 [New I/O worker #2] INFO  exceptionCaught
+2016-07-27 10:59:07:893 [New I/O worker #2] INFO  channelDisconnected
+2016-07-27 10:59:07:893 [New I/O worker #2] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 10:59:18:681 [New I/O worker #3] INFO  receive:0100097A6875627820313233
+2016-07-27 10:59:18:681 [New I/O worker #3] INFO  do LoginHandler
+2016-07-27 10:59:18:682 [New I/O worker #3] INFO  [id: 0x58c5fa54, /192.168.1.142:52668 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 10:59:18:682 [New I/O worker #3] INFO  用户名为：[zhubx]登录成功
+2016-07-27 10:59:21:882 [New I/O worker #3] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 10:59:21:882 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 10:59:21:883 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:59:23:440 [New I/O worker #3] INFO  receive:0500227A687562782020202020202020202020202020202020202020202020202032333432
+2016-07-27 10:59:23:440 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=34,sender=zhubx, message=2342]
+2016-07-27 10:59:23:441 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:59:24:456 [New I/O worker #3] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020333234
+2016-07-27 10:59:24:456 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=324]
+2016-07-27 10:59:24:457 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:59:25:376 [New I/O worker #3] INFO  receive:05001E7A6875627820202020202020202020202020202020202020202020202020
+2016-07-27 10:59:25:376 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=30,sender=zhubx, message=]
+2016-07-27 10:59:25:377 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:59:26:912 [New I/O worker #3] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202033
+2016-07-27 10:59:26:912 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=3]
+2016-07-27 10:59:26:912 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:59:27:784 [New I/O worker #3] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202033
+2016-07-27 10:59:27:784 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=3]
+2016-07-27 10:59:27:784 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:59:29:088 [New I/O worker #3] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202033
+2016-07-27 10:59:29:088 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=3]
+2016-07-27 10:59:29:089 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:59:30:056 [New I/O worker #3] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202033
+2016-07-27 10:59:30:056 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=3]
+2016-07-27 10:59:30:057 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:59:31:048 [New I/O worker #3] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202033
+2016-07-27 10:59:31:048 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=3]
+2016-07-27 10:59:31:048 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:59:32:024 [New I/O worker #3] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202034
+2016-07-27 10:59:32:024 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=4]
+2016-07-27 10:59:32:025 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:59:33:288 [New I/O worker #3] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202035
+2016-07-27 10:59:33:288 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=5]
+2016-07-27 10:59:33:288 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 10:59:39:159 [New I/O worker #3] INFO  exceptionCaught
+2016-07-27 10:59:39:160 [New I/O worker #3] INFO  channelDisconnected
+2016-07-27 10:59:39:160 [New I/O worker #3] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 11:29:21:302 [New I/O worker #4] INFO  receive:0100097A6875627820313233
+2016-07-27 11:29:21:302 [New I/O worker #4] INFO  do LoginHandler
+2016-07-27 11:29:21:302 [New I/O worker #4] INFO  [id: 0xf1711820, /192.168.1.142:53024 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 11:29:21:302 [New I/O worker #4] INFO  用户名为：[zhubx]登录成功
+2016-07-27 11:29:25:481 [New I/O worker #4] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202033
+2016-07-27 11:29:25:482 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=3]
+2016-07-27 11:29:25:482 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 11:29:27:112 [New I/O worker #4] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202033
+2016-07-27 11:29:27:112 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=3]
+2016-07-27 11:29:27:112 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 11:29:28:000 [New I/O worker #4] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202033
+2016-07-27 11:29:28:000 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=3]
+2016-07-27 11:29:28:001 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 11:29:29:008 [New I/O worker #4] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202032
+2016-07-27 11:29:29:008 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=2]
+2016-07-27 11:29:29:008 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 11:29:30:311 [New I/O worker #4] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202034
+2016-07-27 11:29:30:311 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=4]
+2016-07-27 11:29:30:312 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 11:29:31:471 [New I/O worker #4] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202035
+2016-07-27 11:29:31:471 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=5]
+2016-07-27 11:29:31:471 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 11:29:32:655 [New I/O worker #4] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202036
+2016-07-27 11:29:32:655 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=6]
+2016-07-27 11:29:32:656 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 11:29:33:847 [New I/O worker #4] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202036
+2016-07-27 11:29:33:848 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=6]
+2016-07-27 11:29:33:849 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 11:29:35:071 [New I/O worker #4] INFO  receive:05001F7A687562782020202020202020202020202020202020202020202020202037
+2016-07-27 11:29:35:071 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=31,sender=zhubx, message=7]
+2016-07-27 11:29:35:072 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 11:30:20:754 [New I/O worker #4] INFO  exceptionCaught
+2016-07-27 11:30:20:754 [New I/O worker #4] INFO  channelDisconnected
+2016-07-27 11:30:20:754 [New I/O worker #4] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 14:50:01:653 [New I/O worker #5] INFO  receive:0100097A6875627820313233
+2016-07-27 14:50:01:654 [New I/O worker #5] INFO  do LoginHandler
+2016-07-27 14:50:01:654 [New I/O worker #5] INFO  [id: 0xe88365c4, /192.168.1.142:54364 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 14:50:01:654 [New I/O worker #5] INFO  用户名为：[zhubx]登录成功
+2016-07-27 14:50:42:740 [New I/O worker #5] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 14:50:42:740 [New I/O worker #5] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 14:50:42:741 [New I/O worker #5] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 14:50:45:946 [New I/O worker #5] INFO  receive:0500227A687562782020202020202020202020202020202020202020202020202061736466
+2016-07-27 14:50:45:946 [New I/O worker #5] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=34,sender=zhubx, message=asdf]
+2016-07-27 14:50:45:947 [New I/O worker #5] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 14:50:47:251 [New I/O worker #5] INFO  receive:0500237A68756278202020202020202020202020202020202020202020202020206173646666
+2016-07-27 14:50:47:251 [New I/O worker #5] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=35,sender=zhubx, message=asdff]
+2016-07-27 14:50:47:251 [New I/O worker #5] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 14:50:48:371 [New I/O worker #5] INFO  receive:0500227A687562782020202020202020202020202020202020202020202020202061736466
+2016-07-27 14:50:48:371 [New I/O worker #5] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=34,sender=zhubx, message=asdf]
+2016-07-27 14:50:48:371 [New I/O worker #5] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 14:50:49:419 [New I/O worker #5] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020616466
+2016-07-27 14:50:49:419 [New I/O worker #5] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=adf]
+2016-07-27 14:50:49:420 [New I/O worker #5] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 14:50:50:515 [New I/O worker #5] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020616466
+2016-07-27 14:50:50:515 [New I/O worker #5] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=adf]
+2016-07-27 14:50:50:516 [New I/O worker #5] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 14:50:51:538 [New I/O worker #5] INFO  receive:0500227A687562782020202020202020202020202020202020202020202020202061736466
+2016-07-27 14:50:51:539 [New I/O worker #5] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=34,sender=zhubx, message=asdf]
+2016-07-27 14:50:51:539 [New I/O worker #5] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 14:51:15:307 [New I/O worker #5] INFO  exceptionCaught
+2016-07-27 14:51:15:308 [New I/O worker #5] INFO  channelDisconnected
+2016-07-27 14:51:15:308 [New I/O worker #5] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 15:24:56:414 [New I/O worker #6] INFO  receive:0100097A6875627820313233
+2016-07-27 15:24:56:415 [New I/O worker #6] INFO  do LoginHandler
+2016-07-27 15:24:56:415 [New I/O worker #6] INFO  [id: 0xaa536692, /192.168.1.142:54828 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 15:24:56:415 [New I/O worker #6] INFO  用户名为：[zhubx]登录成功
+2016-07-27 15:25:06:401 [New I/O worker #6] INFO  exceptionCaught
+2016-07-27 15:25:06:401 [New I/O worker #6] INFO  channelDisconnected
+2016-07-27 15:25:06:401 [New I/O worker #6] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 15:26:15:027 [New I/O worker #7] INFO  receive:0100097A6875627820313233
+2016-07-27 15:26:15:027 [New I/O worker #7] INFO  do LoginHandler
+2016-07-27 15:26:15:027 [New I/O worker #7] INFO  [id: 0x47976187, /192.168.1.142:54847 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 15:26:15:027 [New I/O worker #7] INFO  用户名为：[zhubx]登录成功
+2016-07-27 15:26:26:527 [New I/O worker #7] INFO  exceptionCaught
+2016-07-27 15:26:26:528 [New I/O worker #7] INFO  channelDisconnected
+2016-07-27 15:26:26:528 [New I/O worker #7] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 15:31:05:080 [New I/O worker #8] INFO  receive:0100097A6875627820313233
+2016-07-27 15:31:05:081 [New I/O worker #8] INFO  do LoginHandler
+2016-07-27 15:31:05:081 [New I/O worker #8] INFO  [id: 0x4abcbc08, /192.168.1.142:54875 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 15:31:05:081 [New I/O worker #8] INFO  用户名为：[zhubx]登录成功
+2016-07-27 15:31:13:567 [New I/O worker #8] INFO  exceptionCaught
+2016-07-27 15:31:13:567 [New I/O worker #8] INFO  channelDisconnected
+2016-07-27 15:31:13:567 [New I/O worker #8] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 15:32:52:181 [New I/O worker #1] INFO  receive:0100097A6875627820313233
+2016-07-27 15:32:52:181 [New I/O worker #1] INFO  do LoginHandler
+2016-07-27 15:32:52:181 [New I/O worker #1] INFO  [id: 0xf3ded941, /192.168.1.142:54894 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 15:32:52:182 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-27 15:33:03:696 [New I/O worker #1] INFO  exceptionCaught
+2016-07-27 15:33:03:697 [New I/O worker #1] INFO  channelDisconnected
+2016-07-27 15:33:03:697 [New I/O worker #1] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 15:33:46:649 [New I/O worker #2] INFO  receive:0100097A6875627820313233
+2016-07-27 15:33:46:650 [New I/O worker #2] INFO  do LoginHandler
+2016-07-27 15:33:46:650 [New I/O worker #2] INFO  [id: 0x69cb10f7, /192.168.1.142:54912 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 15:33:46:650 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-27 15:33:53:340 [New I/O worker #2] INFO  receive:0500237A68756278202020202020202020202020202020202020202020202020206E6968616F
+2016-07-27 15:33:53:340 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=35,sender=zhubx, message=nihao]
+2016-07-27 15:33:53:341 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:33:54:537 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 15:33:54:537 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 15:33:54:538 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:33:55:457 [New I/O worker #2] INFO  receive:0500207A68756278202020202020202020202020202020202020202020202020207366
+2016-07-27 15:33:55:458 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=32,sender=zhubx, message=sf]
+2016-07-27 15:33:55:458 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:33:56:385 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736664
+2016-07-27 15:33:56:385 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sfd]
+2016-07-27 15:33:56:386 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:33:57:377 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 15:33:57:377 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 15:33:57:378 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:33:58:305 [New I/O worker #2] INFO  receive:0500207A68756278202020202020202020202020202020202020202020202020207366
+2016-07-27 15:33:58:306 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=32,sender=zhubx, message=sf]
+2016-07-27 15:33:58:306 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:33:59:329 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 15:33:59:329 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 15:33:59:329 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:34:00:234 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 15:34:00:234 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 15:34:00:235 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:34:01:122 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 15:34:01:122 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 15:34:01:123 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:34:02:265 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 15:34:02:265 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 15:34:02:266 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:34:05:114 [New I/O worker #2] INFO  receive:0500247A6875627820202020202020202020202020202020202020202020202020657274657274
+2016-07-27 15:34:05:114 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=36,sender=zhubx, message=ertert]
+2016-07-27 15:34:05:114 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:34:06:521 [New I/O worker #2] INFO  receive:0500207A68756278202020202020202020202020202020202020202020202020206467
+2016-07-27 15:34:06:521 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=32,sender=zhubx, message=dg]
+2016-07-27 15:34:06:522 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:34:07:754 [New I/O worker #2] INFO  receive:0500207A68756278202020202020202020202020202020202020202020202020206468
+2016-07-27 15:34:07:754 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=32,sender=zhubx, message=dh]
+2016-07-27 15:34:07:755 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:34:09:137 [New I/O worker #2] INFO  receive:0500227A687562782020202020202020202020202020202020202020202020202064666467
+2016-07-27 15:34:09:138 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=34,sender=zhubx, message=dfdg]
+2016-07-27 15:34:09:138 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:34:27:696 [New I/O worker #2] INFO  exceptionCaught
+2016-07-27 15:34:27:697 [New I/O worker #2] INFO  channelDisconnected
+2016-07-27 15:34:27:697 [New I/O worker #2] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 15:37:54:081 [New I/O worker #3] INFO  receive:0100097A6875627820313233
+2016-07-27 15:37:54:081 [New I/O worker #3] INFO  do LoginHandler
+2016-07-27 15:37:54:082 [New I/O worker #3] INFO  [id: 0x72d4843b, /192.168.1.142:55029 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 15:37:54:082 [New I/O worker #3] INFO  用户名为：[zhubx]登录成功
+2016-07-27 15:38:05:611 [New I/O worker #3] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 15:38:05:611 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 15:38:05:612 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:38:40:442 [New I/O worker #3] INFO  receive:05002C7A68756278202020202020202020202020202020202020202020202020207562783A20E4BDA0E5A5BDE5958A
+2016-07-27 15:38:40:442 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=44,sender=zhubx, message=ubx: 你好啊]
+2016-07-27 15:38:40:442 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:38:51:016 [New I/O worker #3] INFO  exceptionCaught
+2016-07-27 15:38:51:016 [New I/O worker #3] INFO  channelDisconnected
+2016-07-27 15:38:51:016 [New I/O worker #3] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 15:55:34:884 [main] INFO  log init finished.
+2016-07-27 15:55:34:952 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Wed Jul 27 15:55:34 CST 2016]; root of context hierarchy
+2016-07-27 15:55:34:989 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-27 15:55:35:062 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-27 15:55:35:137 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-27 15:55:35:137 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-27 15:55:35:145 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-27 15:55:35:230 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-27 15:55:35:235 [main] INFO  module init finished.
+2016-07-27 15:55:53:249 [New I/O worker #1] INFO  receive:0100097A6875627820313233
+2016-07-27 15:55:53:251 [New I/O worker #1] INFO  do LoginHandler
+2016-07-27 15:55:53:253 [New I/O worker #1] INFO  [id: 0x4fb0ba64, /192.168.1.142:55255 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 15:55:53:255 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-27 15:56:00:043 [New I/O worker #1] INFO  receive:0500257A6875627820202020202020202020202020202020202020202020202020776F6C61696C65
+2016-07-27 15:56:00:044 [New I/O worker #1] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=37,sender=zhubx, message=wolaile]
+2016-07-27 15:56:00:046 [New I/O worker #1] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 15:57:00:138 [New I/O worker #1] INFO  [id: 0x4fb0ba64, /192.168.1.142:55255 => /192.168.1.142:6666]超时断开.
+2016-07-27 15:57:00:140 [New I/O worker #1] INFO  channelDisconnected
+2016-07-27 15:57:00:140 [New I/O worker #1] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 16:01:51:133 [main] INFO  log init finished.
+2016-07-27 16:01:51:203 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Wed Jul 27 16:01:51 CST 2016]; root of context hierarchy
+2016-07-27 16:01:51:242 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-27 16:01:51:313 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-27 16:01:51:384 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-27 16:01:51:385 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-27 16:01:51:392 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-27 16:01:51:476 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-27 16:01:51:481 [main] INFO  module init finished.
+2016-07-27 16:02:07:917 [New I/O worker #1] INFO  receive:0100097A6875627820313233
+2016-07-27 16:02:07:919 [New I/O worker #1] INFO  do LoginHandler
+2016-07-27 16:02:07:921 [New I/O worker #1] INFO  [id: 0x8de465d8, /192.168.1.142:55300 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:02:07:923 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-27 16:02:13:363 [New I/O worker #1] INFO  receive:0500237A68756278202020202020202020202020202020202020202020202020206E69686961
+2016-07-27 16:02:13:364 [New I/O worker #1] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=35,sender=zhubx, message=nihia]
+2016-07-27 16:02:13:365 [New I/O worker #1] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 16:02:50:537 [New I/O worker #1] INFO  exceptionCaught
+2016-07-27 16:02:50:537 [New I/O worker #1] INFO  channelDisconnected
+2016-07-27 16:02:50:537 [New I/O worker #1] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 16:02:56:866 [main] INFO  log init finished.
+2016-07-27 16:02:56:936 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Wed Jul 27 16:02:56 CST 2016]; root of context hierarchy
+2016-07-27 16:02:56:973 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-27 16:02:57:048 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-27 16:02:57:119 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-27 16:02:57:119 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-27 16:02:57:128 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68c26c: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder]; root of factory hierarchy
+2016-07-27 16:02:57:209 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-27 16:02:57:213 [main] INFO  module init finished.
+2016-07-27 16:03:09:846 [New I/O worker #1] INFO  receive:0100097A6875627820313233
+2016-07-27 16:03:09:848 [New I/O worker #1] INFO  do LoginHandler
+2016-07-27 16:03:09:850 [New I/O worker #1] INFO  [id: 0xc6dd2ab5, /192.168.1.142:55337 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:03:09:852 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-27 16:03:15:251 [New I/O worker #1] INFO  receive:0500237A68756278202020202020202020202020202020202020202020202020206E6968616F
+2016-07-27 16:03:15:252 [New I/O worker #1] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=35,sender=zhubx, message=nihao]
+2016-07-27 16:03:15:254 [New I/O worker #1] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 16:03:18:760 [New I/O worker #1] INFO  receive:0500247A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BD
+2016-07-27 16:03:18:761 [New I/O worker #1] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=36,sender=zhubx, message=你好]
+2016-07-27 16:03:18:761 [New I/O worker #1] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 16:03:27:168 [New I/O worker #1] INFO  exceptionCaught
+2016-07-27 16:03:27:168 [New I/O worker #1] INFO  channelDisconnected
+2016-07-27 16:03:27:169 [New I/O worker #1] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 16:04:59:487 [New I/O worker #2] INFO  receive:0100097A6875627820313233
+2016-07-27 16:04:59:487 [New I/O worker #2] INFO  do LoginHandler
+2016-07-27 16:04:59:487 [New I/O worker #2] INFO  [id: 0x3c262af1, /192.168.1.142:55357 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:04:59:488 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-27 16:05:04:315 [New I/O worker #2] INFO  receive:0500237A68756278202020202020202020202020202020202020202020202020206E6968616F
+2016-07-27 16:05:04:315 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=35,sender=zhubx, message=nihao]
+2016-07-27 16:05:04:315 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 16:05:07:793 [New I/O worker #2] INFO  receive:0500227A687562782020202020202020202020202020202020202020202020202068616861
+2016-07-27 16:05:07:793 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=34,sender=zhubx, message=haha]
+2016-07-27 16:05:07:794 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 16:05:39:966 [New I/O worker #2] INFO  exceptionCaught
+2016-07-27 16:05:39:967 [New I/O worker #2] INFO  channelDisconnected
+2016-07-27 16:05:39:968 [New I/O worker #2] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 16:05:58:464 [New I/O worker #3] INFO  receive:0100097A6875627820313233
+2016-07-27 16:05:58:464 [New I/O worker #3] INFO  do LoginHandler
+2016-07-27 16:05:58:464 [New I/O worker #3] INFO  [id: 0x3d6106a5, /192.168.1.142:55376 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:05:58:465 [New I/O worker #3] INFO  用户名为：[zhubx]登录成功
+2016-07-27 16:06:04:771 [New I/O worker #3] INFO  receive:0500237A68756278202020202020202020202020202020202020202020202020206E6968616F
+2016-07-27 16:06:04:771 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=35,sender=zhubx, message=nihao]
+2016-07-27 16:06:04:772 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 16:06:18:830 [New I/O worker #3] INFO  exceptionCaught
+2016-07-27 16:06:18:830 [New I/O worker #3] INFO  channelDisconnected
+2016-07-27 16:06:18:830 [New I/O worker #3] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 16:06:48:651 [New I/O worker #5] INFO  receive:010006787520313233
+2016-07-27 16:06:48:651 [New I/O worker #5] INFO  do LoginHandler
+2016-07-27 16:06:48:651 [New I/O worker #5] INFO  [id: 0x76b412ea, /192.168.1.142:55398 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:06:48:651 [New I/O worker #5] INFO  用户名为：[xu]登录成功
+2016-07-27 16:06:54:446 [New I/O worker #4] INFO  receive:0100097A6875627820313233
+2016-07-27 16:06:54:446 [New I/O worker #4] INFO  do LoginHandler
+2016-07-27 16:06:54:446 [New I/O worker #4] INFO  [id: 0xc815be91, /192.168.1.142:55380 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:06:54:446 [New I/O worker #4] INFO  用户名为：[zhubx]登录成功
+2016-07-27 16:07:09:285 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 16:07:09:285 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 16:07:09:286 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 16:07:17:523 [New I/O worker #5] INFO  receive:0500237875202020202020202020202020202020202020202020202020202020206E6968616F
+2016-07-27 16:07:17:523 [New I/O worker #5] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=35,sender=xu, message=nihao]
+2016-07-27 16:07:17:524 [New I/O worker #5] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 16:07:20:792 [New I/O worker #4] INFO  channelDisconnected
+2016-07-27 16:07:20:793 [New I/O worker #4] INFO  [MessageServerHandler]在线人数:1
+2016-07-27 16:08:02:512 [New I/O worker #5] INFO  exceptionCaught
+2016-07-27 16:08:02:512 [New I/O worker #5] INFO  channelDisconnected
+2016-07-27 16:08:02:512 [New I/O worker #5] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 16:08:44:909 [New I/O worker #6] INFO  receive:0100097A6875627820313233
+2016-07-27 16:08:44:909 [New I/O worker #6] INFO  do LoginHandler
+2016-07-27 16:08:44:910 [New I/O worker #6] INFO  [id: 0xcefb5161, /192.168.1.142:55403 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:08:44:910 [New I/O worker #6] INFO  用户名为：[zhubx]登录成功
+2016-07-27 16:08:57:404 [New I/O worker #7] INFO  receive:010006787520313233
+2016-07-27 16:08:57:405 [New I/O worker #7] INFO  do LoginHandler
+2016-07-27 16:08:57:405 [New I/O worker #7] INFO  [id: 0xcb09c6b7, /192.168.1.142:55420 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:08:57:405 [New I/O worker #7] INFO  用户名为：[xu]登录成功
+2016-07-27 16:09:10:110 [New I/O worker #6] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 16:09:10:111 [New I/O worker #6] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 16:09:10:111 [New I/O worker #6] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 16:09:25:923 [New I/O worker #7] INFO  receive:050024787520202020202020202020202020202020202020202020202020202020E4BDA0E5A5BD
+2016-07-27 16:09:25:923 [New I/O worker #7] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=36,sender=xu, message=你好]
+2016-07-27 16:09:25:924 [New I/O worker #7] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 16:09:50:071 [New I/O worker #7] INFO  exceptionCaught
+2016-07-27 16:09:50:072 [New I/O worker #7] INFO  channelDisconnected
+2016-07-27 16:09:50:073 [New I/O worker #7] INFO  [MessageServerHandler]在线人数:1
+2016-07-27 16:10:10:153 [New I/O worker #6] INFO  [id: 0xcefb5161, /192.168.1.142:55403 => /192.168.1.142:6666]超时断开.
+2016-07-27 16:10:10:154 [New I/O worker #6] INFO  channelDisconnected
+2016-07-27 16:10:10:154 [New I/O worker #6] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 16:12:29:934 [New I/O worker #8] INFO  receive:0100097A6875627820313233
+2016-07-27 16:12:29:934 [New I/O worker #8] INFO  do LoginHandler
+2016-07-27 16:12:29:934 [New I/O worker #8] INFO  [id: 0x34af81f5, /192.168.1.142:55447 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:12:29:935 [New I/O worker #8] INFO  用户名为：[zhubx]登录成功
+2016-07-27 16:12:55:932 [New I/O worker #8] INFO  exceptionCaught
+2016-07-27 16:12:55:933 [New I/O worker #8] INFO  channelDisconnected
+2016-07-27 16:12:55:933 [New I/O worker #8] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 16:13:43:030 [New I/O worker #1] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 16:13:43:030 [New I/O worker #1] INFO  [请登录]
+2016-07-27 16:13:43:030 [New I/O worker #1] INFO  invalid:00277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 16:13:52:814 [New I/O worker #2] INFO  receive:010006787520313233
+2016-07-27 16:13:52:814 [New I/O worker #2] INFO  do LoginHandler
+2016-07-27 16:13:52:814 [New I/O worker #2] INFO  [id: 0xa7b6c6d2, /192.168.1.142:55467 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:13:52:814 [New I/O worker #2] INFO  用户名为：[xu]登录成功
+2016-07-27 16:14:05:036 [New I/O worker #1] INFO  invalid:00277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 16:14:13:446 [New I/O worker #2] INFO  exceptionCaught
+2016-07-27 16:14:13:446 [New I/O worker #2] INFO  channelDisconnected
+2016-07-27 16:14:13:446 [New I/O worker #2] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 16:14:27:788 [New I/O worker #1] INFO  invalid:00277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A0100097A6875627820313233
+2016-07-27 16:14:39:872 [New I/O worker #1] INFO  invalid:00277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A0100097A6875627820313233
+2016-07-27 16:14:39:872 [New I/O worker #1] INFO  invalid:00277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A0100097A6875627820313233
+2016-07-27 16:14:39:873 [New I/O worker #1] INFO  channelDisconnected
+2016-07-27 16:14:39:873 [New I/O worker #1] INFO  exceptionCaught
+2016-07-27 16:14:42:325 [New I/O worker #3] INFO  receive:0100097A6875627820313233
+2016-07-27 16:14:42:326 [New I/O worker #3] INFO  do LoginHandler
+2016-07-27 16:14:42:326 [New I/O worker #3] INFO  [id: 0x5e6f7aba, /192.168.1.142:55469 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:14:42:326 [New I/O worker #3] INFO  用户名为：[zhubx]登录成功
+2016-07-27 16:14:52:239 [New I/O worker #4] INFO  receive:010006787520313233
+2016-07-27 16:14:52:239 [New I/O worker #4] INFO  do LoginHandler
+2016-07-27 16:14:52:239 [New I/O worker #4] INFO  [id: 0x3fd02a94, /192.168.1.142:55486 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:14:52:239 [New I/O worker #4] INFO  用户名为：[xu]登录成功
+2016-07-27 16:15:04:150 [New I/O worker #3] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 16:15:04:150 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 16:15:04:151 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 16:15:13:986 [New I/O worker #4] INFO  receive:050024787520202020202020202020202020202020202020202020202020202020E4BDA0E5A5BD
+2016-07-27 16:15:13:986 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=36,sender=xu, message=你好]
+2016-07-27 16:15:13:987 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 16:15:26:695 [New I/O worker #4] INFO  exceptionCaught
+2016-07-27 16:15:26:697 [New I/O worker #4] INFO  channelDisconnected
+2016-07-27 16:15:26:698 [New I/O worker #4] INFO  [MessageServerHandler]在线人数:1
+2016-07-27 16:15:32:471 [New I/O worker #3] INFO  channelDisconnected
+2016-07-27 16:15:32:472 [New I/O worker #3] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 16:18:57:826 [New I/O worker #5] INFO  receive:0100097A6875627820313233
+2016-07-27 16:18:57:826 [New I/O worker #5] INFO  do LoginHandler
+2016-07-27 16:18:57:826 [New I/O worker #5] INFO  [id: 0xdb39694f, /192.168.1.142:55513 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:18:57:827 [New I/O worker #5] INFO  用户名为：[zhubx]登录成功
+2016-07-27 16:19:07:458 [New I/O worker #5] INFO  exceptionCaught
+2016-07-27 16:19:07:458 [New I/O worker #5] INFO  channelDisconnected
+2016-07-27 16:19:07:459 [New I/O worker #5] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 16:19:30:290 [New I/O worker #6] INFO  receive:0100097A6875627820313233
+2016-07-27 16:19:30:291 [New I/O worker #6] INFO  do LoginHandler
+2016-07-27 16:19:30:291 [New I/O worker #6] INFO  [id: 0xa525cb2b, /192.168.1.142:55540 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:19:30:291 [New I/O worker #6] INFO  用户名为：[zhubx]登录成功
+2016-07-27 16:19:39:696 [New I/O worker #6] INFO  exceptionCaught
+2016-07-27 16:19:39:697 [New I/O worker #6] INFO  channelDisconnected
+2016-07-27 16:19:39:697 [New I/O worker #6] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 16:20:09:297 [New I/O worker #7] INFO  receive:0100097A6875627820313233
+2016-07-27 16:20:09:297 [New I/O worker #7] INFO  do LoginHandler
+2016-07-27 16:20:09:298 [New I/O worker #7] INFO  [id: 0x43668411, /192.168.1.142:55558 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:20:09:298 [New I/O worker #7] INFO  用户名为：[zhubx]登录成功
+2016-07-27 16:20:19:687 [New I/O worker #7] INFO  exceptionCaught
+2016-07-27 16:20:19:687 [New I/O worker #7] INFO  channelDisconnected
+2016-07-27 16:20:19:688 [New I/O worker #7] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 16:26:59:439 [New I/O worker #8] INFO  receive:0100097A6875627820313233
+2016-07-27 16:26:59:439 [New I/O worker #8] INFO  do LoginHandler
+2016-07-27 16:26:59:439 [New I/O worker #8] INFO  [id: 0x22558201, /192.168.1.142:55588 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 16:26:59:439 [New I/O worker #8] INFO  用户名为：[zhubx]登录成功
+2016-07-27 16:27:03:154 [New I/O worker #8] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020776572
+2016-07-27 16:27:03:154 [New I/O worker #8] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=wer]
+2016-07-27 16:27:03:154 [New I/O worker #8] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 16:27:10:248 [New I/O worker #8] INFO  receive:0500357A68756278202020202020202020202020202020202020202020202020207765727272727272727272727272727272727272727272
+2016-07-27 16:27:10:249 [New I/O worker #8] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=53,sender=zhubx, message=werrrrrrrrrrrrrrrrrrrrr]
+2016-07-27 16:27:10:249 [New I/O worker #8] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 16:27:16:760 [New I/O worker #8] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020657274
+2016-07-27 16:27:16:760 [New I/O worker #8] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=ert]
+2016-07-27 16:27:16:761 [New I/O worker #8] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 16:27:54:248 [New I/O worker #8] INFO  exceptionCaught
+2016-07-27 16:27:54:249 [New I/O worker #8] INFO  channelDisconnected
+2016-07-27 16:27:54:250 [New I/O worker #8] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 17:48:14:316 [New I/O worker #1] INFO  receive:0100097A6875627820313233
+2016-07-27 17:48:14:316 [New I/O worker #1] INFO  do LoginHandler
+2016-07-27 17:48:14:316 [New I/O worker #1] INFO  [id: 0x06da3ff6, /192.168.1.142:55827 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 17:48:14:316 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-27 17:48:19:793 [New I/O worker #1] INFO  receive:0500237A68756278202020202020202020202020202020202020202020202020206E69686170
+2016-07-27 17:48:19:793 [New I/O worker #1] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=35,sender=zhubx, message=nihap]
+2016-07-27 17:48:19:793 [New I/O worker #1] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 17:49:19:895 [New I/O worker #1] INFO  [id: 0x06da3ff6, /192.168.1.142:55827 => /192.168.1.142:6666]超时断开.
+2016-07-27 17:49:19:896 [New I/O worker #1] INFO  channelDisconnected
+2016-07-27 17:49:19:897 [New I/O worker #1] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 17:49:45:320 [New I/O worker #2] INFO  receive:0100097A6875627820313233
+2016-07-27 17:49:45:321 [New I/O worker #2] INFO  do LoginHandler
+2016-07-27 17:49:45:321 [New I/O worker #2] INFO  [id: 0xd49b4407, /192.168.1.142:55855 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 17:49:45:321 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-27 17:49:51:248 [New I/O worker #2] INFO  receive:0500217A6875627820202020202020202020202020202020202020202020202020736466
+2016-07-27 17:49:51:248 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=33,sender=zhubx, message=sdf]
+2016-07-27 17:49:51:249 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 17:50:51:295 [New I/O worker #2] INFO  [id: 0xd49b4407, /192.168.1.142:55855 => /192.168.1.142:6666]超时断开.
+2016-07-27 17:50:51:296 [New I/O worker #2] INFO  channelDisconnected
+2016-07-27 17:50:51:297 [New I/O worker #2] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 17:51:29:278 [New I/O worker #3] INFO  receive:0100097A6875627820313233
+2016-07-27 17:51:29:278 [New I/O worker #3] INFO  do LoginHandler
+2016-07-27 17:51:29:278 [New I/O worker #3] INFO  [id: 0x5c6f1019, /192.168.1.142:55885 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 17:51:29:278 [New I/O worker #3] INFO  用户名为：[zhubx]登录成功
+2016-07-27 17:52:18:716 [New I/O worker #3] INFO  exceptionCaught
+2016-07-27 17:52:18:717 [New I/O worker #3] INFO  channelDisconnected
+2016-07-27 17:52:18:717 [New I/O worker #3] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 17:53:20:621 [New I/O worker #4] INFO  receive:0100097A6875627820313233
+2016-07-27 17:53:20:621 [New I/O worker #4] INFO  do LoginHandler
+2016-07-27 17:53:20:621 [New I/O worker #4] INFO  [id: 0x25df3401, /192.168.1.142:55936 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 17:53:20:622 [New I/O worker #4] INFO  用户名为：[zhubx]登录成功
+2016-07-27 17:53:29:716 [New I/O worker #4] INFO  exceptionCaught
+2016-07-27 17:53:29:716 [New I/O worker #4] INFO  channelDisconnected
+2016-07-27 17:53:29:716 [New I/O worker #4] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 17:54:28:981 [New I/O worker #5] INFO  receive:0100097A6875627820313233
+2016-07-27 17:54:28:982 [New I/O worker #5] INFO  do LoginHandler
+2016-07-27 17:54:28:982 [New I/O worker #5] INFO  [id: 0x26c4ae58, /192.168.1.142:55957 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 17:54:28:982 [New I/O worker #5] INFO  用户名为：[zhubx]登录成功
+2016-07-27 17:54:40:052 [New I/O worker #5] INFO  exceptionCaught
+2016-07-27 17:54:40:052 [New I/O worker #5] INFO  channelDisconnected
+2016-07-27 17:54:40:053 [New I/O worker #5] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 17:57:01:262 [New I/O worker #6] INFO  receive:0100097A6875627820313233
+2016-07-27 17:57:01:262 [New I/O worker #6] INFO  do LoginHandler
+2016-07-27 17:57:01:262 [New I/O worker #6] INFO  [id: 0x91fdde85, /192.168.1.142:55982 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 17:57:01:263 [New I/O worker #6] INFO  用户名为：[zhubx]登录成功
+2016-07-27 17:57:13:211 [New I/O worker #6] INFO  exceptionCaught
+2016-07-27 17:57:13:212 [New I/O worker #6] INFO  channelDisconnected
+2016-07-27 17:57:13:212 [New I/O worker #6] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 17:59:22:478 [New I/O worker #7] INFO  receive:0100097A6875627820313233
+2016-07-27 17:59:22:478 [New I/O worker #7] INFO  do LoginHandler
+2016-07-27 17:59:22:478 [New I/O worker #7] INFO  [id: 0x828df769, /192.168.1.142:56003 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 17:59:22:478 [New I/O worker #7] INFO  用户名为：[zhubx]登录成功
+2016-07-27 17:59:22:485 [New I/O worker #7] INFO  receive:080000
+2016-07-27 17:59:22:485 [New I/O worker #7] INFO  [MessageDecoder]没有对应的decoder8
+2016-07-27 17:59:22:485 [New I/O worker #7] INFO  invalid:0000
+2016-07-27 17:59:25:485 [New I/O worker #7] INFO  invalid:0000080000
+2016-07-27 17:59:28:485 [New I/O worker #7] INFO  invalid:0000080000080000
+2016-07-27 17:59:31:485 [New I/O worker #7] INFO  receive:0000080000080000080000
+2016-07-27 17:59:31:485 [New I/O worker #7] INFO  [MessageDecoder]没有对应的decoder0
+2016-07-27 17:59:31:486 [New I/O worker #7] INFO  invalid:00080000080000080000
+2016-07-27 17:59:34:475 [New I/O worker #7] INFO  exceptionCaught
+2016-07-27 17:59:34:476 [New I/O worker #7] INFO  invalid:00080000080000080000
+2016-07-27 17:59:34:476 [New I/O worker #7] INFO  invalid:00080000080000080000
+2016-07-27 17:59:34:477 [New I/O worker #7] INFO  channelDisconnected
+2016-07-27 17:59:34:478 [New I/O worker #7] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 18:25:56:881 [main] INFO  log init finished.
+2016-07-27 18:25:56:951 [main] INFO  Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b02efa: startup date [Wed Jul 27 18:25:56 CST 2016]; root of context hierarchy
+2016-07-27 18:25:56:987 [main] INFO  Loading XML bean definitions from class path resource [spring/main.xml]
+2016-07-27 18:25:57:056 [main] INFO  Loading XML bean definitions from class path resource [spring/components.xml]
+2016-07-27 18:25:57:130 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\jdbc.properties]
+2016-07-27 18:25:57:131 [main] INFO  Loading properties file from file [E:\newworkspace\demo\target\classes\conf\sysconfig.properties]
+2016-07-27 18:25:57:139 [main] INFO  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1b446d1: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,server,loginHandler,o2OMessageHandler,o2MMessageHandler,heartBeatHandler,loginDecoder,o2OMessageDecoder,o2MMessageDecoder,heartBeatDecoder,loginResponseEncoder,o2OMessageResponseEncoder,o2MMessageResponseEncoder,serverMessageEncoder,heartBeatResponseEncoder]; root of factory hierarchy
+2016-07-27 18:25:57:222 [main] INFO  server初始化完成host:192.168.1.142-port:6666
+2016-07-27 18:25:57:227 [main] INFO  module init finished.
+2016-07-27 18:26:12:228 [New I/O worker #1] INFO  receive:0100097A6875627820313233
+2016-07-27 18:26:12:230 [New I/O worker #1] INFO  do LoginHandler
+2016-07-27 18:26:12:232 [New I/O worker #1] INFO  [id: 0xc87467d7, /192.168.1.142:56270 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 18:26:12:234 [New I/O worker #1] INFO  用户名为：[zhubx]登录成功
+2016-07-27 18:26:12:240 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:12:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:26:15:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:15:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:26:18:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:18:243 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:26:21:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:21:243 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:26:24:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:24:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:26:27:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:27:243 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:26:30:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:30:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:26:33:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:33:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:26:36:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:36:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:26:39:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:39:243 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:26:42:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:42:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:26:45:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:45:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:26:48:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:48:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:26:51:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:51:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:26:54:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:54:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:26:57:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:26:57:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:00:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:00:243 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:03:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:03:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:06:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:06:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:09:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:09:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:12:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:12:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:15:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:15:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:18:245 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:18:246 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:21:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:21:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:24:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:24:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:27:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:27:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:30:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:30:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:33:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:33:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:36:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:36:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:39:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:39:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:42:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:42:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:45:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:45:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:48:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:48:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:51:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:51:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:54:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:54:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:27:57:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:27:57:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:00:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:00:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:03:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:03:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:06:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:06:243 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:09:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:09:243 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:12:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:12:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:15:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:15:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:18:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:18:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:21:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:21:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:24:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:24:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:27:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:27:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:30:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:30:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:33:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:33:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:36:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:36:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:39:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:39:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:42:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:42:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:45:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:45:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:48:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:48:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:51:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:51:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:54:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:54:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:28:57:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:28:57:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:00:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:00:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:03:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:03:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:06:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:06:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:09:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:09:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:12:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:12:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:15:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:15:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:18:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:18:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:21:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:21:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:24:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:24:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:27:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:27:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:30:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:30:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:33:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:33:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:36:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:36:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:39:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:39:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:42:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:42:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:45:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:45:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:48:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:48:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:51:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:51:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:54:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:54:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:29:57:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:29:57:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:00:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:00:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:03:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:03:243 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:06:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:06:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:09:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:09:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:12:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:12:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:15:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:15:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:18:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:18:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:21:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:21:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:24:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:24:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:27:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:27:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:30:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:30:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:33:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:33:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:36:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:36:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:39:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:39:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:42:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:42:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:45:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:45:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:48:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:48:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:51:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:51:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:54:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:54:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:30:57:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:30:57:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:00:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:00:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:03:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:03:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:06:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:06:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:09:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:09:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:12:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:12:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:15:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:15:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:18:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:18:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:21:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:21:243 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:24:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:24:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:27:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:27:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:30:240 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:30:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:33:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:33:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:36:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:36:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:39:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:39:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:42:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:42:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:45:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:45:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:48:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:48:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:51:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:51:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:54:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:54:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:31:57:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:31:57:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:32:00:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:32:00:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:32:03:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:32:03:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:32:06:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:32:06:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:32:09:242 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:32:09:242 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:32:12:240 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:32:12:240 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:32:15:241 [New I/O worker #1] INFO  receive:080000
+2016-07-27 18:32:15:241 [New I/O worker #1] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:32:15:276 [New I/O worker #1] INFO  exceptionCaught
+2016-07-27 18:32:15:276 [New I/O worker #1] INFO  channelDisconnected
+2016-07-27 18:32:15:276 [New I/O worker #1] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 18:36:10:002 [New I/O worker #2] INFO  receive:0100097A6875627820313233
+2016-07-27 18:36:10:003 [New I/O worker #2] INFO  do LoginHandler
+2016-07-27 18:36:10:003 [New I/O worker #2] INFO  [id: 0x220dbced, /192.168.1.142:56311 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 18:36:10:003 [New I/O worker #2] INFO  用户名为：[zhubx]登录成功
+2016-07-27 18:36:10:010 [New I/O worker #2] INFO  receive:080000
+2016-07-27 18:36:10:010 [New I/O worker #2] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:36:15:011 [New I/O worker #2] INFO  receive:080000
+2016-07-27 18:36:15:011 [New I/O worker #2] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:36:16:224 [New I/O worker #2] INFO  receive:0500227A687562782020202020202020202020202020202020202020202020202068616861
+2016-07-27 18:36:16:225 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=34,sender=zhubx, message=haha]
+2016-07-27 18:36:16:226 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:36:20:009 [New I/O worker #2] INFO  receive:080000
+2016-07-27 18:36:20:009 [New I/O worker #2] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:36:21:606 [New I/O worker #2] INFO  receive:0500247A68756278202020202020202020202020202020202020202020202020206E6968616F61
+2016-07-27 18:36:21:606 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=36,sender=zhubx, message=nihaoa]
+2016-07-27 18:36:21:607 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:36:25:011 [New I/O worker #2] INFO  receive:080000
+2016-07-27 18:36:25:011 [New I/O worker #2] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:36:27:965 [New I/O worker #2] INFO  receive:0500267A6875627820202020202020202020202020202020202020202020202020776F68616968616F
+2016-07-27 18:36:27:966 [New I/O worker #2] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=38,sender=zhubx, message=wohaihao]
+2016-07-27 18:36:27:967 [New I/O worker #2] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:36:30:010 [New I/O worker #2] INFO  receive:080000
+2016-07-27 18:36:30:010 [New I/O worker #2] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:36:32:395 [New I/O worker #2] INFO  exceptionCaught
+2016-07-27 18:36:32:396 [New I/O worker #2] INFO  channelDisconnected
+2016-07-27 18:36:32:396 [New I/O worker #2] INFO  [MessageServerHandler]在线人数:0
+2016-07-27 18:49:22:570 [New I/O worker #3] INFO  receive:010006787520313233
+2016-07-27 18:49:22:571 [New I/O worker #3] INFO  do LoginHandler
+2016-07-27 18:49:22:571 [New I/O worker #3] INFO  [id: 0x9dbdcfaf, /192.168.1.142:56391 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 18:49:22:571 [New I/O worker #3] INFO  用户名为：[xu]登录成功
+2016-07-27 18:49:22:578 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:49:22:578 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:49:27:577 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:49:27:578 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:49:32:578 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:49:32:578 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:49:37:579 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:49:37:579 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:49:42:578 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:49:42:579 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:49:47:579 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:49:47:579 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:49:48:833 [New I/O worker #4] INFO  receive:0100097A6875627820313233
+2016-07-27 18:49:48:833 [New I/O worker #4] INFO  do LoginHandler
+2016-07-27 18:49:48:833 [New I/O worker #4] INFO  [id: 0x5810d9b5, /192.168.1.142:56415 => /192.168.1.142:6666][Encoder--LoginResponse],userid:null,result:0
+2016-07-27 18:49:48:834 [New I/O worker #4] INFO  用户名为：[zhubx]登录成功
+2016-07-27 18:49:52:579 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:49:52:579 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:49:57:578 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:49:57:578 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:50:02:579 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:50:02:579 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:50:03:129 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:03:129 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:03:130 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:04:211 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:04:211 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:04:211 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:04:951 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:04:951 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:04:952 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:05:432 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:05:432 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:05:432 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:05:776 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:05:776 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:05:777 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:06:087 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:06:088 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:06:088 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:06:407 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:06:408 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:06:408 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:06:727 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:06:727 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:06:728 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:07:048 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:07:048 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:07:049 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:07:375 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:07:375 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:07:376 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:07:578 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:50:07:578 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:50:07:704 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:07:704 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:07:705 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:08:032 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:08:032 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:08:032 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:08:360 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:08:360 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:08:360 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:08:687 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:08:687 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:08:688 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:09:024 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:09:024 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:09:025 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:09:359 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:09:360 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:09:360 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:09:680 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:09:680 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:09:681 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:09:991 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:09:992 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:09:992 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:12:578 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:50:12:578 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:50:17:578 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:50:17:579 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:50:20:679 [New I/O worker #3] INFO  receive:05002578752020202020202020202020202020202020202020202020202020202068616F67657069
+2016-07-27 18:50:20:679 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=37,sender=xu, message=haogepi]
+2016-07-27 18:50:20:680 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:22:579 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:50:22:579 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:50:27:579 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:50:27:579 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:50:27:877 [New I/O worker #3] INFO  receive:05002578752020202020202020202020202020202020202020202020202020202068616F67657069
+2016-07-27 18:50:27:877 [New I/O worker #3] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=37,sender=xu, message=haogepi]
+2016-07-27 18:50:27:877 [New I/O worker #3] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:32:579 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:50:32:579 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:50:32:650 [New I/O worker #4] INFO  receive:0500277A6875627820202020202020202020202020202020202020202020202020E4BDA0E5A5BDE5958A
+2016-07-27 18:50:32:650 [New I/O worker #4] INFO  [O2MMessageHandler]O2MMessage [commandId=3,msglength=39,sender=zhubx, message=你好啊]
+2016-07-27 18:50:32:650 [New I/O worker #4] INFO  [O2MMessageResponseEncoder]O2MMessageResponse [commandId=6,msglength=1,result=1]
+2016-07-27 18:50:37:578 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:50:37:579 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:50:42:578 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:50:42:578 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:50:47:500 [New I/O worker #4] INFO  channelDisconnected
+2016-07-27 18:50:47:500 [New I/O worker #4] INFO  [MessageServerHandler]在线人数:1
+2016-07-27 18:50:47:578 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:50:47:578 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:50:52:579 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:50:52:579 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:50:57:578 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:50:57:578 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:51:02:578 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:51:02:578 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:51:07:578 [New I/O worker #3] INFO  receive:080000
+2016-07-27 18:51:07:578 [New I/O worker #3] INFO  [HeartBeatResponseEncoder]
+2016-07-27 18:51:10:135 [New I/O worker #3] INFO  exceptionCaught
+2016-07-27 18:51:10:135 [New I/O worker #3] INFO  channelDisconnected
+2016-07-27 18:51:10:135 [New I/O worker #3] INFO  [MessageServerHandler]在线人数:0

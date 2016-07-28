@@ -42,5 +42,10 @@ public class O2OMessage extends ProtocolMsg{
 		return "O2OMessage [incept=" + incept + ", message=" + message
 				+ ", sender=" + sender + "]";
 	}
+
+	public String msgDetail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
  
 }

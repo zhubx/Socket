@@ -17,7 +17,7 @@ public class O2MMessageResponseEncoder implements IEncoder{
 			Object msg) {
 		// TODO Auto-generated method stub
 		O2MMessageResponse message = (O2MMessageResponse)msg;
-		LOG.info("[O2MMessageResponseEncoder]" + message);
+		LOG.info("[O2MMessageResponseEncoder]" + message.msgDetail());
 		ChannelBuffer buffer = ChannelBuffers.dynamicBuffer();
 		buffer.writeByte(message.getCommandId());
 		buffer.writeShort(message.getMsglength());

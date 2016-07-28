@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans default-lazy-init="false"
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	
+	<!-- 初始化登录界面  -->
+	<bean id="view" class="com.neu.client.view.View" scope="singleton"
+		 >
+		<property name="port" value="${server.port}"/>
+		<property name="ip" value="${server.ip}"/>
+		<property name="handlers">
+			<map>
+				<entry key="com.neu.client.bean.LoginResponse" value-ref="loginHandler" />
+				<entry key="com.neu.client.bean.ServerMessage" value-ref="serverMsgHandler" />
+				<entry key="com.neu.client.bean.UpdateMessage" value-ref="updateMessageHandler" />
+			</map>
+		</property>
+		<property name="decoders">
+			<map>
+				<entry key="0x0002" value-ref="loginResponseDecoder" />
+				<entry key="0x0006" value-ref="o2MMessageResponseDecoder" />
+				<entry key="0x0007" value-ref="serverMessageDecoder" />
+				<entry key="0x0009" value-ref="hearBeatResponseDecoder" />
+				<entry key="0x0010" value-ref="updateMessageDecoder" />
+				<entry key="0x0004" value-ref="o2OMessageResponseDecoder" />
+			</map>
+		</property>
+		<property name="encoders">
+			<map>
+				<entry key="com.neu.client.bean.O2MMessage" value-ref="o2MMessageEncoder" />
+				<entry key="com.neu.client.bean.HeartBeat" value-ref="heartBeatEncoder" />
+				<entry key="com.neu.client.bean.O2OMessage" value-ref="o2OMessageEncoder" />
+			</map>
+		</property>
+	</bean>
+	<!-- All Handler -->
+	<bean id="loginHandler" class="com.neu.client.handler.LoginHandler" />
+	<bean id="serverMsgHandler" class="com.neu.client.handler.ServerMsgHandler" />
+	<bean id="updateMessageHandler" class="com.neu.client.handler.UpdateMessageHandler" />
+    
+    <!-- All Decoder -->
+    <bean id="loginResponseDecoder" class="com.neu.client.decoder.LoginResponseDecoder" />
+    <bean id="o2MMessageResponseDecoder" class="com.neu.client.decoder.O2MMessageResponseDecoder" />
+    <bean id="serverMessageDecoder" class="com.neu.client.decoder.ServerMessageDecoder" />
+    <bean id="hearBeatResponseDecoder" class="com.neu.client.decoder.HearBeatResponseDecoder" />
+    <bean id="updateMessageDecoder" class="com.neu.client.decoder.UpdateMessageDecoder" />
+    <bean id="o2OMessageResponseDecoder" class="com.neu.client.decoder.O2OMessageResponseDecoder" />
+    
+    <!-- All Encoder -->
+    <bean id="o2MMessageEncoder" class="com.neu.client.encoder.O2MMessageEncoder" />
+    <bean id="heartBeatEncoder" class="com.neu.client.encoder.HeartBeatEncoder" />
+    <bean id="o2OMessageEncoder" class="com.neu.client.encoder.O2OMessageEncoder" />
+	 
+</beans>
